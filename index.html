@@ -348,7 +348,16 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);min-height:1
 .news-link{color:var(--text);text-decoration:none}
 .news-link:hover{color:var(--accent)}
 @media(max-width:1100px){.g2{grid-template-columns:1fr}.idx-bar{grid-template-columns:repeat(3,1fr)}.ta-grid{grid-template-columns:repeat(3,1fr)}}
-@media(max-width:768px){#sidebar{transform:translateX(-220px)}#main{margin-left:0;max-width:100vw;padding:14px}.g2eq{grid-template-columns:1fr}}
+@media(max-width:768px){
+  #sidebar{transform:translateX(-220px);transition:transform .25s ease;z-index:200;position:fixed;height:100vh}
+  #sidebar.open{transform:translateX(0)}
+  #main{margin-left:0;max-width:100vw;padding:14px;padding-top:56px}
+  .g2eq{grid-template-columns:1fr}
+  #mob-topbar{display:flex}
+  #mob-overlay{display:block;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:199;opacity:0;pointer-events:none;transition:opacity .25s}
+  #mob-overlay.open{opacity:1;pointer-events:all}
+}
+@media(min-width:769px){#mob-topbar{display:none}#mob-overlay{display:none}}
 
 /* ── EARNINGS PAGE ── */
 .ea-layout{display:grid;grid-template-columns:260px 1fr;gap:16px;min-height:600px}
@@ -1377,6 +1386,14 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // ═══════════════════════════════════════ NAVIGATION ═════════════════════════════════
+function toggleMobNav(){
+  var sb  = document.getElementById('sidebar');
+  var ov  = document.getElementById('mob-overlay');
+  var isOpen = sb && sb.classList.contains('open');
+  if(sb)  sb.classList.toggle('open', !isOpen);
+  if(ov)  ov.classList.toggle('open', !isOpen);
+}
+
 function showPage(id, el) {
   document.querySelectorAll('.page').forEach(function(p){ p.classList.remove('active'); });
   document.querySelectorAll('.nav-item').forEach(function(n){ n.classList.remove('active'); });
@@ -1769,45 +1786,28 @@ async function translateNewsToKorean(newsList) {
 // ═══════════════════════════════════════ GEMINI ══════════════════════════════════════
 // AI Analysis - uses Claude API (works in browser without CORS issues)
 async function callGemini(prompt) {
-  // Try Claude API first (works in claude.ai environment)
-  try {
-    var r = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'anthropic-version': '2023-06-01',
-        'anthropic-dangerous-direct-browser-access': 'true'
-      },
-      body: JSON.stringify({
-        model: 'claude-haiku-4-5-20251001',
-        max_tokens: 800,
-        messages: [{ role: 'user', content: prompt }]
-      })
-    });
-    if(r.ok) {
-      var d = await r.json();
-      var txt = d.content && d.content[0] && d.content[0].text;
-      if(txt) return txt;
-    }
-  } catch(e) { console.warn('[Claude API]', e.message); }
-
-  // Fallback: Try Gemini via allorigins proxy
   var key = S.keys.gemini;
   if(!key) return null;
   try {
-    var gemUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=' + key;
-    var proxyUrl = 'https://api.allorigins.win/raw?url=' + encodeURIComponent(gemUrl);
-    var r2 = await fetch(proxyUrl, {
+    var url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=' + key;
+    var res = await fetch(url, {
       method: 'POST',
       headers: {'Content-Type':'application/json'},
-      body: JSON.stringify({ contents:[{parts:[{text:prompt}]}], generationConfig:{maxOutputTokens:800} })
+      body: JSON.stringify({
+        contents:[{parts:[{text: prompt}]}],
+        generationConfig:{maxOutputTokens:1000, temperature:0.7}
+      }),
+      signal: AbortSignal.timeout(20000)
     });
-    if(r2.ok) {
-      var d2 = await r2.json();
-      return (d2.candidates && d2.candidates[0] && d2.candidates[0].content && d2.candidates[0].content.parts && d2.candidates[0].content.parts[0] && d2.candidates[0].content.parts[0].text) || null;
-    }
-  } catch(e2) { console.warn('[Gemini proxy]', e2.message); }
-  return null;
+    if(!res.ok) return null;
+    var d = await res.json();
+    return (d.candidates&&d.candidates[0]&&d.candidates[0].content&&
+            d.candidates[0].content.parts&&d.candidates[0].content.parts[0]&&
+            d.candidates[0].content.parts[0].text) || null;
+  } catch(e) {
+    console.warn('[Gemini]', e.message);
+    return null;
+  }
 }
 async function runGeminiSummary(news) {
   var el = document.getElementById('ai-summary');
@@ -1816,8 +1816,10 @@ async function runGeminiSummary(news) {
     return;
   }
   el.innerHTML = '<div style="display:flex;align-items:center;gap:8px"><div class="dot-pulse"><span></span><span></span><span></span></div><span style="font-size:12px;color:var(--text3)">Gemini AI 분석 중...</span></div>';
-  var headlines = news.slice(0,8).map(function(n){ return '[' + (n.ticker||'') + '] ' + n.title; }).join('\n');
-  var result = await callGemini('당신은 미국 주식 투자 전문 애널리스트입니다. 아래 뉴스 헤드라인을 분석해서 투자자 관점에서 핵심 인사이트를 2~3문장으로 요약해주세요.\n관심 종목: ' + S.watchlist.join(', ') + '\n\n뉴스:\n' + headlines + '\n\n한국어로 간결하게 답변해주세요.');
+  var headlines = news.slice(0,8).map(function(n){
+    return '[' + (n.ticker||'') + '] ' + (n.titleKo || n.title);
+  }).join('\n');
+  var result = await callGemini('당신은 미국 주식 투자 전문 애널리스트입니다. 반드시 한국어로만 답변하세요. 아래 뉴스 헤드라인을 분석해서 투자자 관점에서 종목별 핵심 이슈와 시장 영향(강세/약세/중립)을 한국어로 요약해주세요.\n관심 종목: ' + S.watchlist.join(', ') + '\n\n뉴스:\n' + headlines + '\n\n한국어로 간결하게 답변해주세요.');
   el.textContent = result || '분석 실패 — API 키 또는 네트워크를 확인하세요.';
 }
 
@@ -2631,7 +2633,7 @@ function ytLoadFromFile(input){
   reader.onload = function(e){
     var csv = e.target.result;
     // 깨진 인코딩 감지: 한글 영역에 replacement char가 많으면 EUC-KR로 재시도
-    var brokenCount = (csv.match(/�/g)||[]).length;
+    var brokenCount = (csv.match(/ /g)||[]).length;
     if(brokenCount > 5){
       // EUC-KR로 재시도
       var reader2 = new FileReader();
