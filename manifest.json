@@ -1,0 +1,26 @@
+{
+  "name": "StockAI — 미국 주식 AI 대시보드",
+  "short_name": "StockAI",
+  "description": "미국 주식 실시간 분석, 포트폴리오 관리, 피보나치 분석, 유튜브 강의 정리",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0a0e17",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "lang": "ko",
+  "categories": ["finance", "productivity"],
+  "icons": [
+    {
+      "src": "./icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
