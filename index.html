@@ -893,6 +893,17 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);min-height:1
     <select id="yt-outlook-filter" onchange="ytRenderHistory()" style="background:var(--bg2);border:1px solid var(--border);color:var(--text2);font-size:11px;padding:5px 8px;border-radius:6px;outline:none">
       <option value="">전체 전망</option><option value="bullish">🟢 Bullish</option><option value="bearish">🔴 Bearish</option><option value="neutral">⚪ Neutral</option>
     </select>
+    <div style="position:relative;display:flex;align-items:center">
+      <svg width="13" height="13" viewBox="0 0 20 20" fill="none" style="position:absolute;left:8px;color:#4e566a;pointer-events:none">
+        <circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.8"/>
+        <line x1="13.5" y1="13.5" x2="18" y2="18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      </svg>
+      <input type="text" id="yt-search-input"
+        placeholder="제목·채널·종목 검색..."
+        oninput="ytRenderHistory()"
+        style="background:var(--bg2);border:1px solid var(--border);color:var(--text);font-size:11px;padding:5px 8px 5px 26px;border-radius:6px;outline:none;width:160px">
+      <button id="yt-search-clear" onclick="ytClearSearch()" style="display:none;position:absolute;right:6px;background:none;border:none;color:var(--text3);cursor:pointer;font-size:13px;line-height:1;padding:0">✕</button>
+    </div>
     <span id="yt-count-lbl" style="font-size:11px;color:var(--text3)">0개</span>
   </div>
   <!-- 카드 목록 -->
@@ -3136,6 +3147,14 @@ function ytCSVLine(line){
   return result;
 }
 
+function ytClearSearch(){
+  var inp = document.getElementById('yt-search-input');
+  var btn = document.getElementById('yt-search-clear');
+  if(inp){ inp.value=''; inp.focus(); }
+  if(btn) btn.style.display='none';
+  ytRenderHistory();
+}
+
 function ytRenderChannelTabs(){
   var el=document.getElementById('yt-channel-tabs');
   if(!el) return;
@@ -3157,16 +3176,45 @@ function ytSetCh(ch){YT_ACTIVE_CH=ch;ytRenderChannelTabs();ytRenderHistory();}
 function ytRenderHistory(){
   var el=document.getElementById('yt-history');
   if(!el) return;
-  var catF=(document.getElementById('yt-cat-filter')||{}).value||'';
-  var olF=(document.getElementById('yt-outlook-filter')||{}).value||'';
-  var vids=YT_DATA.slice();
+  var catF   = (document.getElementById('yt-cat-filter')||{}).value||'';
+  var olF    = (document.getElementById('yt-outlook-filter')||{}).value||'';
+  var searchQ = ((document.getElementById('yt-search-input')||{}).value||'').trim().toLowerCase();
+  var vids   = YT_DATA.slice();
+
   if(YT_ACTIVE_CH!=='all') vids=vids.filter(function(v){return v.channel===YT_ACTIVE_CH;});
   if(catF) vids=vids.filter(function(v){return v.category===catF;});
-  if(olF) vids=vids.filter(function(v){return v.outlook===olF;});
+  if(olF)  vids=vids.filter(function(v){return v.outlook===olF;});
+
+  // 검색어 필터 — 제목, 채널명, 종목, 요약, 전문가 의견에서 검색
+  if(searchQ){
+    vids = vids.filter(function(v){
+      var haystack = [
+        v.title||'', v.channel||'', v.summary||'',
+        v.expert_opinion||'', (v.tickers||[]).join(' '),
+        v.date||'', v.category||''
+      ].join(' ').toLowerCase();
+      // 공백으로 분리된 단어 모두 포함 시 매칭 (AND 검색)
+      return searchQ.split(/\s+/).every(function(word){
+        return haystack.includes(word);
+      });
+    });
+    // 검색 중 X 버튼 표시
+    var clearBtn = document.getElementById('yt-search-clear');
+    if(clearBtn) clearBtn.style.display = 'block';
+  } else {
+    var clearBtn = document.getElementById('yt-search-clear');
+    if(clearBtn) clearBtn.style.display = 'none';
+  }
+
   var lbl=document.getElementById('yt-count-lbl');
-  if(lbl) lbl.textContent=vids.length+'개';
+  if(lbl) lbl.textContent = searchQ
+    ? ('검색결과 ' + vids.length + '개')
+    : (vids.length + '개');
   if(!vids.length){
-    el.innerHTML='<div style="text-align:center;padding:40px 0;color:var(--text3)"><div style="font-size:32px;margin-bottom:8px;opacity:.3">🎬</div>데이터가 없습니다</div>';
+    var emptyMsg = searchQ
+      ? '🔍 <b style="color:var(--text2)">"'+searchQ+'"</b> 검색 결과 없음'
+      : '🎬 데이터가 없습니다';
+    el.innerHTML='<div style="text-align:center;padding:40px 0;color:var(--text3)"><div style="font-size:28px;margin-bottom:8px;opacity:.4">'+emptyMsg+'</div></div>';
     return;
   }
 
