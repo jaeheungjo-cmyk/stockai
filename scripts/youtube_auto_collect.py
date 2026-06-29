@@ -127,17 +127,17 @@ def main():
                     print(f"skip duplicate: {title}")
                     continue
 
-try:
-    analysis_text = analyze_with_gemini(title, link, summary)
-    parsed = parse_result(analysis_text)
-except Exception as e:
-    print(f"Gemini analysis failed: {e}")
-    parsed = {
-        "한줄요약": "Gemini 분석 실패 - 한도 초과 또는 API 오류",
-        "분석전문내용": summary[:500],
-        "시장전망": "추후 재분석 필요",
-        "태그": "PENDING"
-    }
+                try:
+                    analysis_text = analyze_with_gemini(title, link, summary)
+                    parsed = parse_result(analysis_text)
+                except Exception as e:
+                    print(f"Gemini analysis failed: {e}")
+                    parsed = {
+                        "한줄요약": "Gemini 분석 실패 - 한도 초과 또는 API 오류",
+                        "분석전문내용": summary[:500],
+                        "시장전망": "추후 재분석 필요",
+                        "태그": "PENDING",
+                    }
 
                 row = [
                     channel["name"],
@@ -160,7 +160,6 @@ except Exception as e:
             continue
 
     print(f"Added {added} new YouTube rows.")
-
 
 if __name__ == "__main__":
     main()
