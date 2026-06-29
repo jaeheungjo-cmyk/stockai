@@ -42,7 +42,7 @@ def get_channel_id(handle):
 
 
 def analyze_with_gemini(title, link, summary):
-    api_key = os.environ["GEMINI_API_KEY"]
+    api_key = os.environ["GEMINI_AUTO_API_KEY"]
     url = (
         "https://generativelanguage.googleapis.com/v1beta/"
         f"models/gemini-2.0-flash:generateContent?key={api_key}"
