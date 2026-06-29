@@ -7070,6 +7070,107 @@ function eaShowSharingGuide() {
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', load);
   else load();
 })();
+<script>
+(function () {
+  const JSON_URL = './data/sp500_latest.json';
+  const LS_KEY = 'sai_sp_snaps';
+
+  async function fetchAutoData() {
+    try {
+      const res = await fetch(JSON_URL + '?_t=' + Date.now(), { cache: 'no-store' });
+      if (!res.ok) return null;
+      return await res.json();
+    } catch (e) { return null; }
+  }
+
+  function showAutoBanner(data) {
+    const page = document.getElementById('page-sp500');
+    if (!page || document.getElementById('sp500-auto-banner')) return;
+    const rising = (data.rising_stocks || []).slice(0, 5);
+    const risingHTML = rising.length
+      ? rising.map(r =>
+          `<span style="display:inline-flex;align-items:center;gap:4px;
+            background:rgba(16,185,129,.12);border:1px solid rgba(16,185,129,.25);
+            color:#10b981;border-radius:6px;padding:3px 9px;font-size:11px;font-weight:600">
+            📈 ${r.symbol}
+            <span style="font-weight:400;color:var(--text2)">
+              ${-r.rank_change_total}위▲ → ${r.current_rank}위
+            </span>
+          </span>`).join('')
+      : '<span style="font-size:11px;color:var(--text3)">연속 상승 종목 없음 (스냅샷 2개 이상 필요)</span>';
+    const banner = document.createElement('div');
+    banner.id = 'sp500-auto-banner';
+    banner.style.cssText = 'background:rgba(59,130,246,.07);border:1px solid rgba(59,130,246,.2);border-radius:10px;padding:12px 16px;margin-bottom:16px;';
+    banner.innerHTML = `
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px">
+        <span style="font-size:12px;font-weight:600;color:var(--accent)">
+          🤖 자동 수집 완료 &nbsp;
+          <span style="font-weight:400;font-size:11px;color:var(--text3)">${data.updated_at || ''}</span>
+        </span>
+        <span style="font-size:11px;color:var(--text3)">상위 ${data.top_n || 100}위 · ${(data.rankings||[]).length}개 종목</span>
+      </div>
+      <div style="font-size:11px;color:var(--text2);margin-bottom:6px;font-weight:600">📊 연속 상승 종목</div>
+      <div style="display:flex;gap:6px;flex-wrap:wrap">${risingHTML}</div>`;
+    const uploadArea = page.querySelector('.sp-upload-area');
+    if (uploadArea) page.insertBefore(banner, uploadArea);
+    else page.prepend(banner);
+  }
+
+  async function load() {
+    const data = await fetchAutoData();
+    if (!data || !data.rankings?.length) return;
+
+    const label = data.date_label || 'AUTO';
+    const rows = data.rankings.map(r => ({
+      rank: r.rank, symbol: r.symbol, name: r.name,
+      marketcap: r.marketcap, price: r.price, country: 'USA',
+    }));
+    const autoSnap = { date: label, label: `🤖 ${label} (자동)`, data: rows, auto: true };
+
+    // localStorage에서 기존 스냅샷 읽기
+    let snaps = [];
+    try { snaps = JSON.parse(localStorage.getItem(LS_KEY) || '[]'); } catch(e) {}
+
+    // 같은 날짜 제거 후 맨 앞에 삽입
+    snaps = snaps.filter(s => s.date !== label);
+    snaps.unshift(autoSnap);
+    if (snaps.length > 10) snaps = snaps.slice(0, 10);
+
+    // localStorage 저장 → S 객체에도 반영
+    localStorage.setItem(LS_KEY, JSON.stringify(snaps));
+    window.SP500_RISING = data.rising_stocks || [];
+    window.SP500_UPDATED_AT = data.updated_at || '';
+
+    // S 객체 초기화 대기 후 반영
+    let tries = 0;
+    const timer = setInterval(() => {
+      tries++;
+      if (window.S && Array.isArray(window.S.spSnapshots)) {
+        clearInterval(timer);
+        window.S.spSnapshots = snaps;
+        const activePage = document.querySelector('.page.active');
+        if (activePage && activePage.id === 'page-sp500') {
+          showAutoBanner(data);
+          if (typeof renderSpSnapshots === 'function') renderSpSnapshots();
+          if (typeof renderSpTable === 'function') renderSpTable('all', document.querySelector('.sp-tab.active'));
+        }
+      }
+      if (tries >= 30) clearInterval(timer);
+    }, 200);
+
+    // sp500 메뉴 클릭 시 배너 표시
+    const _orig = window.showPage;
+    window.showPage = function(id, el) {
+      if (typeof _orig === 'function') _orig(id, el);
+      if (id === 'sp500') setTimeout(() => showAutoBanner(data), 100);
+    };
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', load);
+  else load();
+})();
 </script>
+</body>
+</html>
 </body>
 </html>
