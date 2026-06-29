@@ -45,7 +45,7 @@ def analyze_with_gemini(title, link, summary):
     api_key = os.environ["GEMINI_API_KEY"]
     url = (
         "https://generativelanguage.googleapis.com/v1beta/"
-        f"models/gemini-1.5-flash:generateContent?key={api_key}"
+        f"models/gemini-2.0-flash:generateContent?key={api_key}"
     )
 
     prompt = f"""
