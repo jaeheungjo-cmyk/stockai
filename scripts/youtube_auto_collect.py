@@ -109,7 +109,7 @@ def main():
 
     added = 0
 
-    for channel in CHANNELS:
+    for channel in CHANNELS[:1]:
         try:
             channel_id = get_channel_id(channel["handle"])
             feed_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
@@ -117,7 +117,7 @@ def main():
 
             print(f'{channel["name"]}: {len(feed.entries)} videos found')
 
-            for entry in feed.entries[:3]:
+            for entry in feed.entries[:1]:
                 title = entry.title
                 link = entry.link
                 published = entry.get("published", datetime.now().strftime("%Y-%m-%d"))
