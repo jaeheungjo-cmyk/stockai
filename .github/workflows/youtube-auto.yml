@@ -1,30 +1,11 @@
-name: YouTube Auto Collect
+name: YouTube Auto Collect (비활성화됨)
 
 on:
-  workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * *"
+  workflow_dispatch:  # 자동 스케줄 제거 — 수동 실행만 가능 (현재 사용 안 함)
 
 jobs:
   collect:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Install packages
-        run: |
-          pip install gspread google-auth requests feedparser
-
-      - name: Run YouTube Auto Collect
-        env:
-          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
-          YOUTUBE_SHEET_ID: ${{ secrets.YOUTUBE_SHEET_ID }}
-          GEMINI_AUTO_API_KEY: ${{ secrets.GEMINI_AUTO_API_KEY }}
-        run: python scripts/youtube_auto_collect.py
+      - name: 안내
+        run: echo "이 워크플로우는 비활성화되었습니다. 필요 시 schedule을 다시 추가해서 재활성화하세요."
