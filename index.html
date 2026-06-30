@@ -2866,8 +2866,34 @@ function renderFibonacci(ticker, px) {
 var rsi = calcRSI(px);
     var sma20 = calcSMA(px, 20);
     var aboveSma = cur > sma20;
-    var stoch = calcStochastic(px, 14, 1, 3);
-      
+      var stoch = calcStochastic(px, 14, 1, 3);
+
+    // ── Stoch 매수/매도 신호 판정 ──
+    // 매수: %K < 20 이면서 %K가 %D를 상향 돌파 (직전엔 %K<=%D, 지금은 %K>%D)
+    // 매도: %K > 80 이면서 %K가 %D를 하향 돌파 (직전엔 %K>=%D, 지금은 %K<%D)
+    var stochSignal = 'neutral', stochSignalLabel = '관망', stochSignalDesc = '뚜렷한 교차 신호가 없습니다.';
+    var kArr = stoch.kSeries, dArr = stoch.dSeries;
+    if (kArr.length >= 2 && dArr.length >= 2) {
+      var kNow = kArr[kArr.length-1], dNow = dArr[dArr.length-1];
+      var kPrev = kArr[kArr.length-2], dPrev = dArr[dArr.length-2];
+      var crossUp   = kPrev <= dPrev && kNow > dNow;
+      var crossDown = kPrev >= dPrev && kNow < dNow;
+
+      if (kNow < 20 && crossUp) {
+        stochSignal = 'buy'; stochSignalLabel = '매수 신호';
+        stochSignalDesc = '%K('+kNow.toFixed(1)+')가 과매도 구간(20 이하)에서 %D를 상향 돌파했습니다.';
+      } else if (kNow > 80 && crossDown) {
+        stochSignal = 'sell'; stochSignalLabel = '매도 신호';
+        stochSignalDesc = '%K('+kNow.toFixed(1)+')가 과매수 구간(80 이상)에서 %D를 하향 돌파했습니다.';
+      } else if (kNow < 20) {
+        stochSignal = 'watch-buy'; stochSignalLabel = '과매도 — 돌파 대기';
+        stochSignalDesc = '%K('+kNow.toFixed(1)+')가 과매도 구간이지만 아직 %D를 상향 돌파하지 않았습니다.';
+      } else if (kNow > 80) {
+        stochSignal = 'watch-sell'; stochSignalLabel = '과매수 — 돌파 대기';
+        stochSignalDesc = '%K('+kNow.toFixed(1)+')가 과매수 구간이지만 아직 %D를 하향 돌파하지 않았습니다.';
+      }
+    }
+
     var lv618 = retByLabel('61.8%').price;
     var lv382 = retByLabel('38.2%').price;
     var lv236 = retByLabel('23.6%').price;
@@ -2947,6 +2973,23 @@ var rsi = calcRSI(px);
       +'<div class="fib-signal-row"><span class="fib-signal-label">스윙 범위</span><span class="fib-signal-val">$'+swing.toFixed(2)+' ('+((swing/low)*100).toFixed(1)+'%)</span></div>'
       +'<div class="fib-signal-row"><span class="fib-signal-label">RSI(14)</span><span class="fib-signal-val" style="color:'+(rsi>70?'#f43f5e':rsi<30?'#10b981':'#f59e0b')+'">'+rsi.toFixed(0)+(rsi>70?' 과매수':rsi<30?' 과매도':'')+'</span></div>'
       +'</div></div>';
+
+// ── 8.5 Stoch 지표 카드 ──
+    var stochColor = stochSignal==='buy' ? '#10b981' : stochSignal==='sell' ? '#f43f5e'
+                    : stochSignal==='watch-buy' ? '#34d399' : stochSignal==='watch-sell' ? '#fb7185' : '#94a3b8';
+    var stochBorder = stochSignal==='buy' ? 'rgba(16,185,129,.3)' : stochSignal==='sell' ? 'rgba(244,63,94,.3)' : 'rgba(148,163,184,.2)';
+    var stochBoxEl = document.getElementById('sm-fib-stoch-box');
+    if (stochBoxEl) {
+      stochBoxEl.innerHTML =
+        '<div class="fib-signal-box" style="border-color:'+stochBorder+'">'
+        +'<div class="fib-signal-title" style="color:'+stochColor+'">📐 Stochastic (14,1,3)</div>'
+        +'<div class="fib-signal-row"><span class="fib-signal-label">%K</span><span class="fib-signal-val" style="color:'+stochColor+'">'+stoch.k.toFixed(1)+'</span></div>'
+        +'<div class="fib-signal-row"><span class="fib-signal-label">%D</span><span class="fib-signal-val">'+stoch.d.toFixed(1)+'</span></div>'
+        +'<div style="border-top:1px solid rgba(255,255,255,.08);margin-top:8px;padding-top:8px">'
+        +'<div style="font-weight:700;font-size:12px;color:'+stochColor+';margin-bottom:4px">'+stochSignalLabel+'</div>'
+        +'<div style="font-size:11px;color:var(--text2);line-height:1.5">'+stochSignalDesc+'</div>'
+        +'</div></div>';
+    }
 
     // ── 9. 분석 텍스트 ──
     document.getElementById('sm-fib-analysis').innerHTML =
