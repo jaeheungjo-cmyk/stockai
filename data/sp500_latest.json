@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30 09:07 KST",
+  "updated_at": "2026-06-30 14:07 KST",
   "date_label": "06.30",
   "top_n": 100,
   "rankings": [
@@ -704,8 +704,151 @@
       "price": ""
     }
   ],
-  "rising_stocks": [],
+  "rising_stocks": [
+    {
+      "symbol": "GLW",
+      "name": "Corning",
+      "current_rank": 54,
+      "rank_change_total": 15,
+      "rank_history": [
+        {
+          "date": "06.24",
+          "rank": 69
+        },
+        {
+          "date": "06.29",
+          "rank": 64
+        },
+        {
+          "date": "06.30",
+          "rank": 54
+        }
+      ]
+    },
+    {
+      "symbol": "UNP",
+      "name": "Union Pacific Corporation",
+      "current_rank": 72,
+      "rank_change_total": 7,
+      "rank_history": [
+        {
+          "date": "06.24",
+          "rank": 79
+        },
+        {
+          "date": "06.29",
+          "rank": 73
+        },
+        {
+          "date": "06.30",
+          "rank": 72
+        }
+      ]
+    },
+    {
+      "symbol": "KLAC",
+      "name": "KLA",
+      "current_rank": 31,
+      "rank_change_total": 6,
+      "rank_history": [
+        {
+          "date": "06.24",
+          "rank": 37
+        },
+        {
+          "date": "06.29",
+          "rank": 36
+        },
+        {
+          "date": "06.30",
+          "rank": 31
+        }
+      ]
+    },
+    {
+      "symbol": "VRTX",
+      "name": "Vertex Pharmaceuticals",
+      "current_rank": 92,
+      "rank_change_total": 6,
+      "rank_history": [
+        {
+          "date": "06.24",
+          "rank": 98
+        },
+        {
+          "date": "06.29",
+          "rank": 93
+        },
+        {
+          "date": "06.30",
+          "rank": 92
+        }
+      ]
+    },
+    {
+      "symbol": "DE",
+      "name": "Deere &amp; Company (John Deere)",
+      "current_rank": 68,
+      "rank_change_total": 5,
+      "rank_history": [
+        {
+          "date": "06.24",
+          "rank": 73
+        },
+        {
+          "date": "06.29",
+          "rank": 71
+        },
+        {
+          "date": "06.30",
+          "rank": 68
+        }
+      ]
+    },
+    {
+      "symbol": "MRK",
+      "name": "Merck",
+      "current_rank": 37,
+      "rank_change_total": 2,
+      "rank_history": [
+        {
+          "date": "06.24",
+          "rank": 39
+        },
+        {
+          "date": "06.29",
+          "rank": 38
+        },
+        {
+          "date": "06.30",
+          "rank": 37
+        }
+      ]
+    },
+    {
+      "symbol": "IBM",
+      "name": "IBM",
+      "current_rank": 46,
+      "rank_change_total": 2,
+      "rank_history": [
+        {
+          "date": "06.24",
+          "rank": 48
+        },
+        {
+          "date": "06.29",
+          "rank": 47
+        },
+        {
+          "date": "06.30",
+          "rank": 46
+        }
+      ]
+    }
+  ],
   "snapshot_dates": [
+    "04.30",
+    "06.24",
     "06.29",
     "06.30"
   ]
