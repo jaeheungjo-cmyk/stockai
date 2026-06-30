@@ -1,711 +1,712 @@
 {
-  "updated_at": "2026-06-29 23:19 KST",
-  "date_label": "06.29",
+  "updated_at": "2026-06-30 09:07 KST",
+  "date_label": "06.30",
   "top_n": 100,
   "rankings": [
     {
       "rank": 1,
       "symbol": "NVDA",
       "name": "NVIDIA",
-      "marketcap": "4610709258240",
+      "marketcap": "4722368446464",
       "price": ""
     },
     {
       "rank": 2,
       "symbol": "GOOG",
       "name": "Alphabet (Google)",
-      "marketcap": "4225995112448",
+      "marketcap": "4286519705600",
       "price": ""
     },
     {
       "rank": 3,
       "symbol": "AAPL",
       "name": "Apple",
-      "marketcap": "4145115299840",
+      "marketcap": "4138015391744",
       "price": ""
     },
     {
       "rank": 4,
       "symbol": "MSFT",
       "name": "Microsoft",
-      "marketcap": "2799554265088",
+      "marketcap": "2737898258432",
       "price": ""
     },
     {
       "rank": 5,
       "symbol": "AMZN",
       "name": "Amazon",
-      "marketcap": "2628822499328",
+      "marketcap": "2583212326912",
       "price": ""
     },
     {
       "rank": 6,
       "symbol": "SPCX",
       "name": "SpaceX",
-      "marketcap": "2006823993344",
+      "marketcap": "2163069812736",
       "price": ""
     },
     {
       "rank": 7,
       "symbol": "AVGO",
       "name": "Broadcom",
-      "marketcap": "1721387712512",
+      "marketcap": "1771960795136",
       "price": ""
     },
     {
       "rank": 8,
       "symbol": "TSLA",
       "name": "Tesla",
-      "marketcap": "1470516166656",
+      "marketcap": "1546757210112",
       "price": ""
     },
     {
       "rank": 9,
       "symbol": "META",
       "name": "Meta Platforms (Facebook)",
-      "marketcap": "1441443610624",
+      "marketcap": "1428116865024",
       "price": ""
     },
     {
       "rank": 10,
       "symbol": "MU",
       "name": "Micron Technology",
-      "marketcap": "1162110042112",
+      "marketcap": "1293471449088",
       "price": ""
     },
     {
       "rank": 11,
       "symbol": "LLY",
       "name": "Eli Lilly",
-      "marketcap": "1092806770688",
+      "marketcap": "1096779497472",
       "price": ""
     },
     {
       "rank": 12,
       "symbol": "BRK-B",
       "name": "Berkshire Hathaway",
-      "marketcap": "1076669054976",
+      "marketcap": "1069799440384",
       "price": ""
     },
     {
       "rank": 13,
       "symbol": "WMT",
       "name": "Walmart",
-      "marketcap": "925842866176",
+      "marketcap": "911995830272",
       "price": ""
     },
     {
       "rank": 14,
       "symbol": "JPM",
       "name": "JPMorgan Chase",
-      "marketcap": "885230141440",
+      "marketcap": "882604244992",
       "price": ""
     },
     {
       "rank": 15,
       "symbol": "AMD",
       "name": "AMD",
-      "marketcap": "812348932096",
+      "marketcap": "879692677120",
       "price": ""
     },
     {
       "rank": 16,
-      "symbol": "V",
-      "name": "Visa",
-      "marketcap": "653838712832",
+      "symbol": "INTC",
+      "name": "Intel",
+      "marketcap": "662024683520",
       "price": ""
     },
     {
       "rank": 17,
-      "symbol": "JNJ",
-      "name": "Johnson & Johnson",
-      "marketcap": "616319746048",
+      "symbol": "V",
+      "name": "Visa",
+      "marketcap": "649730719744",
       "price": ""
     },
     {
       "rank": 18,
-      "symbol": "INTC",
-      "name": "Intel",
-      "marketcap": "598546317312",
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "marketcap": "622289682432",
       "price": ""
     },
     {
       "rank": 19,
       "symbol": "XOM",
       "name": "Exxon Mobil",
-      "marketcap": "565660942336",
+      "marketcap": "563961528320",
       "price": ""
     },
     {
       "rank": 20,
       "symbol": "AMAT",
       "name": "Applied Materials",
-      "marketcap": "511159009280",
+      "marketcap": "551515979776",
       "price": ""
     },
     {
       "rank": 21,
       "symbol": "LRCX",
       "name": "Lam Research",
-      "marketcap": "475917287424",
+      "marketcap": "513872134144",
       "price": ""
     },
     {
       "rank": 22,
       "symbol": "CAT",
       "name": "Caterpillar",
-      "marketcap": "458846339072",
+      "marketcap": "475878981632",
       "price": ""
     },
     {
       "rank": 23,
       "symbol": "CSCO",
       "name": "Cisco",
-      "marketcap": "455984578560",
+      "marketcap": "463906832384",
       "price": ""
     },
     {
       "rank": 24,
       "symbol": "MA",
       "name": "Mastercard",
-      "marketcap": "452386095104",
+      "marketcap": "450309685248",
       "price": ""
     },
     {
       "rank": 25,
       "symbol": "ABBV",
       "name": "AbbVie",
-      "marketcap": "447493275648",
+      "marketcap": "449313079296",
       "price": ""
     },
     {
       "rank": 26,
-      "symbol": "COST",
-      "name": "Costco",
-      "marketcap": "429509246976",
+      "symbol": "ORCL",
+      "name": "Oracle",
+      "marketcap": "425618374656",
       "price": ""
     },
     {
       "rank": 27,
-      "symbol": "ORCL",
-      "name": "Oracle",
-      "marketcap": "420980817920",
+      "symbol": "COST",
+      "name": "Costco",
+      "marketcap": "419832528896",
       "price": ""
     },
     {
       "rank": 28,
       "symbol": "BAC",
       "name": "Bank of America",
-      "marketcap": "412737732608",
+      "marketcap": "410750681088",
       "price": ""
     },
     {
       "rank": 29,
       "symbol": "GE",
       "name": "General Electric",
-      "marketcap": "388242997248",
+      "marketcap": "390463258624",
       "price": ""
     },
     {
       "rank": 30,
       "symbol": "UNH",
       "name": "UnitedHealth",
-      "marketcap": "379599814656",
+      "marketcap": "381257187328",
       "price": ""
     },
     {
       "rank": 31,
-      "symbol": "KO",
-      "name": "Coca-Cola",
-      "marketcap": "359343325184",
+      "symbol": "KLAC",
+      "name": "KLA",
+      "marketcap": "363653988352",
       "price": ""
     },
     {
       "rank": 32,
-      "symbol": "HD",
-      "name": "Home Depot",
-      "marketcap": "346837057536",
+      "symbol": "KO",
+      "name": "Coca-Cola",
+      "marketcap": "355600171008",
       "price": ""
     },
     {
       "rank": 33,
-      "symbol": "PG",
-      "name": "Procter & Gamble",
-      "marketcap": "345575751680",
+      "symbol": "HD",
+      "name": "Home Depot",
+      "marketcap": "349798498304",
       "price": ""
     },
     {
       "rank": 34,
-      "symbol": "CVX",
-      "name": "Chevron",
-      "marketcap": "337874550784",
+      "symbol": "PG",
+      "name": "Procter & Gamble",
+      "marketcap": "345680510976",
       "price": ""
     },
     {
       "rank": 35,
-      "symbol": "MS",
-      "name": "Morgan Stanley",
-      "marketcap": "335346532352",
+      "symbol": "CVX",
+      "name": "Chevron",
+      "marketcap": "335524462592",
       "price": ""
     },
     {
       "rank": 36,
-      "symbol": "KLAC",
-      "name": "KLA",
-      "marketcap": "329658138624",
+      "symbol": "MS",
+      "name": "Morgan Stanley",
+      "marketcap": "333942751232",
       "price": ""
     },
     {
       "rank": 37,
-      "symbol": "NFLX",
-      "name": "Netflix",
-      "marketcap": "318757896192",
+      "symbol": "MRK",
+      "name": "Merck",
+      "marketcap": "319545901056",
       "price": ""
     },
     {
       "rank": 38,
-      "symbol": "MRK",
-      "name": "Merck",
-      "marketcap": "315569471488",
+      "symbol": "NFLX",
+      "name": "Netflix",
+      "marketcap": "310672719872",
       "price": ""
     },
     {
       "rank": 39,
-      "symbol": "GS",
-      "name": "Goldman Sachs",
-      "marketcap": "301180452864",
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "marketcap": "303641755648",
       "price": ""
     },
     {
       "rank": 40,
-      "symbol": "GEV",
-      "name": "GE Vernova",
-      "marketcap": "287680888832",
+      "symbol": "GS",
+      "name": "Goldman Sachs",
+      "marketcap": "300969525248",
       "price": ""
     },
     {
       "rank": 41,
-      "symbol": "PM",
-      "name": "Philip Morris International",
-      "marketcap": "282223837184",
+      "symbol": "GEV",
+      "name": "GE Vernova",
+      "marketcap": "296266498048",
       "price": ""
     },
     {
       "rank": 42,
-      "symbol": "SNDK",
-      "name": "Sandisk",
-      "marketcap": "281518637056",
+      "symbol": "PM",
+      "name": "Philip Morris International",
+      "marketcap": "285013639168",
       "price": ""
     },
     {
       "rank": 43,
       "symbol": "PLTR",
       "name": "Palantir",
-      "marketcap": "281132531712",
+      "marketcap": "277368995840",
       "price": ""
     },
     {
       "rank": 44,
       "symbol": "PANW",
       "name": "Palo Alto Networks",
-      "marketcap": "262829342720",
+      "marketcap": "270580006912",
       "price": ""
     },
     {
       "rank": 45,
-      "symbol": "WFC",
-      "name": "Wells Fargo",
-      "marketcap": "258157576192",
+      "symbol": "DELL",
+      "name": "Dell",
+      "marketcap": "267897094144",
       "price": ""
     },
     {
       "rank": 46,
-      "symbol": "RTX",
-      "name": "RTX",
-      "marketcap": "255034900480",
+      "symbol": "IBM",
+      "name": "IBM",
+      "marketcap": "261288116224",
       "price": ""
     },
     {
       "rank": 47,
-      "symbol": "IBM",
-      "name": "IBM",
-      "marketcap": "254520934400",
+      "symbol": "TXN",
+      "name": "Texas Instruments",
+      "marketcap": "259813310464",
       "price": ""
     },
     {
       "rank": 48,
-      "symbol": "TXN",
-      "name": "Texas Instruments",
-      "marketcap": "251504148480",
+      "symbol": "WFC",
+      "name": "Wells Fargo",
+      "marketcap": "255556419584",
       "price": ""
     },
     {
       "rank": 49,
-      "symbol": "DELL",
-      "name": "Dell",
-      "marketcap": "245411348480",
+      "symbol": "RTX",
+      "name": "RTX",
+      "marketcap": "252274196480",
       "price": ""
     },
     {
       "rank": 50,
-      "symbol": "C",
-      "name": "Citigroup",
-      "marketcap": "242558615552",
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "marketcap": "243184893952",
       "price": ""
     },
     {
       "rank": 51,
-      "symbol": "AXP",
-      "name": "American Express",
-      "marketcap": "233185067008",
+      "symbol": "C",
+      "name": "Citigroup",
+      "marketcap": "243027673088",
       "price": ""
     },
     {
       "rank": 52,
-      "symbol": "MRVL",
-      "name": "Marvell Technology",
-      "marketcap": "220639395840",
+      "symbol": "AXP",
+      "name": "American Express",
+      "marketcap": "232591441920",
       "price": ""
     },
     {
       "rank": 53,
       "symbol": "WDC",
       "name": "Western Digital",
-      "marketcap": "205594279936",
+      "marketcap": "224691404800",
       "price": ""
     },
     {
       "rank": 54,
-      "symbol": "APH",
-      "name": "Amphenol",
-      "marketcap": "197815549952",
+      "symbol": "GLW",
+      "name": "Corning",
+      "marketcap": "220056485888",
       "price": ""
     },
     {
       "rank": 55,
       "symbol": "ANET",
       "name": "Arista Networks",
-      "marketcap": "196285612032",
+      "marketcap": "206629699584",
       "price": ""
     },
     {
       "rank": 56,
-      "symbol": "AMGN",
-      "name": "Amgen",
-      "marketcap": "195498541056",
+      "symbol": "APH",
+      "name": "Amphenol",
+      "marketcap": "204735627264",
       "price": ""
     },
     {
       "rank": 57,
       "symbol": "QCOM",
       "name": "QUALCOMM",
-      "marketcap": "194051948544",
+      "marketcap": "198910885888",
       "price": ""
     },
     {
       "rank": 58,
-      "symbol": "PEP",
-      "name": "Pepsico",
-      "marketcap": "192971046912",
+      "symbol": "AMGN",
+      "name": "Amgen",
+      "marketcap": "194591817728",
       "price": ""
     },
     {
       "rank": 59,
-      "symbol": "MCD",
-      "name": "McDonald",
-      "marketcap": "190735302656",
+      "symbol": "ADI",
+      "name": "Analog Devices",
+      "marketcap": "190830952448",
       "price": ""
     },
     {
       "rank": 60,
-      "symbol": "TMUS",
-      "name": "T-Mobile US",
-      "marketcap": "189407461376",
+      "symbol": "MCD",
+      "name": "McDonald",
+      "marketcap": "189832953856",
       "price": ""
     },
     {
       "rank": 61,
-      "symbol": "CRWD",
-      "name": "CrowdStrike",
-      "marketcap": "188632530944",
+      "symbol": "PEP",
+      "name": "Pepsico",
+      "marketcap": "189567352832",
       "price": ""
     },
     {
       "rank": 62,
-      "symbol": "ADI",
-      "name": "Analog Devices",
-      "marketcap": "187869478912",
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
+      "marketcap": "189118742528",
       "price": ""
     },
     {
       "rank": 63,
-      "symbol": "TMO",
-      "name": "Thermo Fisher Scientific",
-      "marketcap": "186548404224",
+      "symbol": "TMUS",
+      "name": "T-Mobile US",
+      "marketcap": "188271149056",
       "price": ""
     },
     {
       "rank": 64,
-      "symbol": "GLW",
-      "name": "Corning",
-      "marketcap": "185682608128",
+      "symbol": "TMO",
+      "name": "Thermo Fisher Scientific",
+      "marketcap": "188196552704",
       "price": ""
     },
     {
       "rank": 65,
       "symbol": "NEE",
       "name": "Nextera Energy",
-      "marketcap": "182615605248",
+      "marketcap": "184909774848",
       "price": ""
     },
     {
       "rank": 66,
       "symbol": "VZ",
       "name": "Verizon",
-      "marketcap": "182053945344",
+      "marketcap": "184142135296",
       "price": ""
     },
     {
       "rank": 67,
       "symbol": "DIS",
       "name": "Walt Disney",
-      "marketcap": "173416710144",
+      "marketcap": "171272126464",
       "price": ""
     },
     {
       "rank": 68,
-      "symbol": "BA",
-      "name": "Boeing",
-      "marketcap": "170155065344",
+      "symbol": "DE",
+      "name": "Deere &amp; Company (John Deere)",
+      "marketcap": "169257336832",
       "price": ""
     },
     {
       "rank": 69,
-      "symbol": "TJX",
-      "name": "TJX Companies",
-      "marketcap": "170091331584",
+      "symbol": "BA",
+      "name": "Boeing",
+      "marketcap": "169240625152",
       "price": ""
     },
     {
       "rank": 70,
       "symbol": "APP",
       "name": "AppLovin",
-      "marketcap": "165755912192",
+      "marketcap": "167553204224",
       "price": ""
     },
     {
       "rank": 71,
-      "symbol": "DE",
-      "name": "Deere &amp; Company (John Deere)",
-      "marketcap": "165735137280",
+      "symbol": "TJX",
+      "name": "TJX Companies",
+      "marketcap": "167064436736",
       "price": ""
     },
     {
       "rank": 72,
-      "symbol": "ABT",
-      "name": "Abbott Laboratories",
-      "marketcap": "163286269952",
+      "symbol": "UNP",
+      "name": "Union Pacific Corporation",
+      "marketcap": "161905606656",
       "price": ""
     },
     {
       "rank": 73,
-      "symbol": "UNP",
-      "name": "Union Pacific Corporation",
-      "marketcap": "162350891008",
+      "symbol": "ABT",
+      "name": "Abbott Laboratories",
+      "marketcap": "161483489280",
       "price": ""
     },
     {
       "rank": 74,
       "symbol": "WELL",
       "name": "Welltower",
-      "marketcap": "160265879552",
+      "marketcap": "160757891072",
       "price": ""
     },
     {
       "rank": 75,
       "symbol": "SCHW",
       "name": "Charles Schwab",
-      "marketcap": "158339579904",
+      "marketcap": "157478731776",
       "price": ""
     },
     {
       "rank": 76,
       "symbol": "GILD",
       "name": "Gilead Sciences",
-      "marketcap": "156996517888",
+      "marketcap": "156847538176",
       "price": ""
     },
     {
       "rank": 77,
-      "symbol": "UBER",
-      "name": "Uber",
-      "marketcap": "156140617728",
+      "symbol": "BLK",
+      "name": "BlackRock",
+      "marketcap": "154733772800",
       "price": ""
     },
     {
       "rank": 78,
-      "symbol": "BLK",
-      "name": "BlackRock",
-      "marketcap": "155074117632",
+      "symbol": "UBER",
+      "name": "Uber",
+      "marketcap": "153687719936",
       "price": ""
     },
     {
       "rank": 79,
       "symbol": "T",
       "name": "AT&T",
-      "marketcap": "151161094144",
+      "marketcap": "151612751872",
       "price": ""
     },
     {
       "rank": 80,
       "symbol": "IBKR",
       "name": "Interactive Brokers",
-      "marketcap": "150030843904",
+      "marketcap": "149606793216",
       "price": ""
     },
     {
       "rank": 81,
       "symbol": "ISRG",
       "name": "Intuitive Surgical",
-      "marketcap": "145815928832",
+      "marketcap": "143779495936",
       "price": ""
     },
     {
       "rank": 82,
       "symbol": "BKNG",
       "name": "Booking Holdings (Booking.com)",
-      "marketcap": "143019327488",
+      "marketcap": "141345587200",
       "price": ""
     },
     {
       "rank": 83,
-      "symbol": "PFE",
-      "name": "Pfizer",
-      "marketcap": "139408982016",
+      "symbol": "SCCO",
+      "name": "Southern Copper",
+      "marketcap": "140542640128",
       "price": ""
     },
     {
       "rank": 84,
       "symbol": "BX",
       "name": "Blackstone Group",
-      "marketcap": "139288985600",
+      "marketcap": "140413452288",
       "price": ""
     },
     {
       "rank": 85,
-      "symbol": "SCCO",
-      "name": "Southern Copper",
-      "marketcap": "138955325440",
+      "symbol": "PFE",
+      "name": "Pfizer",
+      "marketcap": "138895458304",
       "price": ""
     },
     {
       "rank": 86,
       "symbol": "DHR",
       "name": "Danaher",
-      "marketcap": "136868683776",
+      "marketcap": "136444018688",
       "price": ""
     },
     {
       "rank": 87,
       "symbol": "CVS",
       "name": "CVS Health",
-      "marketcap": "131918118912",
+      "marketcap": "132160552960",
       "price": ""
     },
     {
       "rank": 88,
-      "symbol": "CRM",
-      "name": "Salesforce",
-      "marketcap": "130507653120",
+      "symbol": "PLD",
+      "name": "Prologis",
+      "marketcap": "130146033664",
       "price": ""
     },
     {
       "rank": 89,
-      "symbol": "PGR",
-      "name": "Progressive",
-      "marketcap": "129877180416",
+      "symbol": "CRM",
+      "name": "Salesforce",
+      "marketcap": "129344667648",
       "price": ""
     },
     {
       "rank": 90,
-      "symbol": "PLD",
-      "name": "Prologis",
-      "marketcap": "129138720768",
+      "symbol": "PGR",
+      "name": "Progressive",
+      "marketcap": "128002490368",
       "price": ""
     },
     {
       "rank": 91,
       "symbol": "COP",
       "name": "ConocoPhillips",
-      "marketcap": "128743227392",
+      "marketcap": "126946230272",
       "price": ""
     },
     {
       "rank": 92,
-      "symbol": "SYK",
-      "name": "Stryker Corporation",
-      "marketcap": "127507709952",
+      "symbol": "VRTX",
+      "name": "Vertex Pharmaceuticals",
+      "marketcap": "126813880320",
       "price": ""
     },
     {
       "rank": 93,
-      "symbol": "VRTX",
-      "name": "Vertex Pharmaceuticals",
-      "marketcap": "126565154816",
+      "symbol": "SYK",
+      "name": "Stryker Corporation",
+      "marketcap": "126708400128",
       "price": ""
     },
     {
       "rank": 94,
       "symbol": "COF",
       "name": "Capital One",
-      "marketcap": "125298352128",
+      "marketcap": "124608413696",
       "price": ""
     },
     {
       "rank": 95,
-      "symbol": "LOW",
-      "name": "Lowe's Companies",
-      "marketcap": "123560247296",
+      "symbol": "MO",
+      "name": "Altria Group",
+      "marketcap": "123655446528",
       "price": ""
     },
     {
       "rank": 96,
-      "symbol": "MO",
-      "name": "Altria Group",
-      "marketcap": "122929037312",
+      "symbol": "LOW",
+      "name": "Lowe's Companies",
+      "marketcap": "123223646208",
       "price": ""
     },
     {
       "rank": 97,
       "symbol": "PH",
       "name": "Parker-Hannifin",
-      "marketcap": "121898426368",
+      "marketcap": "121520799744",
       "price": ""
     },
     {
       "rank": 98,
       "symbol": "SPGI",
       "name": "S&P Global",
-      "marketcap": "120741363712",
+      "marketcap": "120933761024",
       "price": ""
     },
     {
       "rank": 99,
-      "symbol": "SBUX",
-      "name": "Starbucks",
-      "marketcap": "118882099200",
+      "symbol": "BMY",
+      "name": "Bristol-Myers Squibb",
+      "marketcap": "119583694848",
       "price": ""
     },
     {
       "rank": 100,
-      "symbol": "BMY",
-      "name": "Bristol-Myers Squibb",
-      "marketcap": "118205292544",
+      "symbol": "SBUX",
+      "name": "Starbucks",
+      "marketcap": "118597173248",
       "price": ""
     }
   ],
   "rising_stocks": [],
   "snapshot_dates": [
-    "06.29"
+    "06.29",
+    "06.30"
   ]
 }
