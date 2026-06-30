@@ -4283,14 +4283,76 @@ function processSpCsv(file) {
     // 날짜(isoDate) 기준 최신순 정렬
     S.spSnapshots.sort(function(a,b){ return (b.isoDate||'').localeCompare(a.isoDate||''); });
 
-    if(S.spSnapshots.length > 10) S.spSnapshots = S.spSnapshots.slice(0,10);
+if(S.spSnapshots.length > 10) S.spSnapshots = S.spSnapshots.slice(0,10);
     localStorage.setItem('sai_sp_snaps', JSON.stringify(S.spSnapshots));
     renderSpSnapshots();
     renderSpTable('all', document.querySelector('.sp-tab.active') || document.querySelector('.sp-tab'));
     updateSpRankChart();
     showToast(dateLabel + ' 기준 ' + data.length + '개 종목 데이터 로드됨');
+
+    // GitHub 저장소 data/snapshots/ 에 자동 백업
+    uploadSpCsvToGithub(file, dateLabel);
   };
   reader.readAsText(file);
+}
+
+// ── GitHub 저장소에 CSV 원본 자동 커밋 ──────────────────────────
+async function uploadSpCsvToGithub(file, dateLabel) {
+  var token = (document.getElementById('gh-token-input') || {}).value
+            || localStorage.getItem('gh_pat') || '';
+  if (!token) {
+    console.log('[GitHub Upload] 토큰 없음 — 클라우드 백업 스킵 (로컬에만 저장됨)');
+    return;
+  }
+
+  var OWNER = 'jaeheungjo-cmyk';
+  var REPO = 'stockai';
+  var path = 'data/snapshots/' + dateLabel + '.csv';
+
+  try {
+    var text = await file.text();
+    var base64Content = btoa(unescape(encodeURIComponent(text)));
+
+    // 기존 파일 있으면 sha 필요 (업데이트용)
+    var sha = null;
+    try {
+      var getRes = await fetch(
+        'https://api.github.com/repos/' + OWNER + '/' + REPO + '/contents/' + path,
+        { headers: { 'Authorization': 'token ' + token } }
+      );
+      if (getRes.ok) {
+        var getData = await getRes.json();
+        sha = getData.sha;
+      }
+    } catch (e) { /* 파일 없으면 무시 */ }
+
+    var putRes = await fetch(
+      'https://api.github.com/repos/' + OWNER + '/' + REPO + '/contents/' + path,
+      {
+        method: 'PUT',
+        headers: {
+          'Authorization': 'token ' + token,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          message: '📤 ' + dateLabel + ' S&P500 수동 업로드 (웹에서 자동 백업)',
+          content: base64Content,
+          sha: sha || undefined
+        })
+      }
+    );
+
+    if (putRes.ok) {
+      showToast('☁️ ' + dateLabel + ' GitHub 저장소에 자동 백업 완료');
+      console.log('[GitHub Upload] 성공:', path);
+    } else {
+      var errBody = await putRes.json();
+      console.log('[GitHub Upload] 실패:', putRes.status, errBody);
+      showToast('⚠️ GitHub 백업 실패 (토큰 권한 확인 필요)');
+    }
+  } catch (e) {
+    console.log('[GitHub Upload] 오류:', e);
+  }
 }
 function injectDefaultSpSnapshot() {
   var data=[
