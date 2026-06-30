@@ -4250,14 +4250,45 @@ function processSpCsv(file) {
       var cols = row.split(',').map(function(c){ var s=c.trim(); if(s.charAt(0)=='"'||s.charAt(0)=="'") s=s.slice(1); if(s.charAt(s.length-1)=='"'||s.charAt(s.length-1)=="'") s=s.slice(0,-1); return s.trim(); });
       return {rank:parseInt(cols[0])||0, name:cols[1]||'', symbol:cols[2]||'', mcap:parseFloat(cols[3])||0, price:parseFloat(cols[4])||0};
     }).filter(function(d){ return d.rank > 0 && d.symbol; });
-    var snap = {id:Date.now(), date:new Date().toLocaleDateString('ko-KR'), isoDate:new Date().toISOString().split('T')[0], label:new Date().toLocaleDateString('ko-KR',{year:'2-digit',month:'2-digit',day:'2-digit'})+' 업로드', data:data.slice(0,500)};
+
+    // 파일명에서 날짜 추출 (예: "06.24.csv" → "06.24")
+    var fileName = file.name.replace(/\.csv$/i, '');
+    var dateMatch = fileName.match(/(\d{1,2})[.\-_](\d{1,2})/);
+    var dateLabel, sortKey;
+    if (dateMatch) {
+      var mm = dateMatch[1].padStart(2, '0');
+      var dd = dateMatch[2].padStart(2, '0');
+      dateLabel = mm + '.' + dd;
+      // 정렬용 키: 현재 연도 기준 YYYY-MM-DD (연도 넘어가는 경우는 추후 수동 보정 가능)
+      var year = new Date().getFullYear();
+      sortKey = year + '-' + mm + '-' + dd;
+    } else {
+      // 파일명에서 날짜를 못 찾으면 업로드 시각으로 폴백
+      dateLabel = new Date().toLocaleDateString('ko-KR',{year:'2-digit',month:'2-digit',day:'2-digit'});
+      sortKey = new Date().toISOString().split('T')[0];
+    }
+
+    var snap = {
+      id: Date.now(),
+      date: dateLabel,
+      isoDate: sortKey,
+      label: dateLabel + ' 업로드',
+      data: data.slice(0,500)
+    };
+
+    // 같은 날짜(파일명) 라벨 있으면 교체, 없으면 추가
+    S.spSnapshots = S.spSnapshots.filter(function(s){ return s.date !== dateLabel; });
     S.spSnapshots.unshift(snap);
+
+    // 날짜(isoDate) 기준 최신순 정렬
+    S.spSnapshots.sort(function(a,b){ return (b.isoDate||'').localeCompare(a.isoDate||''); });
+
     if(S.spSnapshots.length > 10) S.spSnapshots = S.spSnapshots.slice(0,10);
     localStorage.setItem('sai_sp_snaps', JSON.stringify(S.spSnapshots));
     renderSpSnapshots();
     renderSpTable('all', document.querySelector('.sp-tab.active') || document.querySelector('.sp-tab'));
     updateSpRankChart();
-    showToast(data.length + '개 종목 데이터 로드됨');
+    showToast(dateLabel + ' 기준 ' + data.length + '개 종목 데이터 로드됨');
   };
   reader.readAsText(file);
 }
