@@ -7015,17 +7015,28 @@ function eaShowSharingGuide() {
       if (!data || !data.rankings || !data.rankings.length) return;
 
       const label = data.date_label || 'AUTO';
-      const rows = data.rankings.map(function(r) {
-        return { rank: r.rank, symbol: r.symbol, name: r.name, marketcap: r.marketcap, price: r.price, country: 'USA' };
-      });
-      const autoSnap = { date: label, label: '🤖 ' + label + ' (자동)', data: rows, auto: true };
+const year = new Date().getFullYear();
+const isoDate = year + '-' + label.replace('.', '-').padStart(5,'0');
+const rows = data.rankings.map(function(r) {
+  return { rank: r.rank, symbol: r.symbol, name: r.name, mcap: parseFloat(r.marketcap)||0, price: parseFloat(r.price)||0, country: 'USA' };
+});
+const autoSnap = {
+  id: Date.now(),
+  date: label,
+  isoDate: isoDate,
+  label: '🤖' + label,
+  data: rows,
+  auto: true
+};
 
-      let snaps = [];
-      try { snaps = JSON.parse(localStorage.getItem(LS_KEY) || '[]'); } catch(e) {}
-      snaps = snaps.filter(function(s) { return s.date !== label; });
-      snaps.unshift(autoSnap);
-      if (snaps.length > 10) snaps = snaps.slice(0, 10);
-      localStorage.setItem(LS_KEY, JSON.stringify(snaps));
+let snaps = [];
+try { snaps = JSON.parse(localStorage.getItem(LS_KEY) || '[]'); } catch(e) {}
+snaps = snaps.filter(function(s) { return s.date !== label; });
+snaps.unshift(autoSnap);
+// 날짜(isoDate) 기준 최신순 정렬 — 수동 업로드와 동일한 기준 적용
+snaps.sort(function(a,b){ return (b.isoDate||'').localeCompare(a.isoDate||''); });
+if (snaps.length > 10) snaps = snaps.slice(0, 10);
+localStorage.setItem(LS_KEY, JSON.stringify(snaps));
 
       // 배너 내용 채우기 (HTML에 미리 삽입된 div 활용)
       const rising = (data.rising_stocks || []).slice(0, 5);
@@ -7051,8 +7062,10 @@ function eaShowSharingGuide() {
         tries++;
         if (window.S && Array.isArray(window.S.spSnapshots)) {
           clearInterval(timer);
-          window.S.spSnapshots = snaps;
-          if (typeof renderSpSnapshots === 'function') renderSpSnapshots();
+window.S.spSnapshots = snaps.slice().sort(function(a,b){ return (b.isoDate||'').localeCompare(a.isoDate||''); });
+if (typeof renderSpSnapshots === 'function') renderSpSnapshots();
+if (typeof renderSpTable === 'function') renderSpTable('all', document.querySelector('.sp-tab.active'));
+if (typeof updateSpRankChart === 'function') updateSpRankChart();
         }
         if (tries >= 50) clearInterval(timer);
       }, 200);
