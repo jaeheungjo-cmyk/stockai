@@ -2692,7 +2692,7 @@ function smSwitchTab(tab) {
   }
 }
 
-function openStockModal(ticker) {
+async function openStockModal(ticker) {
   SM_CURRENT_TICKER = ticker;
   SM_CURRENT_TAB = 'chart';
   document.getElementById('sm-title').textContent = ticker;
@@ -2700,9 +2700,10 @@ function openStockModal(ticker) {
 
   var base = S.prices[ticker] ? S.prices[ticker].price : 200;
   var pct  = S.prices[ticker] ? S.prices[ticker].pct : 0;
+
+  // 우선 mock으로 즉시 표시(로딩 체감 개선) 후, 실제 데이터로 교체
   var px = mockPx(base);
   SM_CURRENT_PX = px;
-
   // 가격 배지
   var pbEl = document.getElementById('sm-price-badge');
   var ppEl = document.getElementById('sm-pct-badge');
@@ -2742,7 +2743,36 @@ function openStockModal(ticker) {
   ].map(function(s){
     return '<div style="background:var(--bg3);border-radius:var(--r);padding:9px 11px"><div style="font-size:10px;color:var(--text3);margin-bottom:3px">'+s.l+'</div><div style="font-size:14px;font-weight:700;font-family:var(--mono);color:'+s.c+'">'+s.v+'</div></div>';
   }).join('');
+// ── 실제 30일 데이터로 비동기 교체 ──
+  fetchRealPx(ticker, base).then(function(realPx) {
+    if (SM_CURRENT_TICKER !== ticker) return; // 그 사이 다른 종목으로 모달이 바뀌었으면 무시
+    SM_CURRENT_PX = realPx;
 
+    if (S.charts.sm) {
+      S.charts.sm.data.datasets[0].data = realPx;
+      S.charts.sm.update();
+    }
+    var high2 = Math.max.apply(null, realPx), low2 = Math.min.apply(null, realPx);
+    var rsi2 = calcRSI(realPx), sma20_2 = calcSMA(realPx, 20);
+    var statsRow2 = document.getElementById('sm-stats-row');
+    if (statsRow2) statsRow2.innerHTML = [
+      {l:'30일 고점', v:'$'+high2.toFixed(2), c:'var(--green)'},
+      {l:'30일 저점', v:'$'+low2.toFixed(2), c:'var(--red)'},
+      {l:'RSI (14)', v:rsi2.toFixed(0), c:rsi2>70?'var(--red)':rsi2<30?'var(--green)':'var(--text)'},
+      {l:'MA20', v:'$'+sma20_2.toFixed(2), c:'var(--accent)'}
+    ].map(function(s){
+      return '<div style="background:var(--bg3);border-radius:var(--r);padding:9px 11px"><div style="font-size:10px;color:var(--text3);margin-bottom:3px">'+s.l+'</div><div style="font-size:14px;font-weight:700;font-family:var(--mono);color:'+s.c+'">'+s.v+'</div></div>';
+    }).join('');
+
+    // 피보나치 탭이 이미 열려 있었다면 다시 렌더
+    if (SM_CURRENT_TAB === 'fib') {
+      renderFibonacci(ticker, realPx);
+    }
+  });
+
+  // 뉴스
+    // 날짜 필터 초기화
+  var smDateEl = document.getElementById('sm-news-date');
   // 뉴스
     // 날짜 필터 초기화
   var smDateEl = document.getElementById('sm-news-date');
@@ -2833,10 +2863,11 @@ function renderFibonacci(ticker, px) {
     // ── 4. 매수/매도 판단 ──
     var verdict, verdictClass, verdictIcon, verdictDesc;
     var buyTarget = null, sellTarget = null, stopLoss = null;
-    var rsi = calcRSI(px);
+var rsi = calcRSI(px);
     var sma20 = calcSMA(px, 20);
     var aboveSma = cur > sma20;
-
+    var stoch = calcStochastic(px, 14, 1, 3);
+      
     var lv618 = retByLabel('61.8%').price;
     var lv382 = retByLabel('38.2%').price;
     var lv236 = retByLabel('23.6%').price;
