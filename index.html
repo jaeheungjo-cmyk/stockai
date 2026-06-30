@@ -4298,8 +4298,8 @@ if(S.spSnapshots.length > 10) S.spSnapshots = S.spSnapshots.slice(0,10);
 
 // ── GitHub 저장소에 CSV 원본 자동 커밋 ──────────────────────────
 async function uploadSpCsvToGithub(file, dateLabel) {
-  var token = (document.getElementById('gh-token-input') || {}).value
-            || localStorage.getItem('gh_pat') || '';
+var token = (document.getElementById('sync-gh-token') || {}).value
+            || localStorage.getItem('sai_gh_token') || '';
   if (!token) {
     console.log('[GitHub Upload] 토큰 없음 — 클라우드 백업 스킵 (로컬에만 저장됨)');
     return;
