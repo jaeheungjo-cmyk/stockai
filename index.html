@@ -653,9 +653,13 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);min-height:1
       기업별 실적분석
       <span class="nav-badge" style="background:rgba(45,212,191,.15);color:#2dd4bf">NEW</span>
     </div>
-    <div class="nav-item" onclick="openAlertModal();requestNotifyPermission()">
+<div class="nav-item" onclick="openAlertModal();requestNotifyPermission()">
       <svg viewBox="0 0 15 15" fill="none"><path d="M7.5 1.5a5 5 0 0 0-5 5v3l-1 1.5h12l-1-1.5v-3a5 5 0 0 0-5-5Z" stroke="currentColor" stroke-width="1.2"/><path d="M6 12.5a1.5 1.5 0 0 0 3 0" stroke="currentColor" stroke-width="1.2"/></svg>
       알림 설정
+    </div>
+    <div class="nav-item" onclick="startVoiceBriefing()" id="voice-briefing-btn" title="AI 음성 브리핑">
+      <svg viewBox="0 0 15 15" fill="none"><circle cx="7.5" cy="5" r="2.5" stroke="currentColor" stroke-width="1.2"/><path d="M3 12c0-2.5 2-4 4.5-4s4.5 1.5 4.5 4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/><path d="M11.5 6.5c.8-.5 1-1.5.5-2" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/><path d="M3.5 6.5c-.8-.5-1-1.5-.5-2" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+      🔊 음성 브리핑
     </div>
   </div>
   <div class="watch-area">
@@ -7404,6 +7408,189 @@ if (typeof updateSpRankChart === 'function') updateSpRankChart();
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', load);
   else load();
 })();
+  // ══════════════════════════════════════════════════════════════
+// ── 음성 브리핑 엔진 (Web Speech API TTS) ─────────────────────
+// ══════════════════════════════════════════════════════════════
+
+var _voiceSpeaking = false;
+
+function voiceSpeak(text, onEnd) {
+  if (!window.speechSynthesis) {
+    showToast('이 브라우저는 음성 기능을 지원하지 않습니다.');
+    return;
+  }
+  window.speechSynthesis.cancel();
+  var utter = new SpeechSynthesisUtterance(text);
+  utter.lang = 'ko-KR';
+  utter.rate = 1.05;
+  utter.pitch = 1.0;
+  utter.volume = 1.0;
+
+  // 한국어 음성 선택 (있으면 우선 적용)
+  var voices = window.speechSynthesis.getVoices();
+  var koVoice = voices.find(function(v){ return v.lang === 'ko-KR'; });
+  if (koVoice) utter.voice = koVoice;
+
+  utter.onend = function() {
+    _voiceSpeaking = false;
+    var btn = document.getElementById('voice-briefing-btn');
+    if (btn) btn.style.color = '';
+    if (typeof onEnd === 'function') onEnd();
+  };
+  utter.onerror = function() { _voiceSpeaking = false; };
+
+  _voiceSpeaking = true;
+  var btn = document.getElementById('voice-briefing-btn');
+  if (btn) btn.style.color = 'var(--accent)';
+  window.speechSynthesis.speak(utter);
+}
+
+function stopVoice() {
+  if (window.speechSynthesis) window.speechSynthesis.cancel();
+  _voiceSpeaking = false;
+  var btn = document.getElementById('voice-briefing-btn');
+  if (btn) btn.style.color = '';
+}
+
+async function startVoiceBriefing() {
+  // 이미 말하는 중이면 중지
+  if (_voiceSpeaking) {
+    stopVoice();
+    showToast('음성 브리핑 중지');
+    return;
+  }
+
+  showToast('🔊 음성 브리핑 준비 중...');
+
+  var scripts = []; // 읽을 문장 목록
+
+  // ── 1. 인사 ──
+  var now = new Date();
+  var hour = now.getHours();
+  var greeting = hour < 12 ? '좋은 아침입니다' : hour < 18 ? '안녕하세요' : '안녕하세요';
+  scripts.push(greeting + '. StockAI 음성 브리핑을 시작합니다.');
+
+  // ── 2. 매수/매도 알림 조건 달성 종목 ──
+  var alertHits = [];
+  S.watchlist.forEach(function(t) {
+    var p = S.prices[t];
+    var al = S.alerts[t];
+    if (!p || !al) return;
+    var cur = p.price;
+    if (al.buy && cur <= al.buy) {
+      alertHits.push(t + '가 매수 목표가 ' + al.buy.toFixed(0) + '달러에 도달했습니다. 현재가는 ' + cur.toFixed(0) + '달러입니다.');
+    }
+    if (al.sell && cur >= al.sell) {
+      alertHits.push(t + '가 매도 목표가 ' + al.sell.toFixed(0) + '달러에 도달했습니다. 현재가는 ' + cur.toFixed(0) + '달러입니다.');
+    }
+  });
+
+  if (alertHits.length > 0) {
+    scripts.push('가격 알림 달성 종목이 ' + alertHits.length + '개 있습니다.');
+    alertHits.forEach(function(s){ scripts.push(s); });
+  } else {
+    scripts.push('현재 가격 알림 조건에 달성된 종목은 없습니다.');
+  }
+
+  // ── 3. Stoch/RSI 신호 종목 요약 ──
+  var buySignals = [], sellSignals = [], watchBuy = [], watchSell = [];
+  S.watchlist.forEach(function(t) {
+    var p = S.prices[t];
+    if (!p) return;
+    var base = p.price;
+    var px = mockPx(base); // 실제 데이터 없을 경우 mock 사용
+    var rsi = calcRSI(px);
+    var stoch = calcStochastic(px, 14, 1, 3);
+    var kArr = stoch.kSeries, dArr = stoch.dSeries;
+
+    if (kArr.length >= 2 && dArr.length >= 2) {
+      var kNow = kArr[kArr.length-1], dNow = dArr[dArr.length-1];
+      var kPrev = kArr[kArr.length-2], dPrev = dArr[dArr.length-2];
+      var crossUp   = kPrev <= dPrev && kNow > dNow;
+      var crossDown = kPrev >= dPrev && kNow < dNow;
+
+      if (kNow < 20 && crossUp) {
+        buySignals.push(t + ' (Stoch ' + kNow.toFixed(0) + ', RSI ' + rsi.toFixed(0) + ')');
+      } else if (kNow > 80 && crossDown) {
+        sellSignals.push(t + ' (Stoch ' + kNow.toFixed(0) + ', RSI ' + rsi.toFixed(0) + ')');
+      } else if (kNow < 20) {
+        watchBuy.push(t + ' (Stoch ' + kNow.toFixed(0) + ')');
+      } else if (kNow > 80) {
+        watchSell.push(t + ' (Stoch ' + kNow.toFixed(0) + ')');
+      }
+    }
+  });
+
+  if (buySignals.length > 0) {
+    scripts.push('Stochastic 매수 신호 종목입니다. ' + buySignals.join(', ') + '.');
+  }
+  if (sellSignals.length > 0) {
+    scripts.push('Stochastic 매도 신호 종목입니다. ' + sellSignals.join(', ') + '.');
+  }
+  if (watchBuy.length > 0) {
+    scripts.push('과매도 구간 진입 — 돌파 대기 종목입니다. ' + watchBuy.join(', ') + '.');
+  }
+  if (watchSell.length > 0) {
+    scripts.push('과매수 구간 진입 — 돌파 대기 종목입니다. ' + watchSell.join(', ') + '.');
+  }
+  if (buySignals.length === 0 && sellSignals.length === 0 && watchBuy.length === 0 && watchSell.length === 0) {
+    scripts.push('현재 Stochastic 신호 종목은 없습니다.');
+  }
+
+  // ── 4. 전체 포트폴리오 현황 요약 ──
+  var total = S.watchlist.length;
+  var upCnt = 0, downCnt = 0;
+  var topUp = null, topUpPct = -Infinity;
+  var topDown = null, topDownPct = Infinity;
+
+  S.watchlist.forEach(function(t) {
+    var p = S.prices[t];
+    if (!p) return;
+    if (p.pct >= 0) { upCnt++; } else { downCnt++; }
+    if (p.pct > topUpPct) { topUpPct = p.pct; topUp = t; }
+    if (p.pct < topDownPct) { topDownPct = p.pct; topDown = t; }
+  });
+
+  scripts.push(
+    '포트폴리오 현황입니다. 관심 종목 ' + total + '개 중 ' +
+    upCnt + '개 상승, ' + downCnt + '개 하락 중입니다.'
+  );
+  if (topUp) {
+    scripts.push('가장 많이 오른 종목은 ' + topUp + '으로 ' + topUpPct.toFixed(1) + '퍼센트 상승했습니다.');
+  }
+  if (topDown && topDown !== topUp) {
+    scripts.push('가장 많이 내린 종목은 ' + topDown + '으로 ' + Math.abs(topDownPct).toFixed(1) + '퍼센트 하락했습니다.');
+  }
+
+  // ── 5. 최신 뉴스 헤드라인 (저장된 것 기준) ──
+  var storedNews = [];
+  try {
+    var allNews = JSON.parse(localStorage.getItem('sai_news') || '[]');
+    // 관심 종목 관련 뉴스만, 최신 3개
+    storedNews = allNews
+      .filter(function(n){ return S.watchlist.indexOf(n.ticker) > -1; })
+      .slice(0, 3);
+  } catch(e) {}
+
+  if (storedNews.length > 0) {
+    scripts.push('관련 최신 뉴스입니다.');
+    storedNews.forEach(function(n) {
+      scripts.push(n.ticker + ' 관련 뉴스. ' + (n.headline || n.title || '').slice(0, 80) + '.');
+    });
+  }
+
+  // ── 6. 마무리 ──
+  scripts.push('이상으로 음성 브리핑을 마칩니다. 좋은 투자 되세요.');
+
+  // ── 문장 순차 읽기 ──
+  var idx = 0;
+  function readNext() {
+    if (idx >= scripts.length) return;
+    var text = scripts[idx++];
+    voiceSpeak(text, readNext);
+  }
+  readNext();
+}
 </script>
 </body>
 </html>
