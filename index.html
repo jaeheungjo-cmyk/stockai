@@ -3396,7 +3396,7 @@ function ytLoadFromFile(input){
   reader.onload = function(e){
     var csv = e.target.result;
     // 깨진 인코딩 감지: 한글 영역에 replacement char가 많으면 EUC-KR로 재시도
-    var brokenCount = (csv.match(/�/g)||[]).length;
+    var brokenCount = (csv.match(/ /g)||[]).length;
     if(brokenCount > 5){
       // EUC-KR로 재시도
       var reader2 = new FileReader();
