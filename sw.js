@@ -1,5 +1,5 @@
 // StockAI Service Worker — 오프라인 지원 + 캐시 관리
-const CACHE_NAME = 'stockai-v1';
+const CACHE_NAME = 'stockai-v9';
 const STATIC_ASSETS = [
   './index.html',
   './manifest.json',
