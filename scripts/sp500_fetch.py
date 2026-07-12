@@ -26,7 +26,7 @@ OUTPUT_FILE = DATA_DIR / "sp500_latest.json"
 # 연속 상승 판정 기준: 최근 N개 스냅샷에서 모두 순위가 올라야 함
 RISING_WINDOW = 2          # 직전 스냅샷 대비 상승
 RISING_CONSECUTIVE = 2     # 연속 상승 횟수 (스냅샷 2개 = 6일치)
-TOP_N = 100                # 상위 N위 이내 종목만 분석
+TOP_N = 500                # 상위 N위 이내 종목만 분석
  
 # KST 기준 오늘 날짜
 KST = timezone(timedelta(hours=9))
