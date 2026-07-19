@@ -4700,7 +4700,11 @@ function processSpCsv(file) {
 
     // 같은 날짜(실제 날짜=isoDate 기준) 스냅샷 있으면 교체, 없으면 추가
     // (라벨 문자열만 비교하면 자동수집 라벨과 표기가 달라 같은 날짜가 중복될 수 있음)
-    S.spSnapshots = S.spSnapshots.filter(function(s){ return (s.isoDate || s.date) !== sortKey; });
+S.spSnapshots = S.spSnapshots.filter(function(s){
+      var sameDate = (s.isoDate || s.date) === sortKey;
+      var isAuto = s.auto === true;
+      return !(sameDate && !isAuto);
+    });
     S.spSnapshots.unshift(snap);
 
     // 날짜(isoDate) 기준 최신순 정렬
@@ -7620,14 +7624,16 @@ const autoSnap = {
 
 let snaps = [];
 try { snaps = JSON.parse(localStorage.getItem(LS_KEY) || '[]'); } catch(e) {}
-// 라벨 문자열이 아니라 isoDate(실제 날짜) 기준으로 중복 제거.
-// 라벨 표기가 조금만 달라도(예: "7.8" vs "07.08") 같은 날짜가 두 개의
-// 스냅샷으로 남아있으면, 두 스냅샷의 순위가 사실상 동일해서
-// "관심필요" 판정에서 동률(tie)로 처리되어 연속 상승 종목이 전부 걸러지는
-// 문제가 있었음 → isoDate로 비교해 같은 날짜는 항상 하나만 남긴다.
-snaps = snaps.filter(function(s) { return (s.isoDate || s.date) !== isoDate; });
+
+// 자동 스냅샷과 같은 날짜인 자동 스냅샷만 제거 (수동 업로드는 절대 삭제 안 함)
+snaps = snaps.filter(function(s) {
+  var sameDate = (s.isoDate || s.date) === isoDate;
+  var isAuto = s.auto === true;
+  return !(sameDate && isAuto);
+});
 snaps.unshift(autoSnap);
-// 날짜(isoDate) 기준 최신순 정렬 — 수동 업로드와 동일한 기준 적용
+
+// 날짜(isoDate) 기준 최신순 정렬
 snaps.sort(function(a,b){ return (b.isoDate||'').localeCompare(a.isoDate||''); });
 if (snaps.length > 10) snaps = snaps.slice(0, 10);
 localStorage.setItem(LS_KEY, JSON.stringify(snaps));
