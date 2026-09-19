@@ -1,3520 +1,3576 @@
 {
-  "updated_at": "2026-09-17 08:59 KST",
-  "date_label": "09.17",
+  "updated_at": "2026-09-20 08:49 KST",
+  "date_label": "09.20",
   "top_n": 500,
   "rankings": [
     {
       "rank": 1,
       "symbol": "NVDA",
       "name": "NVIDIA",
-      "marketcap": "5165043154944",
+      "marketcap": "5367153557504",
       "price": ""
     },
     {
       "rank": 2,
       "symbol": "AAPL",
       "name": "Apple",
-      "marketcap": "4851251544064",
+      "marketcap": "4905541566464",
       "price": ""
     },
     {
       "rank": 3,
       "symbol": "GOOG",
       "name": "Alphabet (Google)",
-      "marketcap": "4150350577664",
+      "marketcap": "4212111966208",
       "price": ""
     },
     {
       "rank": 4,
       "symbol": "MSFT",
       "name": "Microsoft",
-      "marketcap": "3640745000960",
+      "marketcap": "3666585845760",
       "price": ""
     },
     {
       "rank": 5,
       "symbol": "AMZN",
       "name": "Amazon",
-      "marketcap": "2653001613312",
+      "marketcap": "2736595664896",
       "price": ""
     },
     {
       "rank": 6,
       "symbol": "SPCX",
       "name": "SpaceX",
-      "marketcap": "1988866998272",
+      "marketcap": "2012989751296",
       "price": ""
     },
     {
       "rank": 7,
-      "symbol": "META",
-      "name": "Meta Platforms (Facebook)",
-      "marketcap": "1715261407232",
+      "symbol": "AVGO",
+      "name": "Broadcom",
+      "marketcap": "1707097718784",
       "price": ""
     },
     {
       "rank": 8,
-      "symbol": "AVGO",
-      "name": "Broadcom",
-      "marketcap": "1620695187456",
+      "symbol": "META",
+      "name": "Meta Platforms (Facebook)",
+      "marketcap": "1696002211840",
       "price": ""
     },
     {
       "rank": 9,
       "symbol": "TSLA",
       "name": "Tesla",
-      "marketcap": "1414253903872",
+      "marketcap": "1438701584384",
       "price": ""
     },
     {
       "rank": 10,
-      "symbol": "BRK-B",
-      "name": "Berkshire Hathaway",
-      "marketcap": "1112740855808",
+      "symbol": "MU",
+      "name": "Micron Technology",
+      "marketcap": "1147237564416",
       "price": ""
     },
     {
       "rank": 11,
-      "symbol": "MU",
-      "name": "Micron Technology",
-      "marketcap": "1046439198720",
+      "symbol": "BRK-B",
+      "name": "Berkshire Hathaway",
+      "marketcap": "1091269558272",
       "price": ""
     },
     {
       "rank": 12,
       "symbol": "LLY",
       "name": "Eli Lilly",
-      "marketcap": "1014641131520",
+      "marketcap": "1028115464192",
       "price": ""
     },
     {
       "rank": 13,
       "symbol": "JPM",
       "name": "JPMorgan Chase",
-      "marketcap": "927494373376",
+      "marketcap": "929488044032",
       "price": ""
     },
     {
       "rank": 14,
-      "symbol": "WMT",
-      "name": "Walmart",
-      "marketcap": "855493509120",
+      "symbol": "AMD",
+      "name": "AMD",
+      "marketcap": "913892179968",
       "price": ""
     },
     {
       "rank": 15,
-      "symbol": "AMD",
-      "name": "AMD",
-      "marketcap": "836643454976",
+      "symbol": "WMT",
+      "name": "Walmart",
+      "marketcap": "849365827584",
       "price": ""
     },
     {
       "rank": 16,
       "symbol": "V",
       "name": "Visa",
-      "marketcap": "692543815680",
+      "marketcap": "691411156992",
       "price": ""
     },
     {
       "rank": 17,
       "symbol": "XOM",
       "name": "Exxon Mobil",
-      "marketcap": "671557484544",
+      "marketcap": "672462077952",
       "price": ""
     },
     {
       "rank": 18,
       "symbol": "JNJ",
       "name": "Johnson & Johnson",
-      "marketcap": "644117692416",
+      "marketcap": "650648485888",
       "price": ""
     },
     {
       "rank": 19,
       "symbol": "INTC",
       "name": "Intel",
-      "marketcap": "534160932864",
+      "marketcap": "574070980608",
       "price": ""
     },
     {
       "rank": 20,
       "symbol": "MA",
       "name": "Mastercard",
-      "marketcap": "497354637312",
+      "marketcap": "495155838976",
       "price": ""
     },
     {
       "rank": 21,
       "symbol": "ABBV",
       "name": "AbbVie",
-      "marketcap": "463885991936",
+      "marketcap": "466448285696",
       "price": ""
     },
     {
       "rank": 22,
       "symbol": "ORCL",
       "name": "Oracle",
-      "marketcap": "432878059520",
+      "marketcap": "446333681664",
       "price": ""
     },
     {
       "rank": 23,
       "symbol": "CSCO",
       "name": "Cisco",
-      "marketcap": "424774303744",
+      "marketcap": "431752708096",
       "price": ""
     },
     {
       "rank": 24,
       "symbol": "PLTR",
       "name": "Palantir",
-      "marketcap": "418949201920",
+      "marketcap": "426879287296",
       "price": ""
     },
     {
       "rank": 25,
       "symbol": "CVX",
       "name": "Chevron",
-      "marketcap": "414957568000",
+      "marketcap": "410975502336",
       "price": ""
     },
     {
       "rank": 26,
       "symbol": "BAC",
       "name": "Bank of America",
-      "marketcap": "404880162816",
+      "marketcap": "403691372544",
       "price": ""
     },
     {
       "rank": 27,
       "symbol": "COST",
       "name": "Costco",
-      "marketcap": "396354748416",
+      "marketcap": "397051002880",
       "price": ""
     },
     {
       "rank": 28,
       "symbol": "KO",
       "name": "Coca-Cola",
-      "marketcap": "378064994304",
+      "marketcap": "379699953664",
       "price": ""
     },
     {
       "rank": 29,
       "symbol": "CAT",
       "name": "Caterpillar",
-      "marketcap": "359796703232",
+      "marketcap": "371872366592",
       "price": ""
     },
     {
       "rank": 30,
-      "symbol": "DELL",
-      "name": "Dell",
-      "marketcap": "358146932736",
+      "symbol": "MRK",
+      "name": "Merck",
+      "marketcap": "362353491968",
       "price": ""
     },
     {
       "rank": 31,
-      "symbol": "MRK",
-      "name": "Merck",
-      "marketcap": "357517852672",
+      "symbol": "DELL",
+      "name": "Dell",
+      "marketcap": "361179774976",
       "price": ""
     },
     {
       "rank": 32,
-      "symbol": "PG",
-      "name": "Procter & Gamble",
-      "marketcap": "341479292928",
+      "symbol": "LRCX",
+      "name": "Lam Research",
+      "marketcap": "360518057984",
       "price": ""
     },
     {
       "rank": 33,
-      "symbol": "LRCX",
-      "name": "Lam Research",
-      "marketcap": "336893149184",
+      "symbol": "AMAT",
+      "name": "Applied Materials",
+      "marketcap": "352809615360",
       "price": ""
     },
     {
       "rank": 34,
-      "symbol": "UNH",
-      "name": "UnitedHealth",
-      "marketcap": "336831447040",
+      "symbol": "PG",
+      "name": "Procter & Gamble",
+      "marketcap": "340016005120",
       "price": ""
     },
     {
       "rank": 35,
-      "symbol": "AMAT",
-      "name": "Applied Materials",
-      "marketcap": "329644507136",
+      "symbol": "UNH",
+      "name": "UnitedHealth",
+      "marketcap": "338303483904",
       "price": ""
     },
     {
       "rank": 36,
       "symbol": "GE",
       "name": "General Electric",
-      "marketcap": "324653285376",
+      "marketcap": "326074761216",
       "price": ""
     },
     {
       "rank": 37,
-      "symbol": "NFLX",
-      "name": "Netflix",
-      "marketcap": "318166630400",
+      "symbol": "MS",
+      "name": "Morgan Stanley",
+      "marketcap": "318165319680",
       "price": ""
     },
     {
       "rank": 38,
-      "symbol": "MS",
-      "name": "Morgan Stanley",
-      "marketcap": "317914021888",
+      "symbol": "HD",
+      "name": "Home Depot",
+      "marketcap": "299286921216",
       "price": ""
     },
     {
       "rank": 39,
-      "symbol": "PANW",
-      "name": "Palo Alto Networks",
-      "marketcap": "307281690624",
+      "symbol": "NFLX",
+      "name": "Netflix",
+      "marketcap": "298929225728",
       "price": ""
     },
     {
       "rank": 40,
-      "symbol": "HD",
-      "name": "Home Depot",
-      "marketcap": "301771161600",
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
+      "marketcap": "297408430080",
       "price": ""
     },
     {
       "rank": 41,
       "symbol": "PM",
       "name": "Philip Morris International",
-      "marketcap": "298801790976",
+      "marketcap": "293985648640",
       "price": ""
     },
     {
       "rank": 42,
       "symbol": "GS",
       "name": "Goldman Sachs",
-      "marketcap": "273112940544",
+      "marketcap": "274283446272",
       "price": ""
     },
     {
       "rank": 43,
-      "symbol": "RTX",
-      "name": "RTX",
-      "marketcap": "265279225856",
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "marketcap": "262356500480",
       "price": ""
     },
     {
       "rank": 44,
-      "symbol": "WFC",
-      "name": "Wells Fargo",
-      "marketcap": "263239139328",
+      "symbol": "RTX",
+      "name": "RTX",
+      "marketcap": "261465063424",
       "price": ""
     },
     {
       "rank": 45,
-      "symbol": "ANET",
-      "name": "Arista Networks",
-      "marketcap": "249142312960",
+      "symbol": "WFC",
+      "name": "Wells Fargo",
+      "marketcap": "260426825728",
       "price": ""
     },
     {
       "rank": 46,
-      "symbol": "CRWD",
-      "name": "CrowdStrike",
-      "marketcap": "247136911360",
+      "symbol": "ANET",
+      "name": "Arista Networks",
+      "marketcap": "251475591168",
       "price": ""
     },
     {
       "rank": 47,
       "symbol": "GEV",
       "name": "GE Vernova",
-      "marketcap": "246382542848",
+      "marketcap": "250441465856",
       "price": ""
     },
     {
       "rank": 48,
-      "symbol": "TMO",
-      "name": "Thermo Fisher Scientific",
-      "marketcap": "239755231232",
+      "symbol": "TXN",
+      "name": "Texas Instruments",
+      "marketcap": "243508379648",
       "price": ""
     },
     {
       "rank": 49,
-      "symbol": "TXN",
-      "name": "Texas Instruments",
-      "marketcap": "238056292352",
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
+      "marketcap": "243338117120",
       "price": ""
     },
     {
       "rank": 50,
-      "symbol": "IBM",
-      "name": "IBM",
-      "marketcap": "223747506176",
+      "symbol": "TMO",
+      "name": "Thermo Fisher Scientific",
+      "marketcap": "240871882752",
       "price": ""
     },
     {
       "rank": 51,
-      "symbol": "C",
-      "name": "Citigroup",
-      "marketcap": "223015223296",
+      "symbol": "KLAC",
+      "name": "KLA",
+      "marketcap": "231245725696",
       "price": ""
     },
     {
       "rank": 52,
-      "symbol": "SNDK",
-      "name": "Sandisk",
-      "marketcap": "222552489984",
+      "symbol": "C",
+      "name": "Citigroup",
+      "marketcap": "221035855872",
       "price": ""
     },
     {
       "rank": 53,
-      "symbol": "KLAC",
-      "name": "KLA",
-      "marketcap": "218663682048",
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "marketcap": "219508604928",
       "price": ""
     },
     {
       "rank": 54,
-      "symbol": "AXP",
-      "name": "American Express",
-      "marketcap": "210987040768",
+      "symbol": "IBM",
+      "name": "IBM",
+      "marketcap": "216266948608",
       "price": ""
     },
     {
       "rank": 55,
-      "symbol": "VZ",
-      "name": "Verizon",
-      "marketcap": "206741618688",
+      "symbol": "AXP",
+      "name": "American Express",
+      "marketcap": "210399526912",
       "price": ""
     },
     {
       "rank": 56,
-      "symbol": "MRVL",
-      "name": "Marvell Technology",
-      "marketcap": "206441447424",
+      "symbol": "AMGN",
+      "name": "Amgen",
+      "marketcap": "208494723072",
       "price": ""
     },
     {
       "rank": 57,
-      "symbol": "CRM",
-      "name": "Salesforce",
-      "marketcap": "206194409472",
+      "symbol": "VZ",
+      "name": "Verizon",
+      "marketcap": "199803142144",
       "price": ""
     },
     {
       "rank": 58,
-      "symbol": "AMGN",
-      "name": "Amgen",
-      "marketcap": "203466850304",
+      "symbol": "CRM",
+      "name": "Salesforce",
+      "marketcap": "195808165888",
       "price": ""
     },
     {
       "rank": 59,
-      "symbol": "QCOM",
-      "name": "QUALCOMM",
-      "marketcap": "197420302336",
+      "symbol": "APH",
+      "name": "Amphenol",
+      "marketcap": "191235735552",
       "price": ""
     },
     {
       "rank": 60,
-      "symbol": "APH",
-      "name": "Amphenol",
-      "marketcap": "190520606720",
+      "symbol": "QCOM",
+      "name": "QUALCOMM",
+      "marketcap": "189815717888",
       "price": ""
     },
     {
       "rank": 61,
-      "symbol": "TMUS",
-      "name": "T-Mobile US",
-      "marketcap": "189069099008",
+      "symbol": "GILD",
+      "name": "Gilead Sciences",
+      "marketcap": "186129678336",
       "price": ""
     },
     {
       "rank": 62,
-      "symbol": "DIS",
-      "name": "Walt Disney",
-      "marketcap": "184738217984",
+      "symbol": "DE",
+      "name": "Deere &amp; Company (John Deere)",
+      "marketcap": "184421072896",
       "price": ""
     },
     {
       "rank": 63,
-      "symbol": "PEP",
-      "name": "Pepsico",
-      "marketcap": "183508434944",
+      "symbol": "ADI",
+      "name": "Analog Devices",
+      "marketcap": "182060941312",
       "price": ""
     },
     {
       "rank": 64,
-      "symbol": "GILD",
-      "name": "Gilead Sciences",
-      "marketcap": "183116578816",
+      "symbol": "SCHW",
+      "name": "Charles Schwab",
+      "marketcap": "182012575744",
       "price": ""
     },
     {
       "rank": 65,
-      "symbol": "SCHW",
-      "name": "Charles Schwab",
-      "marketcap": "181856944128",
+      "symbol": "TMUS",
+      "name": "T-Mobile US",
+      "marketcap": "180401897472",
       "price": ""
     },
     {
       "rank": 66,
-      "symbol": "DE",
-      "name": "Deere &amp; Company (John Deere)",
-      "marketcap": "180506116096",
+      "symbol": "ABT",
+      "name": "Abbott Laboratories",
+      "marketcap": "177554636800",
       "price": ""
     },
     {
       "rank": 67,
-      "symbol": "T",
-      "name": "AT&T",
-      "marketcap": "177202708480",
+      "symbol": "DIS",
+      "name": "Walt Disney",
+      "marketcap": "177278943232",
       "price": ""
     },
     {
       "rank": 68,
-      "symbol": "ABT",
-      "name": "Abbott Laboratories",
-      "marketcap": "177122033664",
+      "symbol": "PEP",
+      "name": "Pepsico",
+      "marketcap": "177238507520",
       "price": ""
     },
     {
       "rank": 69,
       "symbol": "MCD",
       "name": "McDonald",
-      "marketcap": "175891382272",
+      "marketcap": "175664939008",
       "price": ""
     },
     {
       "rank": 70,
-      "symbol": "ADI",
-      "name": "Analog Devices",
-      "marketcap": "175432089600",
+      "symbol": "T",
+      "name": "AT&T",
+      "marketcap": "174050590720",
       "price": ""
     },
     {
       "rank": 71,
-      "symbol": "WELL",
-      "name": "Welltower",
-      "marketcap": "168974139392",
+      "symbol": "BLK",
+      "name": "BlackRock",
+      "marketcap": "173813792768",
       "price": ""
     },
     {
       "rank": 72,
-      "symbol": "BLK",
-      "name": "BlackRock",
-      "marketcap": "168526807040",
+      "symbol": "NEE",
+      "name": "Nextera Energy",
+      "marketcap": "167858667520",
       "price": ""
     },
     {
       "rank": 73,
-      "symbol": "NEE",
-      "name": "Nextera Energy",
-      "marketcap": "167650082816",
+      "symbol": "UNP",
+      "name": "Union Pacific Corporation",
+      "marketcap": "165966872576",
       "price": ""
     },
     {
       "rank": 74,
-      "symbol": "UNP",
-      "name": "Union Pacific Corporation",
-      "marketcap": "166887702528",
+      "symbol": "SCCO",
+      "name": "Southern Copper",
+      "marketcap": "165238063104",
       "price": ""
     },
     {
       "rank": 75,
-      "symbol": "SCCO",
-      "name": "Southern Copper",
-      "marketcap": "160323977216",
+      "symbol": "WELL",
+      "name": "Welltower",
+      "marketcap": "164917313536",
       "price": ""
     },
     {
       "rank": 76,
-      "symbol": "BA",
-      "name": "Boeing",
-      "marketcap": "159623135232",
+      "symbol": "WDC",
+      "name": "Western Digital",
+      "marketcap": "159128338432",
       "price": ""
     },
     {
       "rank": 77,
       "symbol": "COP",
       "name": "ConocoPhillips",
-      "marketcap": "159225266176",
+      "marketcap": "158372315136",
       "price": ""
     },
     {
       "rank": 78,
       "symbol": "PFE",
       "name": "Pfizer",
-      "marketcap": "156513026048",
+      "marketcap": "157652975616",
       "price": ""
     },
     {
       "rank": 79,
-      "symbol": "WDC",
-      "name": "Western Digital",
-      "marketcap": "150334750720",
+      "symbol": "BA",
+      "name": "Boeing",
+      "marketcap": "156651339776",
       "price": ""
     },
     {
       "rank": 80,
       "symbol": "IBKR",
       "name": "Interactive Brokers",
-      "marketcap": "147788955648",
+      "marketcap": "154519044096",
       "price": ""
     },
     {
       "rank": 81,
       "symbol": "BX",
       "name": "Blackstone Group",
-      "marketcap": "147559514112",
+      "marketcap": "149364408320",
       "price": ""
     },
     {
       "rank": 82,
       "symbol": "DHR",
       "name": "Danaher",
-      "marketcap": "146474172416",
+      "marketcap": "148899479552",
       "price": ""
     },
     {
       "rank": 83,
       "symbol": "UBER",
       "name": "Uber",
-      "marketcap": "144960487424",
+      "marketcap": "144000483328",
       "price": ""
     },
     {
       "rank": 84,
-      "symbol": "NOW",
-      "name": "ServiceNow",
-      "marketcap": "144554590208",
+      "symbol": "ISRG",
+      "name": "Intuitive Surgical",
+      "marketcap": "140921503744",
       "price": ""
     },
     {
       "rank": 85,
-      "symbol": "ISRG",
-      "name": "Intuitive Surgical",
-      "marketcap": "136966119424",
+      "symbol": "NOW",
+      "name": "ServiceNow",
+      "marketcap": "140057280512",
       "price": ""
     },
     {
       "rank": 86,
       "symbol": "TJX",
       "name": "TJX Companies",
-      "marketcap": "135120805888",
+      "marketcap": "139960696832",
       "price": ""
     },
     {
       "rank": 87,
-      "symbol": "VRTX",
-      "name": "Vertex Pharmaceuticals",
-      "marketcap": "130091360256",
+      "symbol": "PLD",
+      "name": "Prologis",
+      "marketcap": "131076800512",
       "price": ""
     },
     {
       "rank": 88,
-      "symbol": "PLD",
-      "name": "Prologis",
-      "marketcap": "130007506944",
+      "symbol": "NEM",
+      "name": "Newmont",
+      "marketcap": "130036170752",
       "price": ""
     },
     {
       "rank": 89,
-      "symbol": "BMY",
-      "name": "Bristol-Myers Squibb",
-      "marketcap": "129916649472",
+      "symbol": "GLW",
+      "name": "Corning",
+      "marketcap": "129320239104",
       "price": ""
     },
     {
       "rank": 90,
-      "symbol": "BKNG",
-      "name": "Booking Holdings (Booking.com)",
-      "marketcap": "128786612224",
+      "symbol": "VRTX",
+      "name": "Vertex Pharmaceuticals",
+      "marketcap": "128844324864",
       "price": ""
     },
     {
       "rank": 91,
-      "symbol": "NEM",
-      "name": "Newmont",
-      "marketcap": "128297574400",
+      "symbol": "BMY",
+      "name": "Bristol-Myers Squibb",
+      "marketcap": "128813588480",
       "price": ""
     },
     {
       "rank": 92,
-      "symbol": "PGR",
-      "name": "Progressive",
-      "marketcap": "126092902400",
+      "symbol": "BKNG",
+      "name": "Booking Holdings (Booking.com)",
+      "marketcap": "126156775424",
       "price": ""
     },
     {
       "rank": 93,
       "symbol": "FTNT",
       "name": "Fortinet",
-      "marketcap": "126029996032",
+      "marketcap": "124613926912",
       "price": ""
     },
     {
       "rank": 94,
       "symbol": "COF",
       "name": "Capital One",
-      "marketcap": "124653993984",
+      "marketcap": "124187738112",
       "price": ""
     },
     {
       "rank": 95,
-      "symbol": "GLW",
-      "name": "Corning",
-      "marketcap": "124177752064",
+      "symbol": "PGR",
+      "name": "Progressive",
+      "marketcap": "124053233664",
       "price": ""
     },
     {
       "rank": 96,
       "symbol": "LMT",
       "name": "Lockheed Martin",
-      "marketcap": "123992334336",
+      "marketcap": "123099168768",
       "price": ""
     },
     {
       "rank": 97,
       "symbol": "SPGI",
       "name": "S&P Global",
-      "marketcap": "119912849408",
+      "marketcap": "119488339968",
       "price": ""
     },
     {
       "rank": 98,
-      "symbol": "CVS",
-      "name": "CVS Health",
-      "marketcap": "117307162624",
+      "symbol": "MPC",
+      "name": "Marathon Petroleum",
+      "marketcap": "119319642112",
       "price": ""
     },
     {
       "rank": 99,
-      "symbol": "MO",
-      "name": "Altria Group",
-      "marketcap": "117049040896",
+      "symbol": "VLO",
+      "name": "Valero Energy",
+      "marketcap": "118994657280",
       "price": ""
     },
     {
       "rank": 100,
-      "symbol": "SNOW",
-      "name": "Snowflake",
-      "marketcap": "116783849472",
+      "symbol": "PH",
+      "name": "Parker-Hannifin",
+      "marketcap": "118930825216",
       "price": ""
     },
     {
       "rank": 101,
-      "symbol": "MPC",
-      "name": "Marathon Petroleum",
-      "marketcap": "116238991360",
+      "symbol": "SNOW",
+      "name": "Snowflake",
+      "marketcap": "117281300480",
       "price": ""
     },
     {
       "rank": 102,
-      "symbol": "VLO",
-      "name": "Valero Energy",
-      "marketcap": "116115382272",
+      "symbol": "MO",
+      "name": "Altria Group",
+      "marketcap": "116080590848",
       "price": ""
     },
     {
       "rank": 103,
-      "symbol": "PH",
-      "name": "Parker-Hannifin",
-      "marketcap": "115806117888",
+      "symbol": "NET",
+      "name": "Cloudflare",
+      "marketcap": "115227394048",
       "price": ""
     },
     {
       "rank": 104,
-      "symbol": "NET",
-      "name": "Cloudflare",
-      "marketcap": "115601276928",
+      "symbol": "CVS",
+      "name": "CVS Health",
+      "marketcap": "113623719936",
       "price": ""
     },
     {
       "rank": 105,
-      "symbol": "SBUX",
-      "name": "Starbucks",
-      "marketcap": "110967595008",
+      "symbol": "PSX",
+      "name": "Phillips 66",
+      "marketcap": "109507379200",
       "price": ""
     },
     {
       "rank": 106,
-      "symbol": "APP",
-      "name": "AppLovin",
-      "marketcap": "109704404992",
+      "symbol": "SBUX",
+      "name": "Starbucks",
+      "marketcap": "109246201856",
       "price": ""
     },
     {
       "rank": 107,
-      "symbol": "SYK",
-      "name": "Stryker Corporation",
-      "marketcap": "109226270720",
+      "symbol": "LOW",
+      "name": "Lowe's Companies",
+      "marketcap": "107997290496",
       "price": ""
     },
     {
       "rank": 108,
-      "symbol": "LOW",
-      "name": "Lowe's Companies",
-      "marketcap": "108900589568",
+      "symbol": "ADP",
+      "name": "Automatic Data Processing",
+      "marketcap": "107745607680",
       "price": ""
     },
     {
       "rank": 109,
-      "symbol": "ADP",
-      "name": "Automatic Data Processing",
-      "marketcap": "108528214016",
+      "symbol": "HOOD",
+      "name": "Robinhood",
+      "marketcap": "107728044032",
       "price": ""
     },
     {
       "rank": 110,
-      "symbol": "PSX",
-      "name": "Phillips 66",
-      "marketcap": "106099433472",
+      "symbol": "SYK",
+      "name": "Stryker Corporation",
+      "marketcap": "105528614912",
       "price": ""
     },
     {
       "rank": 111,
       "symbol": "BNY",
       "name": "BNY Mellon (Bank of New York Mellon)",
-      "marketcap": "104130027520",
+      "marketcap": "104347148288",
       "price": ""
     },
     {
       "rank": 112,
-      "symbol": "MCK",
-      "name": "McKesson",
-      "marketcap": "103449460736",
+      "symbol": "APP",
+      "name": "AppLovin",
+      "marketcap": "103489527808",
       "price": ""
     },
     {
       "rank": 113,
-      "symbol": "ABNB",
-      "name": "Airbnb",
-      "marketcap": "100302585856",
+      "symbol": "FCX",
+      "name": "Freeport-McMoRan",
+      "marketcap": "102732693504",
       "price": ""
     },
     {
       "rank": 114,
-      "symbol": "EQIX",
-      "name": "Equinix",
-      "marketcap": "100266221568",
+      "symbol": "MCK",
+      "name": "McKesson",
+      "marketcap": "101975760896",
       "price": ""
     },
     {
       "rank": 115,
-      "symbol": "ADBE",
-      "name": "Adobe",
-      "marketcap": "99573751808",
+      "symbol": "EQIX",
+      "name": "Equinix",
+      "marketcap": "100777345024",
       "price": ""
     },
     {
       "rank": 116,
-      "symbol": "FCX",
-      "name": "Freeport-McMoRan",
-      "marketcap": "99429851136",
+      "symbol": "ABNB",
+      "name": "Airbnb",
+      "marketcap": "99530153984",
       "price": ""
     },
     {
       "rank": 117,
-      "symbol": "SO",
-      "name": "Southern Company",
-      "marketcap": "99195805696",
+      "symbol": "CME",
+      "name": "CME Group",
+      "marketcap": "99247472640",
       "price": ""
     },
     {
       "rank": 118,
-      "symbol": "CME",
-      "name": "CME Group",
-      "marketcap": "97970962432",
+      "symbol": "ADBE",
+      "name": "Adobe",
+      "marketcap": "98945695744",
       "price": ""
     },
     {
       "rank": 119,
-      "symbol": "GD",
-      "name": "General Dynamics",
-      "marketcap": "97400586240",
+      "symbol": "SO",
+      "name": "Southern Company",
+      "marketcap": "98379038720",
       "price": ""
     },
     {
       "rank": 120,
-      "symbol": "HOOD",
-      "name": "Robinhood",
-      "marketcap": "93882171392",
+      "symbol": "VRT",
+      "name": "Vertiv Holdings",
+      "marketcap": "96012197888",
       "price": ""
     },
     {
       "rank": 121,
-      "symbol": "HCA",
-      "name": "HCA Healthcare",
-      "marketcap": "93188743168",
+      "symbol": "PWR",
+      "name": "Quanta Services",
+      "marketcap": "95725142016",
       "price": ""
     },
     {
       "rank": 122,
-      "symbol": "PWR",
-      "name": "Quanta Services",
-      "marketcap": "93104660480",
+      "symbol": "GD",
+      "name": "General Dynamics",
+      "marketcap": "95520210944",
       "price": ""
     },
     {
       "rank": 123,
       "symbol": "USB",
       "name": "U.S. Bancorp",
-      "marketcap": "93062414336",
+      "marketcap": "93576568832",
       "price": ""
     },
     {
       "rank": 124,
       "symbol": "PNC",
       "name": "PNC Financial Services",
-      "marketcap": "92351471616",
+      "marketcap": "93021700096",
       "price": ""
     },
     {
       "rank": 125,
-      "symbol": "VRT",
-      "name": "Vertiv Holdings",
-      "marketcap": "92170018816",
+      "symbol": "HCA",
+      "name": "HCA Healthcare",
+      "marketcap": "92599853056",
       "price": ""
     },
     {
       "rank": 126,
-      "symbol": "CEG",
-      "name": "Constellation Energy",
-      "marketcap": "91953397760",
+      "symbol": "DUK",
+      "name": "Duke Energy",
+      "marketcap": "91638398976",
       "price": ""
     },
     {
       "rank": 127,
-      "symbol": "DUK",
-      "name": "Duke Energy",
-      "marketcap": "91817730048",
+      "symbol": "HWM",
+      "name": "Howmet Aerospace",
+      "marketcap": "91592720384",
       "price": ""
     },
     {
       "rank": 128,
-      "symbol": "HWM",
-      "name": "Howmet Aerospace",
-      "marketcap": "90819043328",
+      "symbol": "KKR",
+      "name": "KKR & Co.",
+      "marketcap": "91259977728",
       "price": ""
     },
     {
       "rank": 129,
-      "symbol": "ELV",
-      "name": "Elevance Health",
-      "marketcap": "89471598592",
+      "symbol": "CEG",
+      "name": "Constellation Energy",
+      "marketcap": "90245636096",
       "price": ""
     },
     {
       "rank": 130,
-      "symbol": "KKR",
-      "name": "KKR & Co.",
-      "marketcap": "89440501760",
+      "symbol": "ELV",
+      "name": "Elevance Health",
+      "marketcap": "89122439168",
       "price": ""
     },
     {
       "rank": 131,
-      "symbol": "CSX",
-      "name": "CSX Corporation",
-      "marketcap": "88733548544",
+      "symbol": "MAR",
+      "name": "Marriott International",
+      "marketcap": "88378916864",
       "price": ""
     },
     {
       "rank": 132,
-      "symbol": "MAR",
-      "name": "Marriott International",
-      "marketcap": "87348887552",
+      "symbol": "WMB",
+      "name": "Williams Companies",
+      "marketcap": "88129224704",
       "price": ""
     },
     {
       "rank": 133,
       "symbol": "MNST",
       "name": "Monster Beverage",
-      "marketcap": "87314939904",
+      "marketcap": "87589199872",
       "price": ""
     },
     {
       "rank": 134,
-      "symbol": "WMB",
-      "name": "Williams Companies",
-      "marketcap": "86722576384",
+      "symbol": "ICE",
+      "name": "Intercontinental Exchange",
+      "marketcap": "87280001024",
       "price": ""
     },
     {
       "rank": 135,
-      "symbol": "ICE",
-      "name": "Intercontinental Exchange",
-      "marketcap": "86510895104",
+      "symbol": "CSX",
+      "name": "CSX Corporation",
+      "marketcap": "87251566592",
       "price": ""
     },
     {
       "rank": 136,
-      "symbol": "WM",
-      "name": "Waste Management",
-      "marketcap": "85539053568",
+      "symbol": "MMM",
+      "name": "3M",
+      "marketcap": "85553192960",
       "price": ""
     },
     {
       "rank": 137,
-      "symbol": "DASH",
-      "name": "DoorDash",
-      "marketcap": "85255700480",
+      "symbol": "WM",
+      "name": "Waste Management",
+      "marketcap": "84379877376",
       "price": ""
     },
     {
       "rank": 138,
-      "symbol": "INTU",
-      "name": "Intuit",
-      "marketcap": "85015789568",
+      "symbol": "UPS",
+      "name": "United Parcel Service",
+      "marketcap": "84278419456",
       "price": ""
     },
     {
       "rank": 139,
-      "symbol": "MRSH",
-      "name": "Marsh & McLennan Companies",
-      "marketcap": "84351860736",
+      "symbol": "EPD",
+      "name": "Enterprise Products",
+      "marketcap": "83982065664",
       "price": ""
     },
     {
       "rank": 140,
-      "symbol": "CMCSA",
-      "name": "Comcast",
-      "marketcap": "84209147904",
+      "symbol": "EMR",
+      "name": "Emerson",
+      "marketcap": "83625377792",
       "price": ""
     },
     {
       "rank": 141,
-      "symbol": "UPS",
-      "name": "United Parcel Service",
-      "marketcap": "84031692800",
+      "symbol": "DASH",
+      "name": "DoorDash",
+      "marketcap": "83600506880",
       "price": ""
     },
     {
       "rank": 142,
-      "symbol": "MMM",
-      "name": "3M",
-      "marketcap": "83882254336",
+      "symbol": "MRSH",
+      "name": "Marsh & McLennan Companies",
+      "marketcap": "83516743680",
       "price": ""
     },
     {
       "rank": 143,
-      "symbol": "DDOG",
-      "name": "Datadog",
-      "marketcap": "82870919168",
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "marketcap": "83502620672",
       "price": ""
     },
     {
       "rank": 144,
-      "symbol": "LITE",
-      "name": "Lumentum",
-      "marketcap": "82470182912",
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "marketcap": "82558525440",
       "price": ""
     },
     {
       "rank": 145,
-      "symbol": "EPD",
-      "name": "Enterprise Products",
-      "marketcap": "82254487552",
+      "symbol": "MCO",
+      "name": "Moody's",
+      "marketcap": "81150877696",
       "price": ""
     },
     {
       "rank": 146,
       "symbol": "AMT",
       "name": "American Tower",
-      "marketcap": "82190696448",
+      "marketcap": "81067728896",
       "price": ""
     },
     {
       "rank": 147,
-      "symbol": "EMR",
-      "name": "Emerson",
-      "marketcap": "81343971328",
+      "symbol": "INTU",
+      "name": "Intuit",
+      "marketcap": "81023287296",
       "price": ""
     },
     {
       "rank": 148,
-      "symbol": "MCO",
-      "name": "Moody's",
-      "marketcap": "80581115904",
+      "symbol": "REGN",
+      "name": "Regeneron Pharmaceuticals",
+      "marketcap": "80804225024",
       "price": ""
     },
     {
       "rank": 149,
-      "symbol": "CTAS",
-      "name": "Cintas",
-      "marketcap": "79817826304",
+      "symbol": "CMCSA",
+      "name": "Comcast",
+      "marketcap": "80696000512",
       "price": ""
     },
     {
       "rank": 150,
-      "symbol": "REGN",
-      "name": "Regeneron Pharmaceuticals",
-      "marketcap": "79749963776",
+      "symbol": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "marketcap": "80656760832",
       "price": ""
     },
     {
       "rank": 151,
-      "symbol": "MDLZ",
-      "name": "Mondelez International",
-      "marketcap": "79590572032",
+      "symbol": "CTAS",
+      "name": "Cintas",
+      "marketcap": "79089516544",
       "price": ""
     },
     {
       "rank": 152,
       "symbol": "BE",
       "name": "Bloom Energy",
-      "marketcap": "79528271872",
+      "marketcap": "78235303936",
       "price": ""
     },
     {
       "rank": 153,
       "symbol": "TRV",
       "name": "The Travelers Companies",
-      "marketcap": "79033253888",
+      "marketcap": "78136377344",
       "price": ""
     },
     {
       "rank": 154,
-      "symbol": "SHW",
-      "name": "Sherwin-Williams",
-      "marketcap": "78037032960",
+      "symbol": "SPG",
+      "name": "Simon Property Group",
+      "marketcap": "77944299520",
       "price": ""
     },
     {
       "rank": 155,
-      "symbol": "SLB",
-      "name": "SLB (Schlumberger)",
-      "marketcap": "77620690944",
+      "symbol": "CDNS",
+      "name": "Cadence Design Systems",
+      "marketcap": "77908672512",
       "price": ""
     },
     {
       "rank": 156,
-      "symbol": "CDNS",
-      "name": "Cadence Design Systems",
-      "marketcap": "77082492928",
+      "symbol": "SHW",
+      "name": "Sherwin-Williams",
+      "marketcap": "77859823616",
       "price": ""
     },
     {
       "rank": 157,
-      "symbol": "SPG",
-      "name": "Simon Property Group",
-      "marketcap": "77040795648",
+      "symbol": "MDLZ",
+      "name": "Mondelez International",
+      "marketcap": "77663346688",
       "price": ""
     },
     {
       "rank": 158,
-      "symbol": "ECL",
-      "name": "Ecolab",
-      "marketcap": "76832464896",
+      "symbol": "ITW",
+      "name": "Illinois Tool Works",
+      "marketcap": "76730818560",
       "price": ""
     },
     {
       "rank": 159,
-      "symbol": "GM",
-      "name": "General Motors",
-      "marketcap": "76236218368",
+      "symbol": "MSI",
+      "name": "Motorola Solutions",
+      "marketcap": "75907039232",
       "price": ""
     },
     {
       "rank": 160,
-      "symbol": "MSI",
-      "name": "Motorola Solutions",
-      "marketcap": "76214853632",
+      "symbol": "SLB",
+      "name": "SLB (Schlumberger)",
+      "marketcap": "75869396992",
       "price": ""
     },
     {
       "rank": 161,
-      "symbol": "ITW",
-      "name": "Illinois Tool Works",
-      "marketcap": "76135579648",
+      "symbol": "EOG",
+      "name": "EOG Resources",
+      "marketcap": "75652841472",
       "price": ""
     },
     {
       "rank": 162,
-      "symbol": "EOG",
-      "name": "EOG Resources",
-      "marketcap": "76020006912",
+      "symbol": "ECL",
+      "name": "Ecolab",
+      "marketcap": "75537342464",
       "price": ""
     },
     {
       "rank": 163,
       "symbol": "NOC",
       "name": "Northrop Grumman",
-      "marketcap": "75404214272",
+      "marketcap": "74922622976",
       "price": ""
     },
     {
       "rank": 164,
-      "symbol": "HPE",
-      "name": "Hewlett Packard Enterprise",
-      "marketcap": "75240710144",
+      "symbol": "APO",
+      "name": "Apollo Global Management",
+      "marketcap": "74355294208",
       "price": ""
     },
     {
       "rank": 165,
-      "symbol": "CI",
-      "name": "The Cigna Group",
-      "marketcap": "74106249216",
+      "symbol": "GM",
+      "name": "General Motors",
+      "marketcap": "74345914368",
       "price": ""
     },
     {
       "rank": 166,
-      "symbol": "APO",
-      "name": "Apollo Global Management",
-      "marketcap": "73540337664",
+      "symbol": "SNPS",
+      "name": "Synopsys",
+      "marketcap": "73774358528",
       "price": ""
     },
     {
       "rank": 167,
-      "symbol": "ET",
-      "name": "Energy Transfer LP",
-      "marketcap": "72688058368",
+      "symbol": "CMI",
+      "name": "Cummins",
+      "marketcap": "73269166080",
       "price": ""
     },
     {
       "rank": 168,
-      "symbol": "CMI",
-      "name": "Cummins",
-      "marketcap": "72618016768",
+      "symbol": "ET",
+      "name": "Energy Transfer LP",
+      "marketcap": "72791351296",
       "price": ""
     },
     {
       "rank": 169,
-      "symbol": "SNPS",
-      "name": "Synopsys",
-      "marketcap": "72528715776",
+      "symbol": "CI",
+      "name": "The Cigna Group",
+      "marketcap": "72740118528",
       "price": ""
     },
     {
       "rank": 170,
-      "symbol": "CVNA",
-      "name": "Carvana",
-      "marketcap": "72493531136",
+      "symbol": "ROST",
+      "name": "Ross Stores",
+      "marketcap": "72692203520",
       "price": ""
     },
     {
       "rank": 171,
-      "symbol": "ROST",
-      "name": "Ross Stores",
-      "marketcap": "72111587328",
+      "symbol": "CVNA",
+      "name": "Carvana",
+      "marketcap": "72172077056",
       "price": ""
     },
     {
       "rank": 172,
-      "symbol": "FDX",
-      "name": "FedEx",
-      "marketcap": "71408205824",
+      "symbol": "TGT",
+      "name": "Target",
+      "marketcap": "71865204736",
       "price": ""
     },
     {
       "rank": 173,
-      "symbol": "NSC",
-      "name": "Norfolk Southern",
-      "marketcap": "71200849920",
+      "symbol": "FDX",
+      "name": "FedEx",
+      "marketcap": "71864975360",
       "price": ""
     },
     {
       "rank": 174,
-      "symbol": "WBD",
-      "name": "Warner Bros. Discovery",
-      "marketcap": "70375325696",
+      "symbol": "KMI",
+      "name": "Kinder Morgan",
+      "marketcap": "70901383168",
       "price": ""
     },
     {
       "rank": 175,
-      "symbol": "TGT",
-      "name": "Target",
-      "marketcap": "70270615552",
+      "symbol": "NSC",
+      "name": "Norfolk Southern",
+      "marketcap": "70562963456",
       "price": ""
     },
     {
       "rank": 176,
       "symbol": "CL",
       "name": "Colgate-Palmolive",
-      "marketcap": "69369970688",
+      "marketcap": "69728706560",
       "price": ""
     },
     {
       "rank": 177,
-      "symbol": "HLT",
-      "name": "Hilton Worldwide",
-      "marketcap": "68786593792",
+      "symbol": "WBD",
+      "name": "Warner Bros. Discovery",
+      "marketcap": "69698396160",
       "price": ""
     },
     {
       "rank": 178,
-      "symbol": "KMI",
-      "name": "Kinder Morgan",
-      "marketcap": "68429631488",
+      "symbol": "HLT",
+      "name": "Hilton Worldwide",
+      "marketcap": "68809097216",
       "price": ""
     },
     {
       "rank": 179,
       "symbol": "DLR",
       "name": "Digital Realty",
-      "marketcap": "68383571968",
+      "marketcap": "68780113920",
       "price": ""
     },
     {
       "rank": 180,
-      "symbol": "RCL",
-      "name": "Royal Caribbean Group",
-      "marketcap": "67911430144",
+      "symbol": "ORLY",
+      "name": "O'Reilly Automotive",
+      "marketcap": "68527067136",
       "price": ""
     },
     {
       "rank": 181,
-      "symbol": "ORLY",
-      "name": "O'Reilly Automotive",
-      "marketcap": "67693838336",
+      "symbol": "RSG",
+      "name": "Republic Services",
+      "marketcap": "66775867392",
       "price": ""
     },
     {
       "rank": 182,
-      "symbol": "RSG",
-      "name": "Republic Services",
-      "marketcap": "67305615360",
+      "symbol": "RCL",
+      "name": "Royal Caribbean Group",
+      "marketcap": "65742393344",
       "price": ""
     },
     {
       "rank": 183,
       "symbol": "HON",
       "name": "Honeywell",
-      "marketcap": "65815760896",
+      "marketcap": "65435435008",
       "price": ""
     },
     {
       "rank": 184,
       "symbol": "AEP",
       "name": "American Electric Power",
-      "marketcap": "65703321600",
+      "marketcap": "65327685632",
       "price": ""
     },
     {
       "rank": 185,
-      "symbol": "ALL",
-      "name": "Allstate",
-      "marketcap": "64440852480",
+      "symbol": "APD",
+      "name": "Air Products and Chemicals",
+      "marketcap": "63282774016",
       "price": ""
     },
     {
       "rank": 186,
-      "symbol": "APD",
-      "name": "Air Products and Chemicals",
-      "marketcap": "63928561664",
+      "symbol": "ALL",
+      "name": "Allstate",
+      "marketcap": "63171502080",
       "price": ""
     },
     {
       "rank": 187,
-      "symbol": "BSX",
-      "name": "Boston Scientific",
-      "marketcap": "63635668992",
+      "symbol": "URI",
+      "name": "United Rentals",
+      "marketcap": "63108280320",
       "price": ""
     },
     {
       "rank": 188,
-      "symbol": "URI",
-      "name": "United Rentals",
-      "marketcap": "62631501824",
+      "symbol": "BSX",
+      "name": "Boston Scientific",
+      "marketcap": "62809608192",
       "price": ""
     },
     {
       "rank": 189,
-      "symbol": "AJG",
-      "name": "Arthur J. Gallagher & Co.",
-      "marketcap": "62490808320",
+      "symbol": "TRGP",
+      "name": "Targa Resources",
+      "marketcap": "62654603264",
       "price": ""
     },
     {
       "rank": 190,
-      "symbol": "PCAR",
-      "name": "Paccar",
-      "marketcap": "62226866176",
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "marketcap": "62149316608",
       "price": ""
     },
     {
       "rank": 191,
       "symbol": "MET",
       "name": "MetLife",
-      "marketcap": "61787422720",
+      "marketcap": "61666680832",
       "price": ""
     },
     {
       "rank": 192,
-      "symbol": "TRGP",
-      "name": "Targa Resources",
-      "marketcap": "61063520256",
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "marketcap": "61498294272",
       "price": ""
     },
     {
       "rank": 193,
-      "symbol": "COR",
-      "name": "Cencora",
-      "marketcap": "60778455040",
+      "symbol": "AJG",
+      "name": "Arthur J. Gallagher & Co.",
+      "marketcap": "61388537856",
       "price": ""
     },
     {
       "rank": 194,
-      "symbol": "TDG",
-      "name": "TransDigm Group",
-      "marketcap": "59704725504",
+      "symbol": "MSTR",
+      "name": "Strategy \n (MicroStrategy)",
+      "marketcap": "61149593600",
       "price": ""
     },
     {
       "rank": 195,
-      "symbol": "OXY",
-      "name": "Occidental Petroleum",
-      "marketcap": "59338473472",
+      "symbol": "PCAR",
+      "name": "Paccar",
+      "marketcap": "61089914880",
       "price": ""
     },
     {
       "rank": 196,
-      "symbol": "GWW",
-      "name": "W. W. Grainger",
-      "marketcap": "59265232896",
+      "symbol": "MPLX",
+      "name": "MPLX",
+      "marketcap": "60263731200",
       "price": ""
     },
     {
       "rank": 197,
-      "symbol": "TFC",
-      "name": "Truist Financial Corporation",
-      "marketcap": "59175571456",
+      "symbol": "TDG",
+      "name": "TransDigm Group",
+      "marketcap": "60033073152",
       "price": ""
     },
     {
       "rank": 198,
-      "symbol": "NUE",
-      "name": "Nucor",
-      "marketcap": "59141951488",
+      "symbol": "MPWR",
+      "name": "Monolithic Power Systems",
+      "marketcap": "59846348800",
       "price": ""
     },
     {
       "rank": 199,
-      "symbol": "MPLX",
-      "name": "MPLX",
-      "marketcap": "58732806144",
+      "symbol": "GWW",
+      "name": "W. W. Grainger",
+      "marketcap": "59658526720",
       "price": ""
     },
     {
       "rank": 200,
-      "symbol": "AFL",
-      "name": "Aflac",
-      "marketcap": "58561908736",
+      "symbol": "TFC",
+      "name": "Truist Financial Corporation",
+      "marketcap": "59322171392",
       "price": ""
     },
     {
       "rank": 201,
-      "symbol": "OKE",
-      "name": "Oneok",
-      "marketcap": "58435264512",
+      "symbol": "COR",
+      "name": "Cencora",
+      "marketcap": "58923614208",
       "price": ""
     },
     {
       "rank": 202,
-      "symbol": "MRNA",
-      "name": "Moderna",
-      "marketcap": "58136731648",
+      "symbol": "OKE",
+      "name": "Oneok",
+      "marketcap": "58918043648",
       "price": ""
     },
     {
       "rank": 203,
-      "symbol": "COHR",
-      "name": "Coherent Corp.",
-      "marketcap": "56777637888",
+      "symbol": "OXY",
+      "name": "Occidental Petroleum",
+      "marketcap": "58818662400",
       "price": ""
     },
     {
       "rank": 204,
-      "symbol": "MPWR",
-      "name": "Monolithic Power Systems",
-      "marketcap": "56396996608",
+      "symbol": "AFL",
+      "name": "Aflac",
+      "marketcap": "58321264640",
       "price": ""
     },
     {
       "rank": 205,
-      "symbol": "FAST",
-      "name": "Fastenal",
-      "marketcap": "56261804032",
+      "symbol": "FIX",
+      "name": "Comfort Systems USA",
+      "marketcap": "58118856704",
       "price": ""
     },
     {
       "rank": 206,
-      "symbol": "BKR",
-      "name": "Baker Hughes",
-      "marketcap": "55907401728",
+      "symbol": "TER",
+      "name": "Teradyne",
+      "marketcap": "58075897856",
       "price": ""
     },
     {
       "rank": 207,
-      "symbol": "FIX",
-      "name": "Comfort Systems USA",
-      "marketcap": "55865716736",
+      "symbol": "KEYS",
+      "name": "Keysight",
+      "marketcap": "57031991296",
       "price": ""
     },
     {
       "rank": 208,
-      "symbol": "D",
-      "name": "Dominion Energy",
-      "marketcap": "55858692096",
+      "symbol": "BKR",
+      "name": "Baker Hughes",
+      "marketcap": "56830590976",
       "price": ""
     },
     {
       "rank": 209,
-      "symbol": "LNG",
-      "name": "Cheniere Energy",
-      "marketcap": "55299522560",
+      "symbol": "NUE",
+      "name": "Nucor",
+      "marketcap": "56351383552",
       "price": ""
     },
     {
       "rank": 210,
-      "symbol": "PSA",
-      "name": "Public Storage",
-      "marketcap": "55061630976",
+      "symbol": "FAST",
+      "name": "Fastenal",
+      "marketcap": "56238854144",
       "price": ""
     },
     {
       "rank": 211,
-      "symbol": "KEYS",
-      "name": "Keysight",
-      "marketcap": "54825619456",
+      "symbol": "D",
+      "name": "Dominion Energy",
+      "marketcap": "55920263168",
       "price": ""
     },
     {
       "rank": 212,
-      "symbol": "FANG",
-      "name": "Diamondback Energy",
-      "marketcap": "54475046912",
+      "symbol": "LNG",
+      "name": "Cheniere Energy",
+      "marketcap": "55421374464",
       "price": ""
     },
     {
       "rank": 213,
-      "symbol": "CAH",
-      "name": "Cardinal Health",
-      "marketcap": "54083158016",
+      "symbol": "PSA",
+      "name": "Public Storage",
+      "marketcap": "55366201344",
       "price": ""
     },
     {
       "rank": 214,
-      "symbol": "O",
-      "name": "Realty Income",
-      "marketcap": "54076362752",
+      "symbol": "AME",
+      "name": "Ametek",
+      "marketcap": "54481641472",
       "price": ""
     },
     {
       "rank": 215,
-      "symbol": "CTVA",
-      "name": "Corteva",
-      "marketcap": "54049550336",
+      "symbol": "FANG",
+      "name": "Diamondback Energy",
+      "marketcap": "53881405440",
       "price": ""
     },
     {
       "rank": 216,
-      "symbol": "SRE",
-      "name": "Sempra",
-      "marketcap": "53423656960",
+      "symbol": "CTVA",
+      "name": "Corteva",
+      "marketcap": "53729296384",
       "price": ""
     },
     {
       "rank": 217,
-      "symbol": "TER",
-      "name": "Teradyne",
-      "marketcap": "53335646208",
+      "symbol": "O",
+      "name": "Realty Income",
+      "marketcap": "53612716032",
       "price": ""
     },
     {
       "rank": 218,
       "symbol": "DVN",
       "name": "Devon Energy",
-      "marketcap": "53283999744",
+      "marketcap": "53471002624",
       "price": ""
     },
     {
       "rank": 219,
-      "symbol": "F",
-      "name": "Ford",
-      "marketcap": "53234405376",
+      "symbol": "NTRA",
+      "name": "Natera",
+      "marketcap": "53245419520",
       "price": ""
     },
     {
       "rank": 220,
-      "symbol": "AME",
-      "name": "Ametek",
-      "marketcap": "53232168960",
+      "symbol": "SRE",
+      "name": "Sempra",
+      "marketcap": "53168635904",
       "price": ""
     },
     {
       "rank": 221,
       "symbol": "NKE",
       "name": "Nike",
-      "marketcap": "53079584768",
+      "marketcap": "52679036928",
       "price": ""
     },
     {
       "rank": 222,
-      "symbol": "HONA",
-      "name": "Honeywell Aerospace",
-      "marketcap": "52037296128",
+      "symbol": "F",
+      "name": "Ford",
+      "marketcap": "52676141056",
       "price": ""
     },
     {
       "rank": 223,
-      "symbol": "EW",
-      "name": "Edwards Lifesciences",
-      "marketcap": "51460993024",
+      "symbol": "ALAB",
+      "name": "Astera Labs",
+      "marketcap": "52609355776",
       "price": ""
     },
     {
       "rank": 224,
-      "symbol": "DAL",
-      "name": "Delta Air Lines",
-      "marketcap": "51209109504",
+      "symbol": "CAH",
+      "name": "Cardinal Health",
+      "marketcap": "52417916928",
       "price": ""
     },
     {
       "rank": 225,
-      "symbol": "STT",
-      "name": "State Street Corporation",
-      "marketcap": "50242949120",
+      "symbol": "DAL",
+      "name": "Delta Air Lines",
+      "marketcap": "52359946240",
       "price": ""
     },
     {
       "rank": 226,
-      "symbol": "MSTR",
-      "name": "Strategy \n (MicroStrategy)",
-      "marketcap": "50129002496",
+      "symbol": "NDAQ",
+      "name": "Nasdaq",
+      "marketcap": "52286742528",
       "price": ""
     },
     {
       "rank": 227,
-      "symbol": "NTRA",
-      "name": "Natera",
-      "marketcap": "49778749440",
+      "symbol": "HONA",
+      "name": "Honeywell Aerospace",
+      "marketcap": "51853467648",
       "price": ""
     },
     {
       "rank": 228,
-      "symbol": "NDAQ",
-      "name": "Nasdaq",
-      "marketcap": "49614831616",
+      "symbol": "COIN",
+      "name": "Coinbase",
+      "marketcap": "51250323456",
       "price": ""
     },
     {
       "rank": 229,
-      "symbol": "BDX",
-      "name": "Becton Dickinson",
-      "marketcap": "49533542400",
+      "symbol": "EW",
+      "name": "Edwards Lifesciences",
+      "marketcap": "50873065472",
       "price": ""
     },
     {
       "rank": 230,
-      "symbol": "ETR",
-      "name": "Entergy",
-      "marketcap": "48886190080",
+      "symbol": "STT",
+      "name": "State Street Corporation",
+      "marketcap": "50234707968",
       "price": ""
     },
     {
       "rank": 231,
-      "symbol": "VMRK",
-      "name": "Vivmark Residential",
-      "marketcap": "48740347904",
+      "symbol": "EBAY",
+      "name": "eBay",
+      "marketcap": "49768800256",
       "price": ""
     },
     {
       "rank": 232,
-      "symbol": "EBAY",
-      "name": "eBay",
-      "marketcap": "48580648960",
+      "symbol": "CIEN",
+      "name": "Ciena",
+      "marketcap": "49462812672",
       "price": ""
     },
     {
       "rank": 233,
-      "symbol": "CIEN",
-      "name": "Ciena",
-      "marketcap": "48285802496",
+      "symbol": "BDX",
+      "name": "Becton Dickinson",
+      "marketcap": "49285672960",
       "price": ""
     },
     {
       "rank": 234,
-      "symbol": "AMP",
-      "name": "Ameriprise Financial",
-      "marketcap": "47775903744",
+      "symbol": "ETR",
+      "name": "Entergy",
+      "marketcap": "48738082816",
       "price": ""
     },
     {
       "rank": 235,
-      "symbol": "FITB",
-      "name": "Fifth Third Bank",
-      "marketcap": "47530237952",
+      "symbol": "AMP",
+      "name": "Ameriprise Financial",
+      "marketcap": "48082419712",
       "price": ""
     },
     {
       "rank": 236,
-      "symbol": "VST",
-      "name": "Vistra",
-      "marketcap": "47119826944",
+      "symbol": "FITB",
+      "name": "Fifth Third Bank",
+      "marketcap": "47983685632",
       "price": ""
     },
     {
       "rank": 237,
-      "symbol": "ALAB",
-      "name": "Astera Labs",
-      "marketcap": "46698717184",
+      "symbol": "VMRK",
+      "name": "Vivmark Residential",
+      "marketcap": "47370760192",
       "price": ""
     },
     {
       "rank": 238,
-      "symbol": "AZO",
-      "name": "AutoZone",
-      "marketcap": "46694596608",
+      "symbol": "WAB",
+      "name": "Wabtec",
+      "marketcap": "47333888000",
       "price": ""
     },
     {
       "rank": 239,
-      "symbol": "LHX",
-      "name": "L3Harris Technologies",
-      "marketcap": "46691454976",
+      "symbol": "VST",
+      "name": "Vistra",
+      "marketcap": "47213801472",
       "price": ""
     },
     {
       "rank": 240,
-      "symbol": "WAB",
-      "name": "Wabtec",
-      "marketcap": "46681890816",
+      "symbol": "CBRS",
+      "name": "Cerebras Systems",
+      "marketcap": "47125577728",
       "price": ""
     },
     {
       "rank": 241,
-      "symbol": "HUM",
-      "name": "Humana",
-      "marketcap": "46197293056",
+      "symbol": "WDAY",
+      "name": "Workday",
+      "marketcap": "46722670592",
       "price": ""
     },
     {
       "rank": 242,
-      "symbol": "ROK",
-      "name": "Rockwell Automation",
-      "marketcap": "46169788416",
+      "symbol": "AZO",
+      "name": "AutoZone",
+      "marketcap": "46434369536",
       "price": ""
     },
     {
       "rank": 243,
-      "symbol": "ADSK",
-      "name": "Autodesk",
-      "marketcap": "46044790784",
+      "symbol": "HUM",
+      "name": "Humana",
+      "marketcap": "46377414656",
       "price": ""
     },
     {
       "rank": 244,
-      "symbol": "XYZ",
-      "name": "Block",
-      "marketcap": "46038921216",
+      "symbol": "ROK",
+      "name": "Rockwell Automation",
+      "marketcap": "46247677952",
       "price": ""
     },
     {
       "rank": 245,
-      "symbol": "CRWV",
-      "name": "CoreWeave",
-      "marketcap": "45970571264",
+      "symbol": "LHX",
+      "name": "L3Harris Technologies",
+      "marketcap": "46049013760",
       "price": ""
     },
     {
       "rank": 246,
-      "symbol": "XEL",
-      "name": "Xcel Energy",
-      "marketcap": "45417160704",
+      "symbol": "XYZ",
+      "name": "Block",
+      "marketcap": "45828640768",
       "price": ""
     },
     {
       "rank": 247,
-      "symbol": "WDAY",
-      "name": "Workday",
-      "marketcap": "45250158592",
+      "symbol": "ADSK",
+      "name": "Autodesk",
+      "marketcap": "45342547968",
       "price": ""
     },
     {
       "rank": 248,
-      "symbol": "CBRS",
-      "name": "Cerebras Systems",
-      "marketcap": "45248823296",
+      "symbol": "XEL",
+      "name": "Xcel Energy",
+      "marketcap": "45161062400",
       "price": ""
     },
     {
       "rank": 249,
-      "symbol": "VTR",
-      "name": "Ventas",
-      "marketcap": "45247000576",
+      "symbol": "CRWV",
+      "name": "CoreWeave",
+      "marketcap": "44873015296",
       "price": ""
     },
     {
       "rank": 250,
       "symbol": "PYPL",
       "name": "PayPal",
-      "marketcap": "45091340288",
+      "marketcap": "44834705408",
       "price": ""
     },
     {
       "rank": 251,
-      "symbol": "CARR",
-      "name": "Carrier Global",
-      "marketcap": "44727877632",
+      "symbol": "VTR",
+      "name": "Ventas",
+      "marketcap": "44467322880",
       "price": ""
     },
     {
       "rank": 252,
-      "symbol": "MDLN",
-      "name": "Medline",
-      "marketcap": "44385845248",
+      "symbol": "CARR",
+      "name": "Carrier Global",
+      "marketcap": "44414636032",
       "price": ""
     },
     {
       "rank": 253,
-      "symbol": "IQV",
-      "name": "IQVIA",
-      "marketcap": "44247773184",
+      "symbol": "A",
+      "name": "Agilent Technologies",
+      "marketcap": "44119191552",
       "price": ""
     },
     {
       "rank": 254,
-      "symbol": "EXC",
-      "name": "Exelon Corporation",
-      "marketcap": "43723976704",
+      "symbol": "IQV",
+      "name": "IQVIA",
+      "marketcap": "43852734464",
       "price": ""
     },
     {
       "rank": 255,
-      "symbol": "COIN",
-      "name": "Coinbase",
-      "marketcap": "43403812864",
+      "symbol": "EXC",
+      "name": "Exelon Corporation",
+      "marketcap": "43342782464",
       "price": ""
     },
     {
       "rank": 256,
-      "symbol": "A",
-      "name": "Agilent Technologies",
-      "marketcap": "43335327744",
+      "symbol": "MDLN",
+      "name": "Medline",
+      "marketcap": "42569506816",
       "price": ""
     },
     {
       "rank": 257,
-      "symbol": "KDP",
-      "name": "Keurig Dr Pepper",
-      "marketcap": "43274264576",
+      "symbol": "CMG",
+      "name": "Chipotle Mexican Grill",
+      "marketcap": "42302922752",
       "price": ""
     },
     {
       "rank": 258,
-      "symbol": "VEEV",
-      "name": "Veeva Systems",
-      "marketcap": "42889654272",
+      "symbol": "KDP",
+      "name": "Keurig Dr Pepper",
+      "marketcap": "42131169280",
       "price": ""
     },
     {
       "rank": 259,
-      "symbol": "CMG",
-      "name": "Chipotle Mexican Grill",
-      "marketcap": "42619277312",
+      "symbol": "VEEV",
+      "name": "Veeva Systems",
+      "marketcap": "42130300928",
       "price": ""
     },
     {
       "rank": 260,
-      "symbol": "RVMD",
-      "name": "Revolution Medicines",
-      "marketcap": "41992790016",
+      "symbol": "HEI",
+      "name": "HEICO",
+      "marketcap": "41678454784",
       "price": ""
     },
     {
       "rank": 261,
-      "symbol": "HEI",
-      "name": "HEICO",
-      "marketcap": "41847558144",
+      "symbol": "WAT",
+      "name": "Waters Corporation",
+      "marketcap": "41398104064",
       "price": ""
     },
     {
       "rank": 262,
       "symbol": "PAYX",
       "name": "Paychex",
-      "marketcap": "41550041088",
+      "marketcap": "41343574016",
       "price": ""
     },
     {
       "rank": 263,
-      "symbol": "ARES",
-      "name": "Ares Management",
-      "marketcap": "41209888768",
+      "symbol": "RKLB",
+      "name": "Rocket Lab",
+      "marketcap": "41286766592",
       "price": ""
     },
     {
       "rank": 264,
-      "symbol": "WAT",
-      "name": "Waters Corporation",
-      "marketcap": "41104527360",
+      "symbol": "ARES",
+      "name": "Ares Management",
+      "marketcap": "41073860608",
       "price": ""
     },
     {
       "rank": 265,
       "symbol": "ADM",
       "name": "Archer Daniels Midland (ADM)",
-      "marketcap": "40966565888",
+      "marketcap": "41053319168",
       "price": ""
     },
     {
       "rank": 266,
-      "symbol": "RKLB",
-      "name": "Rocket Lab",
-      "marketcap": "40730480640",
+      "symbol": "RVMD",
+      "name": "Revolution Medicines",
+      "marketcap": "40927539200",
       "price": ""
     },
     {
       "rank": 267,
-      "symbol": "IDXX",
-      "name": "IDEXX Laboratories",
-      "marketcap": "40463556608",
+      "symbol": "PRU",
+      "name": "Prudential Financial",
+      "marketcap": "40847998976",
       "price": ""
     },
     {
       "rank": 268,
-      "symbol": "PRU",
-      "name": "Prudential Financial",
-      "marketcap": "40378802176",
+      "symbol": "CBRE",
+      "name": "CBRE Group",
+      "marketcap": "40395755520",
       "price": ""
     },
     {
       "rank": 269,
-      "symbol": "CBRE",
-      "name": "CBRE Group",
-      "marketcap": "40123551744",
+      "symbol": "IDXX",
+      "name": "IDEXX Laboratories",
+      "marketcap": "40308359168",
       "price": ""
     },
     {
       "rank": 270,
-      "symbol": "LYV",
-      "name": "Live Nation",
-      "marketcap": "39866359808",
+      "symbol": "MSCI",
+      "name": "MSCI",
+      "marketcap": "40193650688",
       "price": ""
     },
     {
       "rank": 271,
-      "symbol": "AIG",
-      "name": "American International Group",
-      "marketcap": "39776485376",
+      "symbol": "MCHP",
+      "name": "Microchip Technology",
+      "marketcap": "39786246144",
       "price": ""
     },
     {
       "rank": 272,
-      "symbol": "TTWO",
-      "name": "Take-Two Interactive",
-      "marketcap": "39604326400",
+      "symbol": "ONC",
+      "name": "BeOne Medicines",
+      "marketcap": "39687778304",
       "price": ""
     },
     {
       "rank": 273,
-      "symbol": "ONC",
-      "name": "BeOne Medicines",
-      "marketcap": "39375560704",
+      "symbol": "AIG",
+      "name": "American International Group",
+      "marketcap": "39389544448",
       "price": ""
     },
     {
       "rank": 274,
       "symbol": "WCN",
       "name": "Waste Connections",
-      "marketcap": "39370588160",
+      "marketcap": "39076253696",
       "price": ""
     },
     {
       "rank": 275,
-      "symbol": "MSCI",
-      "name": "MSCI",
-      "marketcap": "39302344704",
+      "symbol": "ED",
+      "name": "Consolidated Edison",
+      "marketcap": "38991032320",
       "price": ""
     },
     {
       "rank": 276,
-      "symbol": "ED",
-      "name": "Consolidated Edison",
-      "marketcap": "38987333632",
+      "symbol": "LYV",
+      "name": "Live Nation",
+      "marketcap": "38932189184",
       "price": ""
     },
     {
       "rank": 277,
-      "symbol": "DHI",
-      "name": "D. R. Horton",
-      "marketcap": "38688284672",
+      "symbol": "NTAP",
+      "name": "NetApp",
+      "marketcap": "38849716224",
       "price": ""
     },
     {
       "rank": 278,
-      "symbol": "AXON",
-      "name": "Axon Enterprise",
-      "marketcap": "38053232640",
+      "symbol": "DHI",
+      "name": "D. R. Horton",
+      "marketcap": "38604369920",
       "price": ""
     },
     {
       "rank": 279,
-      "symbol": "MCHP",
-      "name": "Microchip Technology",
-      "marketcap": "37787975680",
+      "symbol": "TTWO",
+      "name": "Take-Two Interactive",
+      "marketcap": "38415130624",
       "price": ""
     },
     {
       "rank": 280,
       "symbol": "SYY",
       "name": "Sysco",
-      "marketcap": "37746819072",
+      "marketcap": "37909872640",
       "price": ""
     },
     {
       "rank": 281,
       "symbol": "YUM",
       "name": "Yum! Brands",
-      "marketcap": "37649436672",
+      "marketcap": "37657624576",
       "price": ""
     },
     {
       "rank": 282,
-      "symbol": "NTAP",
-      "name": "NetApp",
-      "marketcap": "37612277760",
+      "symbol": "TWLO",
+      "name": "Twilio",
+      "marketcap": "37447778304",
       "price": ""
     },
     {
       "rank": 283,
       "symbol": "ROP",
       "name": "Roper Technologies",
-      "marketcap": "37168926720",
+      "marketcap": "36864311296",
       "price": ""
     },
     {
       "rank": 284,
-      "symbol": "TWLO",
-      "name": "Twilio",
-      "marketcap": "36686049280",
+      "symbol": "AXON",
+      "name": "Axon Enterprise",
+      "marketcap": "36374867968",
       "price": ""
     },
     {
       "rank": 285,
-      "symbol": "RKT",
-      "name": "Rocket Companies",
-      "marketcap": "36669767680",
+      "symbol": "ILMN",
+      "name": "Illumina",
+      "marketcap": "36182618112",
       "price": ""
     },
     {
       "rank": 286,
-      "symbol": "VG",
-      "name": "Venture Global",
-      "marketcap": "36626362368",
+      "symbol": "ODFL",
+      "name": "Old Dominion Freight Line",
+      "marketcap": "35978514432",
       "price": ""
     },
     {
       "rank": 287,
-      "symbol": "HIG",
-      "name": "The Hartford",
-      "marketcap": "36551467008",
+      "symbol": "TKO",
+      "name": "TKO Group Holdings",
+      "marketcap": "35821182976",
       "price": ""
     },
     {
       "rank": 288,
       "symbol": "KR",
       "name": "Kroger",
-      "marketcap": "36439441408",
+      "marketcap": "35760001024",
       "price": ""
     },
     {
       "rank": 289,
-      "symbol": "TKO",
-      "name": "TKO Group Holdings",
-      "marketcap": "36421169152",
+      "symbol": "HIG",
+      "name": "The Hartford",
+      "marketcap": "35725307904",
       "price": ""
     },
     {
       "rank": 290,
-      "symbol": "ODFL",
-      "name": "Old Dominion Freight Line",
-      "marketcap": "36261351424",
+      "symbol": "UI",
+      "name": "Ubiquiti",
+      "marketcap": "35680268288",
       "price": ""
     },
     {
       "rank": 291,
-      "symbol": "MLM",
-      "name": "Martin Marietta Materials",
-      "marketcap": "35279589376",
+      "symbol": "UAL",
+      "name": "United Airlines Holdings",
+      "marketcap": "35283976192",
       "price": ""
     },
     {
       "rank": 292,
-      "symbol": "PEG",
-      "name": "PSEG",
-      "marketcap": "35083784192",
+      "symbol": "VG",
+      "name": "Venture Global",
+      "marketcap": "35051302912",
       "price": ""
     },
     {
       "rank": 293,
-      "symbol": "EL",
-      "name": "Estee Lauder",
-      "marketcap": "34587942912",
+      "symbol": "MLM",
+      "name": "Martin Marietta Materials",
+      "marketcap": "34844950528",
       "price": ""
     },
     {
       "rank": 294,
-      "symbol": "ILMN",
-      "name": "Illumina",
-      "marketcap": "34568429568",
+      "symbol": "RKT",
+      "name": "Rocket Companies",
+      "marketcap": "34800885760",
       "price": ""
     },
     {
       "rank": 295,
-      "symbol": "UI",
-      "name": "Ubiquiti",
-      "marketcap": "34523570176",
+      "symbol": "PEG",
+      "name": "PSEG",
+      "marketcap": "34774765568",
       "price": ""
     },
     {
       "rank": 296,
-      "symbol": "UAL",
-      "name": "United Airlines Holdings",
-      "marketcap": "34501763072",
+      "symbol": "P",
+      "name": "Everpure",
+      "marketcap": "34702286848",
       "price": ""
     },
     {
       "rank": 297,
-      "symbol": "EXPE",
-      "name": "Expedia Group",
-      "marketcap": "34442735616",
+      "symbol": "KVUE",
+      "name": "Kenvue",
+      "marketcap": "34208974848",
       "price": ""
     },
     {
       "rank": 298,
-      "symbol": "HSY",
-      "name": "The Hershey Company",
-      "marketcap": "34316093440",
+      "symbol": "RBLX",
+      "name": "Roblox",
+      "marketcap": "34161457152",
       "price": ""
     },
     {
       "rank": 299,
-      "symbol": "KVUE",
-      "name": "Kenvue",
-      "marketcap": "34247391232",
+      "symbol": "HSY",
+      "name": "The Hershey Company",
+      "marketcap": "34115166208",
       "price": ""
     },
     {
       "rank": 300,
-      "symbol": "STLD",
-      "name": "Steel Dynamics",
-      "marketcap": "34145052672",
+      "symbol": "IRM",
+      "name": "Iron Mountain",
+      "marketcap": "34039339008",
       "price": ""
     },
     {
       "rank": 301,
-      "symbol": "RBLX",
-      "name": "Roblox",
-      "marketcap": "33882851328",
+      "symbol": "EL",
+      "name": "Estee Lauder",
+      "marketcap": "33802840064",
       "price": ""
     },
     {
       "rank": 302,
-      "symbol": "WEC",
-      "name": "WEC Energy Group",
-      "marketcap": "33686306816",
+      "symbol": "STLD",
+      "name": "Steel Dynamics",
+      "marketcap": "33719367680",
       "price": ""
     },
     {
       "rank": 303,
-      "symbol": "IRM",
-      "name": "Iron Mountain",
-      "marketcap": "33387370496",
+      "symbol": "DXCM",
+      "name": "DexCom",
+      "marketcap": "33717184512",
       "price": ""
     },
     {
       "rank": 304,
-      "symbol": "DXCM",
-      "name": "DexCom",
-      "marketcap": "32958687232",
+      "symbol": "WEC",
+      "name": "WEC Energy Group",
+      "marketcap": "33617879040",
       "price": ""
     },
     {
       "rank": 305,
-      "symbol": "RMD",
-      "name": "ResMed",
-      "marketcap": "32925587456",
+      "symbol": "EXPE",
+      "name": "Expedia Group",
+      "marketcap": "33528168448",
       "price": ""
     },
     {
       "rank": 306,
-      "symbol": "OKTA",
-      "name": "Okta",
-      "marketcap": "32887312384",
+      "symbol": "EME",
+      "name": "Emcor",
+      "marketcap": "33086396416",
       "price": ""
     },
     {
       "rank": 307,
-      "symbol": "MTB",
-      "name": "M&T Bank",
-      "marketcap": "32639516672",
+      "symbol": "CRDO",
+      "name": "Credo Technology",
+      "marketcap": "33058863104",
       "price": ""
     },
     {
       "rank": 308,
-      "symbol": "KMB",
-      "name": "Kimberly-Clark",
-      "marketcap": "32626003968",
+      "symbol": "MTB",
+      "name": "M&T Bank",
+      "marketcap": "32827258880",
       "price": ""
     },
     {
       "rank": 309,
-      "symbol": "EME",
-      "name": "Emcor",
-      "marketcap": "32617506816",
+      "symbol": "KMB",
+      "name": "Kimberly-Clark",
+      "marketcap": "32546185216",
       "price": ""
     },
     {
       "rank": 310,
-      "symbol": "CNC",
-      "name": "Centene",
-      "marketcap": "32608612352",
+      "symbol": "NTRS",
+      "name": "Northern Trust",
+      "marketcap": "32545980416",
       "price": ""
     },
     {
       "rank": 311,
-      "symbol": "P",
-      "name": "Everpure",
-      "marketcap": "32526313472",
+      "symbol": "RMD",
+      "name": "ResMed",
+      "marketcap": "32455325696",
       "price": ""
     },
     {
       "rank": 312,
-      "symbol": "NTRS",
-      "name": "Northern Trust",
-      "marketcap": "32317286400",
+      "symbol": "ZS",
+      "name": "Zscaler",
+      "marketcap": "32172322816",
       "price": ""
     },
     {
       "rank": 313,
-      "symbol": "ALNY",
-      "name": "Alnylam Pharmaceuticals",
-      "marketcap": "32028551168",
+      "symbol": "CNC",
+      "name": "Centene",
+      "marketcap": "32164016128",
       "price": ""
     },
     {
       "rank": 314,
-      "symbol": "CCI",
-      "name": "Crown Castle",
-      "marketcap": "31997140992",
+      "symbol": "HBAN",
+      "name": "Huntington Bancshares",
+      "marketcap": "32084187136",
       "price": ""
     },
     {
       "rank": 315,
-      "symbol": "HBAN",
-      "name": "Huntington Bancshares",
-      "marketcap": "31962961920",
+      "symbol": "ALNY",
+      "name": "Alnylam Pharmaceuticals",
+      "marketcap": "32055312384",
       "price": ""
     },
     {
       "rank": 316,
-      "symbol": "BIIB",
-      "name": "Biogen",
-      "marketcap": "31916341248",
+      "symbol": "CCI",
+      "name": "Crown Castle",
+      "marketcap": "31927218176",
       "price": ""
     },
     {
       "rank": 317,
-      "symbol": "CQP",
-      "name": "Cheniere Energy\nPartners",
-      "marketcap": "31817113600",
+      "symbol": "OKTA",
+      "name": "Okta",
+      "marketcap": "31882092544",
       "price": ""
     },
     {
       "rank": 318,
-      "symbol": "VMC",
-      "name": "Vulcan Materials",
-      "marketcap": "31656085504",
+      "symbol": "BIIB",
+      "name": "Biogen",
+      "marketcap": "31840987136",
       "price": ""
     },
     {
       "rank": 319,
       "symbol": "RJF",
       "name": "Raymond James Financial",
-      "marketcap": "31613898752",
+      "marketcap": "31648475136",
       "price": ""
     },
     {
       "rank": 320,
-      "symbol": "EQT",
-      "name": "EQT Corporation",
-      "marketcap": "31532263424",
+      "symbol": "CQP",
+      "name": "Cheniere Energy\nPartners",
+      "marketcap": "31395983360",
       "price": ""
     },
     {
       "rank": 321,
-      "symbol": "ZS",
-      "name": "Zscaler",
-      "marketcap": "31238021120",
+      "symbol": "JBL",
+      "name": "Jabil",
+      "marketcap": "31391068160",
       "price": ""
     },
     {
       "rank": 322,
-      "symbol": "JBL",
-      "name": "Jabil",
-      "marketcap": "31146913792",
+      "symbol": "EQT",
+      "name": "EQT Corporation",
+      "marketcap": "31275802624",
       "price": ""
     },
     {
       "rank": 323,
-      "symbol": "CCL",
-      "name": "Carnival Corporation",
-      "marketcap": "30611658752",
+      "symbol": "VMC",
+      "name": "Vulcan Materials",
+      "marketcap": "31206447104",
       "price": ""
     },
     {
       "rank": 324,
-      "symbol": "CRDO",
-      "name": "Credo Technology",
-      "marketcap": "30352357376",
+      "symbol": "HPQ",
+      "name": "HP",
+      "marketcap": "31021611008",
       "price": ""
     },
     {
       "rank": 325,
-      "symbol": "RDDT",
-      "name": "Reddit",
-      "marketcap": "30321690624",
+      "symbol": "MDB",
+      "name": "MongoDB",
+      "marketcap": "30850469888",
       "price": ""
     },
     {
       "rank": 326,
-      "symbol": "MDB",
-      "name": "MongoDB",
-      "marketcap": "30269751296",
+      "symbol": "EXR",
+      "name": "Extra Space Storage",
+      "marketcap": "30172246016",
       "price": ""
     },
     {
       "rank": 327,
-      "symbol": "ZTS",
-      "name": "Zoetis",
-      "marketcap": "30165323776",
+      "symbol": "SUNB",
+      "name": "Sunbelt Rentals",
+      "marketcap": "30154596352",
       "price": ""
     },
     {
       "rank": 328,
-      "symbol": "EXR",
-      "name": "Extra Space Storage",
-      "marketcap": "30110445568",
+      "symbol": "CCL",
+      "name": "Carnival Corporation",
+      "marketcap": "29913137152",
       "price": ""
     },
     {
       "rank": 329,
-      "symbol": "SUNB",
-      "name": "Sunbelt Rentals",
-      "marketcap": "29646489600",
+      "symbol": "ZTS",
+      "name": "Zoetis",
+      "marketcap": "29504165888",
       "price": ""
     },
     {
       "rank": 330,
-      "symbol": "HPQ",
-      "name": "HP",
-      "marketcap": "29488566272",
+      "symbol": "PCG",
+      "name": "PG&amp;E Corporation",
+      "marketcap": "29071243264",
       "price": ""
     },
     {
       "rank": 331,
-      "symbol": "PCG",
-      "name": "PG&amp;E Corporation",
-      "marketcap": "29401600000",
+      "symbol": "RDDT",
+      "name": "Reddit",
+      "marketcap": "29023014912",
       "price": ""
     },
     {
       "rank": 332,
       "symbol": "KHC",
       "name": "Kraft Heinz",
-      "marketcap": "29325420544",
+      "marketcap": "28969674752",
       "price": ""
     },
     {
       "rank": 333,
-      "symbol": "HAL",
-      "name": "Halliburton",
-      "marketcap": "28751327232",
+      "symbol": "GEHC",
+      "name": "GE HealthCare Technologies",
+      "marketcap": "28966637568",
       "price": ""
     },
     {
       "rank": 334,
-      "symbol": "GEHC",
-      "name": "GE HealthCare Technologies",
-      "marketcap": "28677560320",
+      "symbol": "CBOE",
+      "name": "Cboe Global Markets",
+      "marketcap": "28495044608",
       "price": ""
     },
     {
       "rank": 335,
-      "symbol": "CPRT",
-      "name": "Copart",
-      "marketcap": "28533508096",
+      "symbol": "AEE",
+      "name": "Ameren",
+      "marketcap": "28301688832",
       "price": ""
     },
     {
       "rank": 336,
-      "symbol": "AEE",
-      "name": "Ameren",
-      "marketcap": "28525930496",
+      "symbol": "CFG",
+      "name": "Citizens Financial Group",
+      "marketcap": "28235694080",
       "price": ""
     },
     {
       "rank": 337,
-      "symbol": "CBOE",
-      "name": "Cboe Global Markets",
-      "marketcap": "28241278976",
+      "symbol": "HAL",
+      "name": "Halliburton",
+      "marketcap": "28026505216",
       "price": ""
     },
     {
       "rank": 338,
-      "symbol": "CFG",
-      "name": "Citizens Financial Group",
-      "marketcap": "28151455744",
+      "symbol": "TDY",
+      "name": "Teledyne Technologies",
+      "marketcap": "27973795840",
       "price": ""
     },
     {
       "rank": 339,
-      "symbol": "TDY",
-      "name": "Teledyne Technologies",
-      "marketcap": "27864393728",
+      "symbol": "MTD",
+      "name": "Mettler Toledo",
+      "marketcap": "27897303040",
       "price": ""
     },
     {
       "rank": 340,
-      "symbol": "CTSH",
-      "name": "Cognizant Technology Solutions",
-      "marketcap": "27859974144",
+      "symbol": "VRSN",
+      "name": "VeriSign",
+      "marketcap": "27402047488",
       "price": ""
     },
     {
       "rank": 341,
-      "symbol": "MTD",
-      "name": "Mettler Toledo",
-      "marketcap": "27624204288",
+      "symbol": "ON",
+      "name": "ON Semiconductor",
+      "marketcap": "27244519424",
       "price": ""
     },
     {
       "rank": 342,
-      "symbol": "AWK",
-      "name": "American Water",
-      "marketcap": "27376904192",
+      "symbol": "DGX",
+      "name": "Quest Diagnostics",
+      "marketcap": "27201513472",
       "price": ""
     },
     {
       "rank": 343,
-      "symbol": "ATO",
-      "name": "Atmos Energy",
-      "marketcap": "27369388032",
-      "price": ""
-    },
-    {
-      "rank": 344,
-      "symbol": "DGX",
-      "name": "Quest Diagnostics",
-      "marketcap": "27271049216",
-      "price": ""
-    },
-    {
-      "rank": 345,
-      "symbol": "DTE",
-      "name": "DTE Energy",
-      "marketcap": "27197110272",
-      "price": ""
-    },
-    {
-      "rank": 346,
       "symbol": "ECHO",
       "name": "EchoStar",
       "marketcap": "27149262848",
       "price": ""
     },
     {
+      "rank": 344,
+      "symbol": "CPRT",
+      "name": "Copart",
+      "marketcap": "27107760128",
+      "price": ""
+    },
+    {
+      "rank": 345,
+      "symbol": "ATO",
+      "name": "Atmos Energy",
+      "marketcap": "27088867328",
+      "price": ""
+    },
+    {
+      "rank": 346,
+      "symbol": "AWK",
+      "name": "American Water",
+      "marketcap": "27007268864",
+      "price": ""
+    },
+    {
       "rank": 347,
       "symbol": "DG",
       "name": "Dollar General",
-      "marketcap": "27138070528",
+      "marketcap": "27005702144",
       "price": ""
     },
     {
       "rank": 348,
-      "symbol": "VICI",
-      "name": "VICI Properties",
-      "marketcap": "27009431552",
+      "symbol": "CTSH",
+      "name": "Cognizant Technology Solutions",
+      "marketcap": "26968094720",
       "price": ""
     },
     {
       "rank": 349,
-      "symbol": "VRSN",
-      "name": "VeriSign",
-      "marketcap": "26980784128",
+      "symbol": "DTE",
+      "name": "DTE Energy",
+      "marketcap": "26743478272",
       "price": ""
     },
     {
       "rank": 350,
-      "symbol": "ZM",
-      "name": "Zoom",
-      "marketcap": "26826594304",
+      "symbol": "GFS",
+      "name": "GlobalFoundries",
+      "marketcap": "26655758336",
       "price": ""
     },
     {
       "rank": 351,
-      "symbol": "INSM",
-      "name": "Insmed",
-      "marketcap": "26769205248",
+      "symbol": "WSM",
+      "name": "Williams-Sonoma",
+      "marketcap": "26406090752",
       "price": ""
     },
     {
       "rank": 352,
-      "symbol": "LVS",
-      "name": "Las Vegas Sands",
-      "marketcap": "26594611200",
+      "symbol": "INSM",
+      "name": "Insmed",
+      "marketcap": "26205779968",
       "price": ""
     },
     {
       "rank": 353,
-      "symbol": "CPAY",
-      "name": "Corpay",
-      "marketcap": "26412886016",
+      "symbol": "FE",
+      "name": "FirstEnergy",
+      "marketcap": "26189242368",
       "price": ""
     },
     {
       "rank": 354,
-      "symbol": "OTIS",
-      "name": "Otis Worldwide",
-      "marketcap": "26361352192",
+      "symbol": "VICI",
+      "name": "VICI Properties",
+      "marketcap": "26117558272",
       "price": ""
     },
     {
       "rank": 355,
-      "symbol": "LH",
-      "name": "LabCorp",
-      "marketcap": "26317762560",
+      "symbol": "CPAY",
+      "name": "Corpay",
+      "marketcap": "26116763648",
       "price": ""
     },
     {
       "rank": 356,
-      "symbol": "FISV",
-      "name": "Fiserv",
-      "marketcap": "26295865344",
+      "symbol": "ATI",
+      "name": "ATI Inc.",
+      "marketcap": "26094331904",
       "price": ""
     },
     {
       "rank": 357,
-      "symbol": "FE",
-      "name": "FirstEnergy",
-      "marketcap": "26258681856",
+      "symbol": "OTIS",
+      "name": "Otis Worldwide",
+      "marketcap": "26083463168",
       "price": ""
     },
     {
       "rank": 358,
-      "symbol": "LPLA",
-      "name": "LPL Financial",
-      "marketcap": "26224332800",
+      "symbol": "LH",
+      "name": "LabCorp",
+      "marketcap": "26009579520",
       "price": ""
     },
     {
       "rank": 359,
-      "symbol": "CINF",
-      "name": "Cincinnati Financial",
-      "marketcap": "26209447936",
+      "symbol": "WRB",
+      "name": "W. R. Berkley",
+      "marketcap": "25982214144",
       "price": ""
     },
     {
       "rank": 360,
-      "symbol": "SYM",
-      "name": "Symbotic",
-      "marketcap": "26097276928",
+      "symbol": "CINF",
+      "name": "Cincinnati Financial",
+      "marketcap": "25937790976",
       "price": ""
     },
     {
       "rank": 361,
-      "symbol": "WRB",
-      "name": "W. R. Berkley",
-      "marketcap": "25967364096",
+      "symbol": "ZM",
+      "name": "Zoom",
+      "marketcap": "25901639680",
       "price": ""
     },
     {
       "rank": 362,
-      "symbol": "ON",
-      "name": "ON Semiconductor",
-      "marketcap": "25928620032",
+      "symbol": "LVS",
+      "name": "Las Vegas Sands",
+      "marketcap": "25895092224",
       "price": ""
     },
     {
       "rank": 363,
-      "symbol": "CPNG",
-      "name": "Coupang",
-      "marketcap": "25884168192",
+      "symbol": "LPLA",
+      "name": "LPL Financial",
+      "marketcap": "25834557440",
       "price": ""
     },
     {
       "rank": 364,
-      "symbol": "ATI",
-      "name": "ATI Inc.",
-      "marketcap": "25824712704",
+      "symbol": "CPNG",
+      "name": "Coupang",
+      "marketcap": "25686441984",
       "price": ""
     },
     {
       "rank": 365,
-      "symbol": "WSM",
-      "name": "Williams-Sonoma",
-      "marketcap": "25699416064",
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "marketcap": "25680777216",
       "price": ""
     },
     {
       "rank": 366,
       "symbol": "ES",
       "name": "Eversource Energy",
-      "marketcap": "25561149440",
+      "marketcap": "25508415488",
       "price": ""
     },
     {
       "rank": 367,
       "symbol": "WST",
       "name": "West Pharmaceutical Services",
-      "marketcap": "25476728832",
+      "marketcap": "25497841664",
       "price": ""
     },
     {
       "rank": 368,
-      "symbol": "DOV",
-      "name": "Dover Corporation",
-      "marketcap": "25368367104",
+      "symbol": "INCY",
+      "name": "Incyte",
+      "marketcap": "25400053760",
       "price": ""
     },
     {
       "rank": 369,
-      "symbol": "INCY",
-      "name": "Incyte",
-      "marketcap": "25286543360",
+      "symbol": "SYM",
+      "name": "Symbotic",
+      "marketcap": "25358731264",
       "price": ""
     },
     {
       "rank": 370,
-      "symbol": "CNP",
-      "name": "CenterPoint Energy",
-      "marketcap": "25248749568",
+      "symbol": "DOV",
+      "name": "Dover Corporation",
+      "marketcap": "25241767936",
       "price": ""
     },
     {
       "rank": 371,
-      "symbol": "PPL",
-      "name": "PPL",
-      "marketcap": "25142521856",
+      "symbol": "PFG",
+      "name": "Principal Financial Group",
+      "marketcap": "25193693184",
       "price": ""
     },
     {
       "rank": 372,
-      "symbol": "XYL",
-      "name": "Xylem",
-      "marketcap": "25046130688",
+      "symbol": "CNP",
+      "name": "CenterPoint Energy",
+      "marketcap": "25176289280",
       "price": ""
     },
     {
       "rank": 373,
-      "symbol": "PFG",
-      "name": "Principal Financial Group",
-      "marketcap": "24973164544",
+      "symbol": "Q",
+      "name": "Qnity Electronics",
+      "marketcap": "25115486208",
       "price": ""
     },
     {
       "rank": 374,
-      "symbol": "FOX",
-      "name": "Fox Corporation",
-      "marketcap": "24868876288",
+      "symbol": "XYL",
+      "name": "Xylem",
+      "marketcap": "25113841664",
       "price": ""
     },
     {
       "rank": 375,
-      "symbol": "EXPD",
-      "name": "Expeditors International",
-      "marketcap": "24573427712",
+      "symbol": "FISV",
+      "name": "Fiserv",
+      "marketcap": "25094070272",
       "price": ""
     },
     {
       "rank": 376,
-      "symbol": "SYF",
-      "name": "Synchrony Financial",
-      "marketcap": "24363767808",
+      "symbol": "PPL",
+      "name": "PPL",
+      "marketcap": "25089845248",
       "price": ""
     },
     {
       "rank": 377,
-      "symbol": "RF",
-      "name": "Regions Financial",
-      "marketcap": "24254433280",
+      "symbol": "CRCL",
+      "name": "Circle Internet Group",
+      "marketcap": "25018687488",
       "price": ""
     },
     {
       "rank": 378,
-      "symbol": "SMCI",
-      "name": "Supermicro",
-      "marketcap": "24209172480",
+      "symbol": "EXPD",
+      "name": "Expeditors International",
+      "marketcap": "24820410368",
       "price": ""
     },
     {
       "rank": 379,
-      "symbol": "SN",
-      "name": "SharkNinja",
-      "marketcap": "24154697728",
+      "symbol": "FFIV",
+      "name": "F5",
+      "marketcap": "24464642048",
       "price": ""
     },
     {
       "rank": 380,
-      "symbol": "AFRM",
-      "name": "Affirm",
-      "marketcap": "24152612864",
+      "symbol": "SYF",
+      "name": "Synchrony Financial",
+      "marketcap": "24415827968",
       "price": ""
     },
     {
       "rank": 381,
       "symbol": "TPL",
       "name": "Texas Pacific Land Corporation",
-      "marketcap": "24042504192",
+      "marketcap": "24325302272",
       "price": ""
     },
     {
       "rank": 382,
-      "symbol": "Q",
-      "name": "Qnity Electronics",
-      "marketcap": "24029693952",
+      "symbol": "RF",
+      "name": "Regions Financial",
+      "marketcap": "24279992320",
       "price": ""
     },
     {
       "rank": 383,
-      "symbol": "FFIV",
-      "name": "F5",
-      "marketcap": "23986708480",
+      "symbol": "FOX",
+      "name": "Fox Corporation",
+      "marketcap": "24276060160",
       "price": ""
     },
     {
       "rank": 384,
-      "symbol": "GFS",
-      "name": "GlobalFoundries",
-      "marketcap": "23985723392",
+      "symbol": "GH",
+      "name": "Guardant Health",
+      "marketcap": "24072110080",
       "price": ""
     },
     {
       "rank": 385,
-      "symbol": "FWONK",
-      "name": "Formula One Group",
-      "marketcap": "23907561472",
+      "symbol": "AFRM",
+      "name": "Affirm",
+      "marketcap": "24027766784",
       "price": ""
     },
     {
       "rank": 386,
-      "symbol": "IOT",
-      "name": "Samsara",
-      "marketcap": "23810707456",
+      "symbol": "FCNCA",
+      "name": "First Citizens BancShares",
+      "marketcap": "23849826304",
       "price": ""
     },
     {
       "rank": 387,
-      "symbol": "FCNCA",
-      "name": "First Citizens BancShares",
-      "marketcap": "23710697472",
+      "symbol": "DRI",
+      "name": "Darden Restaurants",
+      "marketcap": "23762020352",
       "price": ""
     },
     {
       "rank": 388,
-      "symbol": "VRSK",
-      "name": "Verisk Analytics",
-      "marketcap": "23655856128",
+      "symbol": "FWONK",
+      "name": "Formula One Group",
+      "marketcap": "23701979136",
       "price": ""
     },
     {
       "rank": 389,
-      "symbol": "DRI",
-      "name": "Darden Restaurants",
-      "marketcap": "23625768960",
+      "symbol": "HUBB",
+      "name": "Hubbell",
+      "marketcap": "23611934720",
       "price": ""
     },
     {
       "rank": 390,
-      "symbol": "TPR",
-      "name": "Tapestry",
-      "marketcap": "23516254208",
+      "symbol": "SN",
+      "name": "SharkNinja",
+      "marketcap": "23457003520",
       "price": ""
     },
     {
       "rank": 391,
-      "symbol": "GH",
-      "name": "Guardant Health",
-      "marketcap": "23470909440",
+      "symbol": "PPG",
+      "name": "PPG Industries",
+      "marketcap": "23234795520",
       "price": ""
     },
     {
       "rank": 392,
-      "symbol": "VLTO",
-      "name": "Veralto",
-      "marketcap": "23343212544",
+      "symbol": "IOT",
+      "name": "Samsara",
+      "marketcap": "23160684544",
       "price": ""
     },
     {
       "rank": 393,
-      "symbol": "PPG",
-      "name": "PPG Industries",
-      "marketcap": "23337054208",
+      "symbol": "ULTA",
+      "name": "ULTA Beauty",
+      "marketcap": "23130937344",
       "price": ""
     },
     {
       "rank": 394,
-      "symbol": "HUBB",
-      "name": "Hubbell",
-      "marketcap": "23197198336",
+      "symbol": "VLTO",
+      "name": "Veralto",
+      "marketcap": "23036033024",
       "price": ""
     },
     {
       "rank": 395,
-      "symbol": "ASTS",
-      "name": "AST SpaceMobile",
-      "marketcap": "23065956352",
+      "symbol": "TPR",
+      "name": "Tapestry",
+      "marketcap": "22930042880",
       "price": ""
     },
     {
       "rank": 396,
-      "symbol": "ROKU",
-      "name": "Roku",
-      "marketcap": "23036968960",
+      "symbol": "VRSK",
+      "name": "Verisk Analytics",
+      "marketcap": "22830667776",
       "price": ""
     },
     {
       "rank": 397,
-      "symbol": "GPN",
-      "name": "Global Payments",
-      "marketcap": "22886844416",
+      "symbol": "ROKU",
+      "name": "Roku",
+      "marketcap": "22817175552",
       "price": ""
     },
     {
       "rank": 398,
-      "symbol": "ULTA",
-      "name": "ULTA Beauty",
-      "marketcap": "22683695104",
+      "symbol": "ASTS",
+      "name": "AST SpaceMobile",
+      "marketcap": "22774081536",
       "price": ""
     },
     {
       "rank": 399,
-      "symbol": "CHD",
-      "name": "Church & Dwight",
-      "marketcap": "22655344640",
+      "symbol": "GPN",
+      "name": "Global Payments",
+      "marketcap": "22508439552",
       "price": ""
     },
     {
       "rank": 400,
-      "symbol": "NRG",
-      "name": "NRG Energy",
-      "marketcap": "22572400640",
+      "symbol": "CHD",
+      "name": "Church & Dwight",
+      "marketcap": "22475069440",
       "price": ""
     },
     {
       "rank": 401,
-      "symbol": "BG",
-      "name": "Bunge Global SA",
-      "marketcap": "22502912000",
+      "symbol": "TW",
+      "name": "Tradeweb",
+      "marketcap": "22460459008",
       "price": ""
     },
     {
       "rank": 402,
-      "symbol": "PHM",
-      "name": "PulteGroup",
-      "marketcap": "22391670784",
+      "symbol": "ARXS",
+      "name": "Arxis, Inc.",
+      "marketcap": "22411585536",
       "price": ""
     },
     {
       "rank": 403,
-      "symbol": "L",
-      "name": "Loews Corporation",
-      "marketcap": "22239690752",
+      "symbol": "PHM",
+      "name": "PulteGroup",
+      "marketcap": "22336430080",
       "price": ""
     },
     {
       "rank": 404,
-      "symbol": "JBHT",
-      "name": "J. B. Hunt",
-      "marketcap": "22232481792",
+      "symbol": "TROW",
+      "name": "T. Rowe Price",
+      "marketcap": "22218979328",
       "price": ""
     },
     {
       "rank": 405,
-      "symbol": "MKL",
-      "name": "Markel Group",
-      "marketcap": "22148909056",
+      "symbol": "KEY",
+      "name": "KeyCorp (KeyBank)",
+      "marketcap": "22206945280",
       "price": ""
     },
     {
       "rank": 406,
-      "symbol": "TW",
-      "name": "Tradeweb",
-      "marketcap": "22114813952",
+      "symbol": "BG",
+      "name": "Bunge Global SA",
+      "marketcap": "22205128704",
       "price": ""
     },
     {
       "rank": 407,
-      "symbol": "KEY",
-      "name": "KeyCorp (KeyBank)",
-      "marketcap": "22110904320",
+      "symbol": "CASY",
+      "name": "Casey's General Stores",
+      "marketcap": "22082961408",
       "price": ""
     },
     {
       "rank": 408,
-      "symbol": "RIVN",
-      "name": "Rivian",
-      "marketcap": "22050916352",
+      "symbol": "L",
+      "name": "Loews Corporation",
+      "marketcap": "22031173632",
       "price": ""
     },
     {
       "rank": 409,
-      "symbol": "BRO",
-      "name": "Brown &amp; Brown",
-      "marketcap": "22044129280",
+      "symbol": "MKL",
+      "name": "Markel Group",
+      "marketcap": "22008653824",
       "price": ""
     },
     {
       "rank": 410,
-      "symbol": "CRCL",
-      "name": "Circle Internet Group",
-      "marketcap": "21930194944",
+      "symbol": "JBHT",
+      "name": "J. B. Hunt",
+      "marketcap": "21999572992",
       "price": ""
     },
     {
       "rank": 411,
-      "symbol": "TROW",
-      "name": "T. Rowe Price",
-      "marketcap": "21843544064",
+      "symbol": "RBRK",
+      "name": "Rubrik",
+      "marketcap": "21963966464",
       "price": ""
     },
     {
       "rank": 412,
-      "symbol": "CASY",
-      "name": "Casey's General Stores",
-      "marketcap": "21769539584",
+      "symbol": "SOFI",
+      "name": "SoFi",
+      "marketcap": "21905031168",
       "price": ""
     },
     {
       "rank": 413,
-      "symbol": "OMC",
-      "name": "Omnicom Group",
-      "marketcap": "21763864576",
+      "symbol": "NRG",
+      "name": "NRG Energy",
+      "marketcap": "21790418944",
       "price": ""
     },
     {
       "rank": 414,
-      "symbol": "SOFI",
-      "name": "SoFi",
-      "marketcap": "21750044672",
+      "symbol": "BRO",
+      "name": "Brown &amp; Brown",
+      "marketcap": "21756364800",
       "price": ""
     },
     {
       "rank": 415,
-      "symbol": "DOW",
-      "name": "Dow",
-      "marketcap": "21728010240",
+      "symbol": "ENTG",
+      "name": "Entegris",
+      "marketcap": "21735800832",
       "price": ""
     },
     {
       "rank": 416,
-      "symbol": "RBRK",
-      "name": "Rubrik",
-      "marketcap": "21607882752",
+      "symbol": "RIVN",
+      "name": "Rivian",
+      "marketcap": "21703430144",
       "price": ""
     },
     {
       "rank": 417,
-      "symbol": "IFF",
-      "name": "International Flavors & Fragrances",
-      "marketcap": "21534658560",
+      "symbol": "EIX",
+      "name": "Edison International",
+      "marketcap": "21284061184",
       "price": ""
     },
     {
       "rank": 418,
-      "symbol": "FICO",
-      "name": "Fair Isaac (FICO)",
-      "marketcap": "21410816000",
+      "symbol": "UTHR",
+      "name": "United Therapeutics",
+      "marketcap": "21215023104",
       "price": ""
     },
     {
       "rank": 419,
-      "symbol": "THC",
-      "name": "Tenet Healthcare",
-      "marketcap": "21400340480",
+      "symbol": "IFF",
+      "name": "International Flavors & Fragrances",
+      "marketcap": "21167241216",
       "price": ""
     },
     {
       "rank": 420,
-      "symbol": "UTHR",
-      "name": "United Therapeutics",
-      "marketcap": "21380153344",
+      "symbol": "RGLD",
+      "name": "Royal Gold",
+      "marketcap": "21152309248",
       "price": ""
     },
     {
       "rank": 421,
-      "symbol": "ARXS",
-      "name": "Arxis, Inc.",
-      "marketcap": "21330210816",
+      "symbol": "SNX",
+      "name": "TD Synnex",
+      "marketcap": "21141893120",
       "price": ""
     },
     {
       "rank": 422,
-      "symbol": "EIX",
-      "name": "Edison International",
-      "marketcap": "21091655680",
+      "symbol": "THC",
+      "name": "Tenet Healthcare",
+      "marketcap": "21095172096",
       "price": ""
     },
     {
       "rank": 423,
-      "symbol": "DLTR",
-      "name": "Dollar Tree",
-      "marketcap": "21089646592",
+      "symbol": "MTSI",
+      "name": "MACOM Technology Solutions",
+      "marketcap": "21067683840",
       "price": ""
     },
     {
       "rank": 424,
-      "symbol": "CW",
-      "name": "Curtiss-Wright",
-      "marketcap": "21054109696",
+      "symbol": "FSLR",
+      "name": "First Solar",
+      "marketcap": "21059780608",
       "price": ""
     },
     {
       "rank": 425,
-      "symbol": "STZ",
-      "name": "Constellation Brands",
-      "marketcap": "21014059008",
+      "symbol": "DLTR",
+      "name": "Dollar Tree",
+      "marketcap": "21007089664",
       "price": ""
     },
     {
       "rank": 426,
-      "symbol": "SNX",
-      "name": "TD Synnex",
-      "marketcap": "20987574272",
+      "symbol": "OMC",
+      "name": "Omnicom Group",
+      "marketcap": "21006669824",
       "price": ""
     },
     {
       "rank": 427,
-      "symbol": "LYB",
-      "name": "LyondellBasell",
-      "marketcap": "20965163008",
+      "symbol": "CW",
+      "name": "Curtiss-Wright",
+      "marketcap": "20988737536",
       "price": ""
     },
     {
       "rank": 428,
-      "symbol": "RGLD",
-      "name": "Royal Gold",
-      "marketcap": "20801536000",
+      "symbol": "DOW",
+      "name": "Dow",
+      "marketcap": "20752848896",
       "price": ""
     },
     {
       "rank": 429,
-      "symbol": "CMS",
-      "name": "CMS Energy",
-      "marketcap": "20692955136",
+      "symbol": "PKG",
+      "name": "Packaging Corporation of America",
+      "marketcap": "20739409920",
       "price": ""
     },
     {
       "rank": 430,
-      "symbol": "PKG",
-      "name": "Packaging Corporation of America",
-      "marketcap": "20621799424",
+      "symbol": "DINO",
+      "name": "HF Sinclair",
+      "marketcap": "20605149184",
       "price": ""
     },
     {
       "rank": 431,
-      "symbol": "EXE",
-      "name": "Expand Energy",
-      "marketcap": "20543645696",
+      "symbol": "FICO",
+      "name": "Fair Isaac (FICO)",
+      "marketcap": "20510842880",
       "price": ""
     },
     {
       "rank": 432,
-      "symbol": "FSLR",
-      "name": "First Solar",
-      "marketcap": "20534253568",
+      "symbol": "CMS",
+      "name": "CMS Energy",
+      "marketcap": "20489129984",
       "price": ""
     },
     {
       "rank": 433,
       "symbol": "XPO",
       "name": "XPO Logistics",
-      "marketcap": "20421050368",
+      "marketcap": "20402317312",
       "price": ""
     },
     {
       "rank": 434,
-      "symbol": "CRS",
-      "name": "Carpenter Technology",
-      "marketcap": "20408217600",
+      "symbol": "STZ",
+      "name": "Constellation Brands",
+      "marketcap": "20320593920",
       "price": ""
     },
     {
       "rank": 435,
-      "symbol": "DINO",
-      "name": "HF Sinclair",
-      "marketcap": "20262027264",
+      "symbol": "CDE",
+      "name": "Coeur Mining",
+      "marketcap": "20311994368",
       "price": ""
     },
     {
       "rank": 436,
-      "symbol": "RL",
-      "name": "Ralph Lauren",
-      "marketcap": "20160245760",
+      "symbol": "EXE",
+      "name": "Expand Energy",
+      "marketcap": "20254265344",
       "price": ""
     },
     {
       "rank": 437,
-      "symbol": "RS",
-      "name": "Reliance",
-      "marketcap": "20130809856",
+      "symbol": "CRS",
+      "name": "Carpenter Technology",
+      "marketcap": "20225843200",
       "price": ""
     },
     {
       "rank": 438,
       "symbol": "USFD",
       "name": "US Foods",
-      "marketcap": "20012754944",
+      "marketcap": "20209614848",
       "price": ""
     },
     {
       "rank": 439,
-      "symbol": "CF",
-      "name": "CF Industries",
-      "marketcap": "19975120896",
+      "symbol": "LUV",
+      "name": "Southwest Airlines",
+      "marketcap": "20047751168",
       "price": ""
     },
     {
       "rank": 440,
-      "symbol": "ENTG",
-      "name": "Entegris",
-      "marketcap": "19894558720",
+      "symbol": "LYB",
+      "name": "LyondellBasell",
+      "marketcap": "20005740544",
       "price": ""
     },
     {
       "rank": 441,
-      "symbol": "GIS",
-      "name": "General Mills",
-      "marketcap": "19679711232",
+      "symbol": "RL",
+      "name": "Ralph Lauren",
+      "marketcap": "19966009344",
       "price": ""
     },
     {
       "rank": 442,
-      "symbol": "VTRS",
-      "name": "Viatris",
-      "marketcap": "19549016064",
+      "symbol": "PS",
+      "name": "Pershing Square Inc.",
+      "marketcap": "19932000256",
       "price": ""
     },
     {
       "rank": 443,
-      "symbol": "CDE",
-      "name": "Coeur Mining",
-      "marketcap": "19510204416",
+      "symbol": "RS",
+      "name": "Reliance",
+      "marketcap": "19918934016",
       "price": ""
     },
     {
       "rank": 444,
-      "symbol": "NI",
-      "name": "NiSource",
-      "marketcap": "19498913792",
+      "symbol": "FTAI",
+      "name": "FTAI Aviation",
+      "marketcap": "19590350848",
       "price": ""
     },
     {
       "rank": 445,
-      "symbol": "FTAI",
-      "name": "FTAI Aviation",
-      "marketcap": "19496886272",
+      "symbol": "WES",
+      "name": "Western Midstream",
+      "marketcap": "19539025920",
       "price": ""
     },
     {
       "rank": 446,
       "symbol": "BBY",
       "name": "Best Buy",
-      "marketcap": "19389325312",
+      "marketcap": "19473215488",
       "price": ""
     },
     {
       "rank": 447,
-      "symbol": "WES",
-      "name": "Western Midstream",
-      "marketcap": "19377889280",
+      "symbol": "VTRS",
+      "name": "Viatris",
+      "marketcap": "19468615680",
       "price": ""
     },
     {
       "rank": 448,
-      "symbol": "SNA",
-      "name": "Snap-on",
-      "marketcap": "19293184000",
+      "symbol": "NI",
+      "name": "NiSource",
+      "marketcap": "19460548608",
       "price": ""
     },
     {
       "rank": 449,
-      "symbol": "EFX",
-      "name": "Equifax",
-      "marketcap": "19244025856",
+      "symbol": "GIS",
+      "name": "General Mills",
+      "marketcap": "19417741312",
       "price": ""
     },
     {
       "rank": 450,
-      "symbol": "MTSI",
-      "name": "MACOM Technology Solutions",
-      "marketcap": "19226380288",
+      "symbol": "CF",
+      "name": "CF Industries",
+      "marketcap": "19325878272",
       "price": ""
     },
     {
       "rank": 451,
-      "symbol": "PR",
-      "name": "Permian Resources",
-      "marketcap": "19221934080",
+      "symbol": "SNA",
+      "name": "Snap-on",
+      "marketcap": "19250249728",
       "price": ""
     },
     {
       "rank": 452,
-      "symbol": "LUV",
-      "name": "Southwest Airlines",
-      "marketcap": "19152500736",
+      "symbol": "PR",
+      "name": "Permian Resources",
+      "marketcap": "19062798336",
       "price": ""
     },
     {
       "rank": 453,
-      "symbol": "SBAC",
-      "name": "SBA Communications",
-      "marketcap": "19097982976",
+      "symbol": "WWD",
+      "name": "Woodward",
+      "marketcap": "18997401600",
       "price": ""
     },
     {
       "rank": 454,
-      "symbol": "BR",
-      "name": "Broadridge Financial Solutions",
-      "marketcap": "19051902976",
+      "symbol": "SBAC",
+      "name": "SBA Communications",
+      "marketcap": "18946275328",
       "price": ""
     },
     {
       "rank": 455,
-      "symbol": "FIS",
-      "name": "Fidelity National Information Services",
-      "marketcap": "19003762688",
+      "symbol": "NTNX",
+      "name": "Nutanix",
+      "marketcap": "18868373504",
       "price": ""
     },
     {
       "rank": 456,
       "symbol": "SSNC",
       "name": "SS&C Technologies",
-      "marketcap": "18901460992",
+      "marketcap": "18755973120",
       "price": ""
     },
     {
       "rank": 457,
-      "symbol": "LEN",
-      "name": "Lennar",
-      "marketcap": "18876542976",
+      "symbol": "EFX",
+      "name": "Equifax",
+      "marketcap": "18664824832",
       "price": ""
     },
     {
       "rank": 458,
-      "symbol": "WWD",
-      "name": "Woodward",
-      "marketcap": "18803142656",
+      "symbol": "ESS",
+      "name": "Essex Property Trust",
+      "marketcap": "18615324672",
       "price": ""
     },
     {
       "rank": 459,
-      "symbol": "CDW",
-      "name": "CDW Corporation",
-      "marketcap": "18747613184",
+      "symbol": "BR",
+      "name": "Broadridge Financial Solutions",
+      "marketcap": "18600376320",
       "price": ""
     },
     {
       "rank": 460,
-      "symbol": "ESS",
-      "name": "Essex Property Trust",
-      "marketcap": "18704248832",
+      "symbol": "TSN",
+      "name": "Tyson Foods",
+      "marketcap": "18564564992",
       "price": ""
     },
     {
       "rank": 461,
-      "symbol": "NTNX",
-      "name": "Nutanix",
-      "marketcap": "18571018240",
+      "symbol": "LEN",
+      "name": "Lennar",
+      "marketcap": "18411616256",
       "price": ""
     },
     {
       "rank": 462,
-      "symbol": "U",
-      "name": "Unity Software",
-      "marketcap": "18540947456",
+      "symbol": "SITM",
+      "name": "SiTime",
+      "marketcap": "18400778240",
       "price": ""
     },
     {
       "rank": 463,
       "symbol": "EVRG",
       "name": "Evergy",
-      "marketcap": "18535294976",
+      "marketcap": "18394648576",
       "price": ""
     },
     {
       "rank": 464,
-      "symbol": "ZBH",
-      "name": "Zimmer Biomet",
-      "marketcap": "18459594752",
+      "symbol": "FIS",
+      "name": "Fidelity National Information Services",
+      "marketcap": "18369443840",
       "price": ""
     },
     {
       "rank": 465,
-      "symbol": "GEN",
-      "name": "Gen Digital",
-      "marketcap": "18346690560",
+      "symbol": "IP",
+      "name": "International Paper",
+      "marketcap": "18286047232",
       "price": ""
     },
     {
       "rank": 466,
-      "symbol": "TSN",
-      "name": "Tyson Foods",
-      "marketcap": "18335893504",
+      "symbol": "CDW",
+      "name": "CDW Corporation",
+      "marketcap": "18276296704",
       "price": ""
     },
     {
       "rank": 467,
-      "symbol": "FDXF",
-      "name": "FedEx Freight",
-      "marketcap": "18200842240",
+      "symbol": "ITT",
+      "name": "ITT",
+      "marketcap": "18220414976",
       "price": ""
     },
     {
       "rank": 468,
-      "symbol": "CHTR",
-      "name": "Charter Communications",
-      "marketcap": "18194960384",
+      "symbol": "U",
+      "name": "Unity Software",
+      "marketcap": "18219681792",
       "price": ""
     },
     {
       "rank": 469,
-      "symbol": "TPG",
-      "name": "TPG Inc.",
-      "marketcap": "18180911104",
+      "symbol": "ZBH",
+      "name": "Zimmer Biomet",
+      "marketcap": "18188746752",
       "price": ""
     },
     {
       "rank": 470,
-      "symbol": "MTZ",
-      "name": "MasTec",
-      "marketcap": "18118402048",
+      "symbol": "TPG",
+      "name": "TPG Inc.",
+      "marketcap": "18149664768",
       "price": ""
     },
     {
       "rank": 471,
-      "symbol": "IP",
-      "name": "International Paper",
-      "marketcap": "18037151744",
+      "symbol": "FDXF",
+      "name": "FedEx Freight",
+      "marketcap": "17961613312",
       "price": ""
     },
     {
       "rank": 472,
-      "symbol": "GPC",
-      "name": "Genuine Parts Company",
-      "marketcap": "17993455616",
+      "symbol": "PAA",
+      "name": "Plains All American Pipeline",
+      "marketcap": "17900222464",
       "price": ""
     },
     {
       "rank": 473,
-      "symbol": "TOST",
-      "name": "Toast",
-      "marketcap": "17987360768",
+      "symbol": "CHRW",
+      "name": "C. H. Robinson",
+      "marketcap": "17877073920",
       "price": ""
     },
     {
       "rank": 474,
-      "symbol": "PAA",
-      "name": "Plains All American Pipeline",
-      "marketcap": "17935499264",
+      "symbol": "GPC",
+      "name": "Genuine Parts Company",
+      "marketcap": "17657077760",
       "price": ""
     },
     {
       "rank": 475,
       "symbol": "NWS",
       "name": "News Corp",
-      "marketcap": "17933594624",
+      "marketcap": "17520887808",
       "price": ""
     },
     {
       "rank": 476,
-      "symbol": "CHRW",
-      "name": "C. H. Robinson",
-      "marketcap": "17933162496",
+      "symbol": "DD",
+      "name": "Dupont De Nemours",
+      "marketcap": "17421893632",
       "price": ""
     },
     {
       "rank": 477,
-      "symbol": "ITT",
-      "name": "ITT",
-      "marketcap": "17787387904",
+      "symbol": "EWBC",
+      "name": "East West Bancorp",
+      "marketcap": "17389545472",
       "price": ""
     },
     {
       "rank": 478,
-      "symbol": "OVV",
-      "name": "Ovintiv",
-      "marketcap": "17362182144",
+      "symbol": "GEN",
+      "name": "Gen Digital",
+      "marketcap": "17365008384",
       "price": ""
     },
     {
       "rank": 479,
-      "symbol": "EWBC",
-      "name": "East West Bancorp",
-      "marketcap": "17288155136",
+      "symbol": "NDSN",
+      "name": "Nordson",
+      "marketcap": "17354252288",
       "price": ""
     },
     {
       "rank": 480,
-      "symbol": "DD",
-      "name": "Dupont De Nemours",
-      "marketcap": "17227431936",
+      "symbol": "SMTC",
+      "name": "Semtech",
+      "marketcap": "17265240064",
       "price": ""
     },
     {
       "rank": 481,
-      "symbol": "NDSN",
-      "name": "Nordson",
-      "marketcap": "17212217344",
+      "symbol": "OVV",
+      "name": "Ovintiv",
+      "marketcap": "17251540992",
       "price": ""
     },
     {
       "rank": 482,
-      "symbol": "MEDP",
-      "name": "Medpace",
-      "marketcap": "17205860352",
+      "symbol": "MTZ",
+      "name": "MasTec",
+      "marketcap": "17215774720",
       "price": ""
     },
     {
       "rank": 483,
-      "symbol": "LNT",
-      "name": "Alliant Energy",
-      "marketcap": "17141311488",
+      "symbol": "TOST",
+      "name": "Toast",
+      "marketcap": "17189720064",
       "price": ""
     },
     {
       "rank": 484,
-      "symbol": "TSCO",
-      "name": "Tractor Supply",
-      "marketcap": "17079694336",
+      "symbol": "MEDP",
+      "name": "Medpace",
+      "marketcap": "17091144704",
       "price": ""
     },
     {
       "rank": 485,
-      "symbol": "CLH",
-      "name": "Clean Harbors",
-      "marketcap": "16837020672",
+      "symbol": "MKSI",
+      "name": "MKS Instruments",
+      "marketcap": "17045035008",
       "price": ""
     },
     {
       "rank": 486,
-      "symbol": "J",
-      "name": "Jacobs Engineering",
-      "marketcap": "16793870336",
+      "symbol": "LNT",
+      "name": "Alliant Energy",
+      "marketcap": "17010373632",
       "price": ""
     },
     {
       "rank": 487,
-      "symbol": "FTV",
-      "name": "Fortive",
-      "marketcap": "16701543424",
+      "symbol": "J",
+      "name": "Jacobs Engineering",
+      "marketcap": "16783335424",
       "price": ""
     },
     {
       "rank": 488,
-      "symbol": "BEN",
-      "name": "Franklin Resources",
-      "marketcap": "16624276480",
+      "symbol": "TSCO",
+      "name": "Tractor Supply",
+      "marketcap": "16782701568",
       "price": ""
     },
     {
       "rank": 489,
-      "symbol": "NVR",
-      "name": "NVR",
-      "marketcap": "16568206336",
+      "symbol": "BEN",
+      "name": "Franklin Resources",
+      "marketcap": "16771617792",
       "price": ""
     },
     {
       "rank": 490,
-      "symbol": "SITM",
-      "name": "SiTime",
-      "marketcap": "16442586112",
+      "symbol": "WCC",
+      "name": "WESCO International",
+      "marketcap": "16771411968",
       "price": ""
     },
     {
       "rank": 491,
-      "symbol": "PS",
-      "name": "Pershing Square Inc.",
-      "marketcap": "16403999744",
+      "symbol": "CLH",
+      "name": "Clean Harbors",
+      "marketcap": "16670212096",
       "price": ""
     },
     {
       "rank": 492,
-      "symbol": "WCC",
-      "name": "WESCO International",
-      "marketcap": "16341101568",
+      "symbol": "CHTR",
+      "name": "Charter Communications",
+      "marketcap": "16656665600",
       "price": ""
     },
     {
       "rank": 493,
-      "symbol": "IEX",
-      "name": "IDEX",
-      "marketcap": "16328956928",
+      "symbol": "FTV",
+      "name": "Fortive",
+      "marketcap": "16610937856",
       "price": ""
     },
     {
       "rank": 494,
-      "symbol": "RVTY",
-      "name": "Revvity",
-      "marketcap": "16261485568",
+      "symbol": "IEX",
+      "name": "IDEX",
+      "marketcap": "16492615680",
       "price": ""
     },
     {
       "rank": 495,
-      "symbol": "LDOS",
-      "name": "Leidos",
-      "marketcap": "16232418304",
+      "symbol": "NVR",
+      "name": "NVR",
+      "marketcap": "16471900160",
       "price": ""
     },
     {
       "rank": 496,
-      "symbol": "BALL",
-      "name": "Ball Corporation",
-      "marketcap": "16215727104",
+      "symbol": "ZBRA",
+      "name": "Zebra Technologies",
+      "marketcap": "16399294464",
       "price": ""
     },
     {
       "rank": 497,
-      "symbol": "RGA",
-      "name": "Reinsurance Group of America",
-      "marketcap": "16200689664",
+      "symbol": "APG",
+      "name": "APi Group",
+      "marketcap": "16158473216",
       "price": ""
     },
     {
       "rank": 498,
-      "symbol": "ZBRA",
-      "name": "Zebra Technologies",
-      "marketcap": "16141450240",
+      "symbol": "ONTO",
+      "name": "Onto Innovation",
+      "marketcap": "16101746688",
       "price": ""
     },
     {
       "rank": 499,
-      "symbol": "ROL",
-      "name": "Rollins",
-      "marketcap": "16132804608",
+      "symbol": "RGA",
+      "name": "Reinsurance Group of America",
+      "marketcap": "16043312128",
       "price": ""
     },
     {
       "rank": 500,
-      "symbol": "INVH",
-      "name": "Invitation Homes",
-      "marketcap": "16070857728",
+      "symbol": "LDOS",
+      "name": "Leidos",
+      "marketcap": "16024099840",
       "price": ""
     }
   ],
   "rising_stocks": [
     {
-      "symbol": "ILMN",
-      "name": "Illumina",
-      "current_rank": 294,
-      "rank_change_total": 29,
+      "symbol": "RBRK",
+      "name": "Rubrik",
+      "current_rank": 411,
+      "rank_change_total": 66,
       "rank_history": [
         {
-          "date": "09.11",
-          "rank": 323
+          "date": "09.14",
+          "rank": 477
         },
+        {
+          "date": "09.17",
+          "rank": 416
+        },
+        {
+          "date": "09.20",
+          "rank": 411
+        }
+      ]
+    },
+    {
+      "symbol": "GH",
+      "name": "Guardant Health",
+      "current_rank": 384,
+      "rank_change_total": 45,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 429
+        },
+        {
+          "date": "09.17",
+          "rank": 391
+        },
+        {
+          "date": "09.20",
+          "rank": 384
+        }
+      ]
+    },
+    {
+      "symbol": "ZS",
+      "name": "Zscaler",
+      "current_rank": 312,
+      "rank_change_total": 42,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 354
+        },
+        {
+          "date": "09.17",
+          "rank": 321
+        },
+        {
+          "date": "09.20",
+          "rank": 312
+        }
+      ]
+    },
+    {
+      "symbol": "ILMN",
+      "name": "Illumina",
+      "current_rank": 285,
+      "rank_change_total": 36,
+      "rank_history": [
         {
           "date": "09.14",
           "rank": 321
@@ -3522,19 +3578,39 @@
         {
           "date": "09.17",
           "rank": 294
+        },
+        {
+          "date": "09.20",
+          "rank": 285
+        }
+      ]
+    },
+    {
+      "symbol": "DINO",
+      "name": "HF Sinclair",
+      "current_rank": 430,
+      "rank_change_total": 27,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 457
+        },
+        {
+          "date": "09.17",
+          "rank": 435
+        },
+        {
+          "date": "09.20",
+          "rank": 430
         }
       ]
     },
     {
       "symbol": "MTD",
       "name": "Mettler Toledo",
-      "current_rank": 341,
-      "rank_change_total": 25,
+      "current_rank": 339,
+      "rank_change_total": 26,
       "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 366
-        },
         {
           "date": "09.14",
           "rank": 365
@@ -3542,99 +3618,39 @@
         {
           "date": "09.17",
           "rank": 341
+        },
+        {
+          "date": "09.20",
+          "rank": 339
         }
       ]
     },
     {
-      "symbol": "DGX",
-      "name": "Quest Diagnostics",
-      "current_rank": 344,
+      "symbol": "NTRA",
+      "name": "Natera",
+      "current_rank": 219,
       "rank_change_total": 24,
       "rank_history": [
         {
-          "date": "09.11",
-          "rank": 368
-        },
-        {
           "date": "09.14",
-          "rank": 364
+          "rank": 243
         },
         {
           "date": "09.17",
-          "rank": 344
-        }
-      ]
-    },
-    {
-      "symbol": "FFIV",
-      "name": "F5",
-      "current_rank": 383,
-      "rank_change_total": 22,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 405
+          "rank": 227
         },
         {
-          "date": "09.14",
-          "rank": 396
-        },
-        {
-          "date": "09.17",
-          "rank": 383
-        }
-      ]
-    },
-    {
-      "symbol": "AFRM",
-      "name": "Affirm",
-      "current_rank": 380,
-      "rank_change_total": 20,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 400
-        },
-        {
-          "date": "09.14",
-          "rank": 386
-        },
-        {
-          "date": "09.17",
-          "rank": 380
-        }
-      ]
-    },
-    {
-      "symbol": "BBY",
-      "name": "Best Buy",
-      "current_rank": 446,
-      "rank_change_total": 19,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 465
-        },
-        {
-          "date": "09.14",
-          "rank": 461
-        },
-        {
-          "date": "09.17",
-          "rank": 446
+          "date": "09.20",
+          "rank": 219
         }
       ]
     },
     {
       "symbol": "NTNX",
       "name": "Nutanix",
-      "current_rank": 461,
-      "rank_change_total": 19,
+      "current_rank": 455,
+      "rank_change_total": 24,
       "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 480
-        },
         {
           "date": "09.14",
           "rank": 479
@@ -3642,419 +3658,39 @@
         {
           "date": "09.17",
           "rank": 461
+        },
+        {
+          "date": "09.20",
+          "rank": 455
         }
       ]
     },
     {
-      "symbol": "MRNA",
-      "name": "Moderna",
-      "current_rank": 202,
-      "rank_change_total": 18,
+      "symbol": "DGX",
+      "name": "Quest Diagnostics",
+      "current_rank": 342,
+      "rank_change_total": 22,
       "rank_history": [
         {
-          "date": "09.11",
-          "rank": 220
-        },
-        {
           "date": "09.14",
-          "rank": 209
+          "rank": 364
         },
         {
           "date": "09.17",
-          "rank": 202
-        }
-      ]
-    },
-    {
-      "symbol": "FTAI",
-      "name": "FTAI Aviation",
-      "current_rank": 445,
-      "rank_change_total": 18,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 463
+          "rank": 344
         },
         {
-          "date": "09.14",
-          "rank": 460
-        },
-        {
-          "date": "09.17",
-          "rank": 445
-        }
-      ]
-    },
-    {
-      "symbol": "FICO",
-      "name": "Fair Isaac (FICO)",
-      "current_rank": 418,
-      "rank_change_total": 17,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 435
-        },
-        {
-          "date": "09.14",
-          "rank": 426
-        },
-        {
-          "date": "09.17",
-          "rank": 418
-        }
-      ]
-    },
-    {
-      "symbol": "ZBH",
-      "name": "Zimmer Biomet",
-      "current_rank": 464,
-      "rank_change_total": 17,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 481
-        },
-        {
-          "date": "09.14",
-          "rank": 478
-        },
-        {
-          "date": "09.17",
-          "rank": 464
-        }
-      ]
-    },
-    {
-      "symbol": "UI",
-      "name": "Ubiquiti",
-      "current_rank": 295,
-      "rank_change_total": 16,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 311
-        },
-        {
-          "date": "09.14",
-          "rank": 303
-        },
-        {
-          "date": "09.17",
-          "rank": 295
-        }
-      ]
-    },
-    {
-      "symbol": "CTSH",
-      "name": "Cognizant Technology Solutions",
-      "current_rank": 340,
-      "rank_change_total": 16,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 356
-        },
-        {
-          "date": "09.14",
-          "rank": 353
-        },
-        {
-          "date": "09.17",
-          "rank": 340
-        }
-      ]
-    },
-    {
-      "symbol": "SYM",
-      "name": "Symbotic",
-      "current_rank": 360,
-      "rank_change_total": 15,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 375
-        },
-        {
-          "date": "09.14",
-          "rank": 371
-        },
-        {
-          "date": "09.17",
-          "rank": 360
-        }
-      ]
-    },
-    {
-      "symbol": "PHM",
-      "name": "PulteGroup",
-      "current_rank": 402,
-      "rank_change_total": 14,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 416
-        },
-        {
-          "date": "09.14",
-          "rank": 407
-        },
-        {
-          "date": "09.17",
-          "rank": 402
-        }
-      ]
-    },
-    {
-      "symbol": "HONA",
-      "name": "Honeywell Aerospace",
-      "current_rank": 222,
-      "rank_change_total": 13,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 235
-        },
-        {
-          "date": "09.14",
-          "rank": 229
-        },
-        {
-          "date": "09.17",
-          "rank": 222
-        }
-      ]
-    },
-    {
-      "symbol": "EBAY",
-      "name": "eBay",
-      "current_rank": 232,
-      "rank_change_total": 13,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 245
-        },
-        {
-          "date": "09.14",
-          "rank": 238
-        },
-        {
-          "date": "09.17",
-          "rank": 232
-        }
-      ]
-    },
-    {
-      "symbol": "MKL",
-      "name": "Markel Group",
-      "current_rank": 405,
-      "rank_change_total": 13,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 418
-        },
-        {
-          "date": "09.14",
-          "rank": 415
-        },
-        {
-          "date": "09.17",
-          "rank": 405
-        }
-      ]
-    },
-    {
-      "symbol": "CW",
-      "name": "Curtiss-Wright",
-      "current_rank": 424,
-      "rank_change_total": 13,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 437
-        },
-        {
-          "date": "09.14",
-          "rank": 435
-        },
-        {
-          "date": "09.17",
-          "rank": 424
-        }
-      ]
-    },
-    {
-      "symbol": "ADSK",
-      "name": "Autodesk",
-      "current_rank": 243,
-      "rank_change_total": 12,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 255
-        },
-        {
-          "date": "09.14",
-          "rank": 254
-        },
-        {
-          "date": "09.17",
-          "rank": 243
-        }
-      ]
-    },
-    {
-      "symbol": "VLTO",
-      "name": "Veralto",
-      "current_rank": 392,
-      "rank_change_total": 12,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 404
-        },
-        {
-          "date": "09.14",
-          "rank": 401
-        },
-        {
-          "date": "09.17",
-          "rank": 392
-        }
-      ]
-    },
-    {
-      "symbol": "SNX",
-      "name": "TD Synnex",
-      "current_rank": 426,
-      "rank_change_total": 12,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 438
-        },
-        {
-          "date": "09.14",
-          "rank": 437
-        },
-        {
-          "date": "09.17",
-          "rank": 426
-        }
-      ]
-    },
-    {
-      "symbol": "A",
-      "name": "Agilent Technologies",
-      "current_rank": 256,
-      "rank_change_total": 11,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 267
-        },
-        {
-          "date": "09.14",
-          "rank": 263
-        },
-        {
-          "date": "09.17",
-          "rank": 256
-        }
-      ]
-    },
-    {
-      "symbol": "WAT",
-      "name": "Waters Corporation",
-      "current_rank": 264,
-      "rank_change_total": 11,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 275
-        },
-        {
-          "date": "09.14",
-          "rank": 272
-        },
-        {
-          "date": "09.17",
-          "rank": 264
-        }
-      ]
-    },
-    {
-      "symbol": "EXPE",
-      "name": "Expedia Group",
-      "current_rank": 297,
-      "rank_change_total": 10,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 307
-        },
-        {
-          "date": "09.14",
-          "rank": 306
-        },
-        {
-          "date": "09.17",
-          "rank": 297
-        }
-      ]
-    },
-    {
-      "symbol": "MNST",
-      "name": "Monster Beverage",
-      "current_rank": 133,
-      "rank_change_total": 9,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 142
-        },
-        {
-          "date": "09.14",
-          "rank": 141
-        },
-        {
-          "date": "09.17",
-          "rank": 133
-        }
-      ]
-    },
-    {
-      "symbol": "ONC",
-      "name": "BeOne Medicines",
-      "current_rank": 273,
-      "rank_change_total": 9,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 282
-        },
-        {
-          "date": "09.14",
-          "rank": 279
-        },
-        {
-          "date": "09.17",
-          "rank": 273
+          "date": "09.20",
+          "rank": 342
         }
       ]
     },
     {
       "symbol": "P",
       "name": "Everpure",
-      "current_rank": 311,
-      "rank_change_total": 9,
+      "current_rank": 296,
+      "rank_change_total": 18,
       "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 320
-        },
         {
           "date": "09.14",
           "rank": 314
@@ -4062,179 +3698,299 @@
         {
           "date": "09.17",
           "rank": 311
+        },
+        {
+          "date": "09.20",
+          "rank": 296
         }
       ]
     },
     {
-      "symbol": "FOX",
-      "name": "Fox Corporation",
-      "current_rank": 374,
-      "rank_change_total": 9,
+      "symbol": "RBLX",
+      "name": "Roblox",
+      "current_rank": 298,
+      "rank_change_total": 18,
       "rank_history": [
         {
-          "date": "09.11",
+          "date": "09.14",
+          "rank": 316
+        },
+        {
+          "date": "09.17",
+          "rank": 301
+        },
+        {
+          "date": "09.20",
+          "rank": 298
+        }
+      ]
+    },
+    {
+      "symbol": "VRSN",
+      "name": "VeriSign",
+      "current_rank": 340,
+      "rank_change_total": 18,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 358
+        },
+        {
+          "date": "09.17",
+          "rank": 349
+        },
+        {
+          "date": "09.20",
+          "rank": 340
+        }
+      ]
+    },
+    {
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "current_rank": 192,
+      "rank_change_total": 17,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 209
+        },
+        {
+          "date": "09.17",
+          "rank": 202
+        },
+        {
+          "date": "09.20",
+          "rank": 192
+        }
+      ]
+    },
+    {
+      "symbol": "DXCM",
+      "name": "DexCom",
+      "current_rank": 303,
+      "rank_change_total": 17,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 320
+        },
+        {
+          "date": "09.17",
+          "rank": 304
+        },
+        {
+          "date": "09.20",
+          "rank": 303
+        }
+      ]
+    },
+    {
+      "symbol": "FFIV",
+      "name": "F5",
+      "current_rank": 379,
+      "rank_change_total": 17,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 396
+        },
+        {
+          "date": "09.17",
           "rank": 383
         },
         {
-          "date": "09.14",
-          "rank": 382
-        },
-        {
-          "date": "09.17",
-          "rank": 374
+          "date": "09.20",
+          "rank": 379
         }
       ]
     },
     {
-      "symbol": "THC",
-      "name": "Tenet Healthcare",
-      "current_rank": 419,
-      "rank_change_total": 9,
+      "symbol": "TW",
+      "name": "Tradeweb",
+      "current_rank": 401,
+      "rank_change_total": 17,
       "rank_history": [
         {
-          "date": "09.11",
-          "rank": 428
-        },
-        {
           "date": "09.14",
-          "rank": 427
+          "rank": 418
         },
         {
           "date": "09.17",
-          "rank": 419
+          "rank": 406
+        },
+        {
+          "date": "09.20",
+          "rank": 401
         }
       ]
     },
     {
-      "symbol": "IQV",
-      "name": "IQVIA",
-      "current_rank": 253,
-      "rank_change_total": 8,
+      "symbol": "SNX",
+      "name": "TD Synnex",
+      "current_rank": 421,
+      "rank_change_total": 16,
       "rank_history": [
         {
-          "date": "09.11",
-          "rank": 261
-        },
-        {
           "date": "09.14",
-          "rank": 259
+          "rank": 437
         },
         {
           "date": "09.17",
-          "rank": 253
+          "rank": 426
+        },
+        {
+          "date": "09.20",
+          "rank": 421
         }
       ]
     },
     {
-      "symbol": "OTIS",
-      "name": "Otis Worldwide",
-      "current_rank": 354,
-      "rank_change_total": 8,
+      "symbol": "FTAI",
+      "name": "FTAI Aviation",
+      "current_rank": 444,
+      "rank_change_total": 16,
       "rank_history": [
         {
-          "date": "09.11",
-          "rank": 362
-        },
-        {
           "date": "09.14",
-          "rank": 361
+          "rank": 460
         },
         {
           "date": "09.17",
-          "rank": 354
+          "rank": 445
+        },
+        {
+          "date": "09.20",
+          "rank": 444
         }
       ]
     },
     {
-      "symbol": "DELL",
-      "name": "Dell",
-      "current_rank": 30,
-      "rank_change_total": 7,
+      "symbol": "LUV",
+      "name": "Southwest Airlines",
+      "current_rank": 439,
+      "rank_change_total": 15,
       "rank_history": [
         {
-          "date": "09.11",
-          "rank": 37
-        },
-        {
           "date": "09.14",
-          "rank": 32
+          "rank": 454
         },
         {
           "date": "09.17",
-          "rank": 30
+          "rank": 452
+        },
+        {
+          "date": "09.20",
+          "rank": 439
         }
       ]
     },
     {
-      "symbol": "ISRG",
-      "name": "Intuitive Surgical",
-      "current_rank": 85,
-      "rank_change_total": 7,
+      "symbol": "UI",
+      "name": "Ubiquiti",
+      "current_rank": 290,
+      "rank_change_total": 13,
       "rank_history": [
         {
-          "date": "09.11",
-          "rank": 92
-        },
-        {
           "date": "09.14",
-          "rank": 88
+          "rank": 303
         },
         {
           "date": "09.17",
-          "rank": 85
+          "rank": 295
+        },
+        {
+          "date": "09.20",
+          "rank": 290
         }
       ]
     },
     {
-      "symbol": "TRV",
-      "name": "The Travelers Companies",
-      "current_rank": 153,
-      "rank_change_total": 7,
+      "symbol": "INCY",
+      "name": "Incyte",
+      "current_rank": 368,
+      "rank_change_total": 13,
       "rank_history": [
         {
-          "date": "09.11",
-          "rank": 160
-        },
-        {
           "date": "09.14",
-          "rank": 157
+          "rank": 381
         },
         {
           "date": "09.17",
-          "rank": 153
+          "rank": 369
+        },
+        {
+          "date": "09.20",
+          "rank": 368
         }
       ]
     },
     {
-      "symbol": "AFL",
-      "name": "Aflac",
-      "current_rank": 200,
-      "rank_change_total": 7,
+      "symbol": "TWLO",
+      "name": "Twilio",
+      "current_rank": 282,
+      "rank_change_total": 12,
       "rank_history": [
         {
-          "date": "09.11",
-          "rank": 207
-        },
-        {
           "date": "09.14",
-          "rank": 206
+          "rank": 294
         },
         {
           "date": "09.17",
-          "rank": 200
+          "rank": 284
+        },
+        {
+          "date": "09.20",
+          "rank": 282
+        }
+      ]
+    },
+    {
+      "symbol": "DD",
+      "name": "Dupont De Nemours",
+      "current_rank": 476,
+      "rank_change_total": 12,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 488
+        },
+        {
+          "date": "09.17",
+          "rank": 480
+        },
+        {
+          "date": "09.20",
+          "rank": 476
+        }
+      ]
+    },
+    {
+      "symbol": "CBRS",
+      "name": "Cerebras Systems",
+      "current_rank": 240,
+      "rank_change_total": 11,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 251
+        },
+        {
+          "date": "09.17",
+          "rank": 248
+        },
+        {
+          "date": "09.20",
+          "rank": 240
         }
       ]
     },
     {
       "symbol": "WDAY",
       "name": "Workday",
-      "current_rank": 247,
-      "rank_change_total": 7,
+      "current_rank": 241,
+      "rank_change_total": 11,
       "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 254
-        },
         {
           "date": "09.14",
           "rank": 252
@@ -4242,299 +3998,139 @@
         {
           "date": "09.17",
           "rank": 247
+        },
+        {
+          "date": "09.20",
+          "rank": 241
         }
       ]
     },
     {
-      "symbol": "RKLB",
-      "name": "Rocket Lab",
-      "current_rank": 266,
-      "rank_change_total": 7,
+      "symbol": "WAT",
+      "name": "Waters Corporation",
+      "current_rank": 261,
+      "rank_change_total": 11,
       "rank_history": [
         {
-          "date": "09.11",
-          "rank": 273
-        },
-        {
           "date": "09.14",
-          "rank": 270
+          "rank": 272
         },
         {
           "date": "09.17",
-          "rank": 266
+          "rank": 264
+        },
+        {
+          "date": "09.20",
+          "rank": 261
         }
       ]
     },
     {
-      "symbol": "AIG",
-      "name": "American International Group",
-      "current_rank": 271,
-      "rank_change_total": 7,
+      "symbol": "A",
+      "name": "Agilent Technologies",
+      "current_rank": 253,
+      "rank_change_total": 10,
       "rank_history": [
         {
-          "date": "09.11",
-          "rank": 278
-        },
-        {
           "date": "09.14",
-          "rank": 277
+          "rank": 263
         },
         {
           "date": "09.17",
-          "rank": 271
-        }
-      ]
-    },
-    {
-      "symbol": "DHI",
-      "name": "D. R. Horton",
-      "current_rank": 277,
-      "rank_change_total": 7,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 284
-        },
-        {
-          "date": "09.14",
-          "rank": 282
-        },
-        {
-          "date": "09.17",
-          "rank": 277
-        }
-      ]
-    },
-    {
-      "symbol": "KR",
-      "name": "Kroger",
-      "current_rank": 288,
-      "rank_change_total": 7,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 295
-        },
-        {
-          "date": "09.14",
-          "rank": 291
-        },
-        {
-          "date": "09.17",
-          "rank": 288
-        }
-      ]
-    },
-    {
-      "symbol": "ROKU",
-      "name": "Roku",
-      "current_rank": 396,
-      "rank_change_total": 7,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 403
-        },
-        {
-          "date": "09.14",
-          "rank": 400
-        },
-        {
-          "date": "09.17",
-          "rank": 396
-        }
-      ]
-    },
-    {
-      "symbol": "OMC",
-      "name": "Omnicom Group",
-      "current_rank": 413,
-      "rank_change_total": 7,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 420
-        },
-        {
-          "date": "09.14",
-          "rank": 419
-        },
-        {
-          "date": "09.17",
-          "rank": 413
-        }
-      ]
-    },
-    {
-      "symbol": "MPC",
-      "name": "Marathon Petroleum",
-      "current_rank": 101,
-      "rank_change_total": 6,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 107
-        },
-        {
-          "date": "09.14",
-          "rank": 104
-        },
-        {
-          "date": "09.17",
-          "rank": 101
-        }
-      ]
-    },
-    {
-      "symbol": "MDLN",
-      "name": "Medline",
-      "current_rank": 252,
-      "rank_change_total": 6,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 258
-        },
-        {
-          "date": "09.14",
           "rank": 256
         },
         {
-          "date": "09.17",
-          "rank": 252
+          "date": "09.20",
+          "rank": 253
         }
       ]
     },
     {
-      "symbol": "RDDT",
-      "name": "Reddit",
+      "symbol": "MDB",
+      "name": "MongoDB",
       "current_rank": 325,
-      "rank_change_total": 6,
+      "rank_change_total": 9,
       "rank_history": [
         {
-          "date": "09.11",
-          "rank": 331
-        },
-        {
           "date": "09.14",
-          "rank": 326
+          "rank": 334
         },
         {
           "date": "09.17",
+          "rank": 326
+        },
+        {
+          "date": "09.20",
           "rank": 325
         }
       ]
     },
     {
-      "symbol": "BRO",
-      "name": "Brown &amp; Brown",
-      "current_rank": 409,
-      "rank_change_total": 6,
+      "symbol": "ECHO",
+      "name": "EchoStar",
+      "current_rank": 343,
+      "rank_change_total": 9,
       "rank_history": [
         {
-          "date": "09.11",
-          "rank": 415
-        },
-        {
           "date": "09.14",
-          "rank": 414
+          "rank": 352
         },
         {
           "date": "09.17",
-          "rank": 409
+          "rank": 346
+        },
+        {
+          "date": "09.20",
+          "rank": 343
         }
       ]
     },
     {
-      "symbol": "PKG",
-      "name": "Packaging Corporation of America",
-      "current_rank": 430,
-      "rank_change_total": 6,
+      "symbol": "GILD",
+      "name": "Gilead Sciences",
+      "current_rank": 61,
+      "rank_change_total": 8,
       "rank_history": [
         {
-          "date": "09.11",
-          "rank": 436
-        },
-        {
           "date": "09.14",
-          "rank": 434
+          "rank": 69
         },
         {
           "date": "09.17",
-          "rank": 430
+          "rank": 64
+        },
+        {
+          "date": "09.20",
+          "rank": 61
         }
       ]
     },
     {
-      "symbol": "ABNB",
-      "name": "Airbnb",
-      "current_rank": 113,
-      "rank_change_total": 5,
+      "symbol": "ESS",
+      "name": "Essex Property Trust",
+      "current_rank": 458,
+      "rank_change_total": 8,
       "rank_history": [
         {
-          "date": "09.11",
-          "rank": 118
-        },
-        {
           "date": "09.14",
-          "rank": 115
+          "rank": 466
         },
         {
           "date": "09.17",
-          "rank": 113
-        }
-      ]
-    },
-    {
-      "symbol": "PWR",
-      "name": "Quanta Services",
-      "current_rank": 122,
-      "rank_change_total": 5,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 127
+          "rank": 460
         },
         {
-          "date": "09.14",
-          "rank": 123
-        },
-        {
-          "date": "09.17",
-          "rank": 122
-        }
-      ]
-    },
-    {
-      "symbol": "MAR",
-      "name": "Marriott International",
-      "current_rank": 132,
-      "rank_change_total": 5,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 137
-        },
-        {
-          "date": "09.14",
-          "rank": 136
-        },
-        {
-          "date": "09.17",
-          "rank": 132
+          "date": "09.20",
+          "rank": 458
         }
       ]
     },
     {
       "symbol": "ITW",
       "name": "Illinois Tool Works",
-      "current_rank": 161,
-      "rank_change_total": 5,
+      "current_rank": 158,
+      "rank_change_total": 7,
       "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 166
-        },
         {
           "date": "09.14",
           "rank": 165
@@ -4542,39 +4138,479 @@
         {
           "date": "09.17",
           "rank": 161
+        },
+        {
+          "date": "09.20",
+          "rank": 158
         }
       ]
     },
     {
-      "symbol": "SYF",
-      "name": "Synchrony Financial",
-      "current_rank": 376,
-      "rank_change_total": 5,
+      "symbol": "KMI",
+      "name": "Kinder Morgan",
+      "current_rank": 174,
+      "rank_change_total": 7,
       "rank_history": [
         {
-          "date": "09.11",
-          "rank": 381
-        },
-        {
           "date": "09.14",
-          "rank": 379
+          "rank": 181
         },
         {
           "date": "09.17",
-          "rank": 376
+          "rank": 178
+        },
+        {
+          "date": "09.20",
+          "rank": 174
+        }
+      ]
+    },
+    {
+      "symbol": "URI",
+      "name": "United Rentals",
+      "current_rank": 187,
+      "rank_change_total": 7,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 194
+        },
+        {
+          "date": "09.17",
+          "rank": 188
+        },
+        {
+          "date": "09.20",
+          "rank": 187
+        }
+      ]
+    },
+    {
+      "symbol": "EBAY",
+      "name": "eBay",
+      "current_rank": 231,
+      "rank_change_total": 7,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 238
+        },
+        {
+          "date": "09.17",
+          "rank": 232
+        },
+        {
+          "date": "09.20",
+          "rank": 231
+        }
+      ]
+    },
+    {
+      "symbol": "RKLB",
+      "name": "Rocket Lab",
+      "current_rank": 263,
+      "rank_change_total": 7,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 270
+        },
+        {
+          "date": "09.17",
+          "rank": 266
+        },
+        {
+          "date": "09.20",
+          "rank": 263
+        }
+      ]
+    },
+    {
+      "symbol": "ONC",
+      "name": "BeOne Medicines",
+      "current_rank": 272,
+      "rank_change_total": 7,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 279
+        },
+        {
+          "date": "09.17",
+          "rank": 273
+        },
+        {
+          "date": "09.20",
+          "rank": 272
+        }
+      ]
+    },
+    {
+      "symbol": "PFG",
+      "name": "Principal Financial Group",
+      "current_rank": 371,
+      "rank_change_total": 7,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 378
+        },
+        {
+          "date": "09.17",
+          "rank": 373
+        },
+        {
+          "date": "09.20",
+          "rank": 371
+        }
+      ]
+    },
+    {
+      "symbol": "UTHR",
+      "name": "United Therapeutics",
+      "current_rank": 418,
+      "rank_change_total": 7,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 425
+        },
+        {
+          "date": "09.17",
+          "rank": 420
+        },
+        {
+          "date": "09.20",
+          "rank": 418
+        }
+      ]
+    },
+    {
+      "symbol": "TSN",
+      "name": "Tyson Foods",
+      "current_rank": 460,
+      "rank_change_total": 7,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 467
+        },
+        {
+          "date": "09.17",
+          "rank": 466
+        },
+        {
+          "date": "09.20",
+          "rank": 460
+        }
+      ]
+    },
+    {
+      "symbol": "IP",
+      "name": "International Paper",
+      "current_rank": 465,
+      "rank_change_total": 7,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 472
+        },
+        {
+          "date": "09.17",
+          "rank": 471
+        },
+        {
+          "date": "09.20",
+          "rank": 465
+        }
+      ]
+    },
+    {
+      "symbol": "MPC",
+      "name": "Marathon Petroleum",
+      "current_rank": 98,
+      "rank_change_total": 6,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 104
+        },
+        {
+          "date": "09.17",
+          "rank": 101
+        },
+        {
+          "date": "09.20",
+          "rank": 98
+        }
+      ]
+    },
+    {
+      "symbol": "PSX",
+      "name": "Phillips 66",
+      "current_rank": 105,
+      "rank_change_total": 6,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 111
+        },
+        {
+          "date": "09.17",
+          "rank": 110
+        },
+        {
+          "date": "09.20",
+          "rank": 105
+        }
+      ]
+    },
+    {
+      "symbol": "MAR",
+      "name": "Marriott International",
+      "current_rank": 131,
+      "rank_change_total": 5,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 136
+        },
+        {
+          "date": "09.17",
+          "rank": 132
+        },
+        {
+          "date": "09.20",
+          "rank": 131
+        }
+      ]
+    },
+    {
+      "symbol": "KVUE",
+      "name": "Kenvue",
+      "current_rank": 297,
+      "rank_change_total": 5,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 302
+        },
+        {
+          "date": "09.17",
+          "rank": 299
+        },
+        {
+          "date": "09.20",
+          "rank": 297
+        }
+      ]
+    },
+    {
+      "symbol": "PKG",
+      "name": "Packaging Corporation of America",
+      "current_rank": 429,
+      "rank_change_total": 5,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 434
+        },
+        {
+          "date": "09.17",
+          "rank": 430
+        },
+        {
+          "date": "09.20",
+          "rank": 429
+        }
+      ]
+    },
+    {
+      "symbol": "ABT",
+      "name": "Abbott Laboratories",
+      "current_rank": 66,
+      "rank_change_total": 4,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 70
+        },
+        {
+          "date": "09.17",
+          "rank": 68
+        },
+        {
+          "date": "09.20",
+          "rank": 66
+        }
+      ]
+    },
+    {
+      "symbol": "ISRG",
+      "name": "Intuitive Surgical",
+      "current_rank": 84,
+      "rank_change_total": 4,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 88
+        },
+        {
+          "date": "09.17",
+          "rank": 85
+        },
+        {
+          "date": "09.20",
+          "rank": 84
+        }
+      ]
+    },
+    {
+      "symbol": "VLO",
+      "name": "Valero Energy",
+      "current_rank": 99,
+      "rank_change_total": 4,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 103
+        },
+        {
+          "date": "09.17",
+          "rank": 102
+        },
+        {
+          "date": "09.20",
+          "rank": 99
+        }
+      ]
+    },
+    {
+      "symbol": "NET",
+      "name": "Cloudflare",
+      "current_rank": 103,
+      "rank_change_total": 4,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 107
+        },
+        {
+          "date": "09.17",
+          "rank": 104
+        },
+        {
+          "date": "09.20",
+          "rank": 103
+        }
+      ]
+    },
+    {
+      "symbol": "MCO",
+      "name": "Moody's",
+      "current_rank": 145,
+      "rank_change_total": 4,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 149
+        },
+        {
+          "date": "09.17",
+          "rank": 148
+        },
+        {
+          "date": "09.20",
+          "rank": 145
+        }
+      ]
+    },
+    {
+      "symbol": "REGN",
+      "name": "Regeneron Pharmaceuticals",
+      "current_rank": 148,
+      "rank_change_total": 4,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 152
+        },
+        {
+          "date": "09.17",
+          "rank": 150
+        },
+        {
+          "date": "09.20",
+          "rank": 148
+        }
+      ]
+    },
+    {
+      "symbol": "SPG",
+      "name": "Simon Property Group",
+      "current_rank": 154,
+      "rank_change_total": 4,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 158
+        },
+        {
+          "date": "09.17",
+          "rank": 157
+        },
+        {
+          "date": "09.20",
+          "rank": 154
+        }
+      ]
+    },
+    {
+      "symbol": "GEHC",
+      "name": "GE HealthCare Technologies",
+      "current_rank": 333,
+      "rank_change_total": 4,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 337
+        },
+        {
+          "date": "09.17",
+          "rank": 334
+        },
+        {
+          "date": "09.20",
+          "rank": 333
+        }
+      ]
+    },
+    {
+      "symbol": "WRB",
+      "name": "W. R. Berkley",
+      "current_rank": 359,
+      "rank_change_total": 4,
+      "rank_history": [
+        {
+          "date": "09.14",
+          "rank": 363
+        },
+        {
+          "date": "09.17",
+          "rank": 361
+        },
+        {
+          "date": "09.20",
+          "rank": 359
         }
       ]
     },
     {
       "symbol": "NDSN",
       "name": "Nordson",
-      "current_rank": 481,
-      "rank_change_total": 5,
+      "current_rank": 479,
+      "rank_change_total": 4,
       "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 486
-        },
         {
           "date": "09.14",
           "rank": 483
@@ -4582,386 +4618,230 @@
         {
           "date": "09.17",
           "rank": 481
+        },
+        {
+          "date": "09.20",
+          "rank": 479
         }
       ]
     },
     {
-      "symbol": "PG",
-      "name": "Procter & Gamble",
-      "current_rank": 32,
-      "rank_change_total": 4,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 36
-        },
-        {
-          "date": "09.14",
-          "rank": 35
-        },
-        {
-          "date": "09.17",
-          "rank": 32
-        }
-      ]
-    },
-    {
-      "symbol": "SYK",
-      "name": "Stryker Corporation",
-      "current_rank": 107,
-      "rank_change_total": 4,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 111
-        },
-        {
-          "date": "09.14",
-          "rank": 110
-        },
-        {
-          "date": "09.17",
-          "rank": 107
-        }
-      ]
-    },
-    {
-      "symbol": "SHW",
-      "name": "Sherwin-Williams",
-      "current_rank": 154,
-      "rank_change_total": 4,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 158
-        },
-        {
-          "date": "09.14",
-          "rank": 156
-        },
-        {
-          "date": "09.17",
-          "rank": 154
-        }
-      ]
-    },
-    {
-      "symbol": "VEEV",
-      "name": "Veeva Systems",
-      "current_rank": 258,
-      "rank_change_total": 4,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 262
-        },
-        {
-          "date": "09.14",
-          "rank": 261
-        },
-        {
-          "date": "09.17",
-          "rank": 258
-        }
-      ]
-    },
-    {
-      "symbol": "KHC",
-      "name": "Kraft Heinz",
-      "current_rank": 332,
-      "rank_change_total": 4,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 336
-        },
-        {
-          "date": "09.14",
-          "rank": 333
-        },
-        {
-          "date": "09.17",
-          "rank": 332
-        }
-      ]
-    },
-    {
-      "symbol": "EXPD",
-      "name": "Expeditors International",
-      "current_rank": 375,
-      "rank_change_total": 4,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 379
-        },
-        {
-          "date": "09.14",
-          "rank": 376
-        },
-        {
-          "date": "09.17",
-          "rank": 375
-        }
-      ]
-    },
-    {
-      "symbol": "PLTR",
-      "name": "Palantir",
-      "current_rank": 24,
+      "symbol": "MRK",
+      "name": "Merck",
+      "current_rank": 30,
       "rank_change_total": 3,
       "rank_history": [
         {
-          "date": "09.11",
-          "rank": 27
-        },
-        {
           "date": "09.14",
-          "rank": 26
+          "rank": 33
         },
         {
           "date": "09.17",
-          "rank": 24
+          "rank": 31
+        },
+        {
+          "date": "09.20",
+          "rank": 30
         }
       ]
     },
     {
-      "symbol": "DIS",
-      "name": "Walt Disney",
-      "current_rank": 62,
+      "symbol": "SCCO",
+      "name": "Southern Copper",
+      "current_rank": 74,
       "rank_change_total": 3,
       "rank_history": [
         {
-          "date": "09.11",
-          "rank": 65
-        },
-        {
           "date": "09.14",
-          "rank": 64
+          "rank": 77
         },
         {
           "date": "09.17",
-          "rank": 62
+          "rank": 75
+        },
+        {
+          "date": "09.20",
+          "rank": 74
         }
       ]
     },
     {
-      "symbol": "APP",
-      "name": "AppLovin",
-      "current_rank": 106,
+      "symbol": "CME",
+      "name": "CME Group",
+      "current_rank": 117,
       "rank_change_total": 3,
       "rank_history": [
         {
-          "date": "09.11",
-          "rank": 109
-        },
-        {
           "date": "09.14",
-          "rank": 108
+          "rank": 120
         },
         {
           "date": "09.17",
-          "rank": 106
+          "rank": 118
+        },
+        {
+          "date": "09.20",
+          "rank": 117
         }
       ]
     },
     {
-      "symbol": "AMT",
-      "name": "American Tower",
-      "current_rank": 146,
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "current_rank": 143,
       "rank_change_total": 3,
       "rank_history": [
         {
-          "date": "09.11",
-          "rank": 149
-        },
-        {
           "date": "09.14",
-          "rank": 147
-        },
-        {
-          "date": "09.17",
           "rank": 146
-        }
-      ]
-    },
-    {
-      "symbol": "CTAS",
-      "name": "Cintas",
-      "current_rank": 149,
-      "rank_change_total": 3,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 152
-        },
-        {
-          "date": "09.14",
-          "rank": 151
         },
         {
           "date": "09.17",
-          "rank": 149
+          "rank": 144
+        },
+        {
+          "date": "09.20",
+          "rank": 143
         }
       ]
     },
     {
-      "symbol": "ECL",
-      "name": "Ecolab",
-      "current_rank": 158,
+      "symbol": "MSI",
+      "name": "Motorola Solutions",
+      "current_rank": 159,
       "rank_change_total": 3,
       "rank_history": [
         {
-          "date": "09.11",
-          "rank": 161
+          "date": "09.14",
+          "rank": 162
         },
         {
-          "date": "09.14",
+          "date": "09.17",
           "rank": 160
         },
         {
-          "date": "09.17",
-          "rank": 158
+          "date": "09.20",
+          "rank": 159
         }
       ]
     },
     {
-      "symbol": "CNC",
-      "name": "Centene",
-      "current_rank": 310,
+      "symbol": "ED",
+      "name": "Consolidated Edison",
+      "current_rank": 275,
       "rank_change_total": 3,
       "rank_history": [
         {
-          "date": "09.11",
-          "rank": 313
-        },
-        {
           "date": "09.14",
-          "rank": 311
+          "rank": 278
         },
         {
           "date": "09.17",
-          "rank": 310
+          "rank": 276
+        },
+        {
+          "date": "09.20",
+          "rank": 275
         }
       ]
     },
     {
-      "symbol": "ANET",
-      "name": "Arista Networks",
-      "current_rank": 45,
-      "rank_change_total": 2,
+      "symbol": "TKO",
+      "name": "TKO Group Holdings",
+      "current_rank": 287,
+      "rank_change_total": 3,
       "rank_history": [
         {
-          "date": "09.11",
-          "rank": 47
-        },
-        {
           "date": "09.14",
-          "rank": 46
+          "rank": 290
         },
         {
           "date": "09.17",
-          "rank": 45
+          "rank": 289
+        },
+        {
+          "date": "09.20",
+          "rank": 287
         }
       ]
     },
     {
-      "symbol": "IBM",
-      "name": "IBM",
-      "current_rank": 50,
-      "rank_change_total": 2,
+      "symbol": "EWBC",
+      "name": "East West Bancorp",
+      "current_rank": 477,
+      "rank_change_total": 3,
       "rank_history": [
         {
-          "date": "09.11",
-          "rank": 52
-        },
-        {
           "date": "09.14",
-          "rank": 51
+          "rank": 480
         },
         {
           "date": "09.17",
-          "rank": 50
+          "rank": 479
+        },
+        {
+          "date": "09.20",
+          "rank": 477
         }
       ]
     },
     {
-      "symbol": "T",
-      "name": "AT&T",
-      "current_rank": 67,
+      "symbol": "PLD",
+      "name": "Prologis",
+      "current_rank": 87,
       "rank_change_total": 2,
       "rank_history": [
         {
-          "date": "09.11",
-          "rank": 69
-        },
-        {
           "date": "09.14",
-          "rank": 68
+          "rank": 89
         },
         {
           "date": "09.17",
-          "rank": 67
+          "rank": 88
+        },
+        {
+          "date": "09.20",
+          "rank": 87
         }
       ]
     },
     {
-      "symbol": "MO",
-      "name": "Altria Group",
-      "current_rank": 99,
+      "symbol": "PWR",
+      "name": "Quanta Services",
+      "current_rank": 121,
       "rank_change_total": 2,
       "rank_history": [
         {
-          "date": "09.11",
-          "rank": 101
-        },
-        {
           "date": "09.14",
-          "rank": 100
+          "rank": 123
         },
         {
           "date": "09.17",
-          "rank": 99
+          "rank": 122
+        },
+        {
+          "date": "09.20",
+          "rank": 121
         }
       ]
     },
     {
-      "symbol": "ELV",
-      "name": "Elevance Health",
-      "current_rank": 129,
+      "symbol": "HWM",
+      "name": "Howmet Aerospace",
+      "current_rank": 127,
       "rank_change_total": 2,
       "rank_history": [
         {
-          "date": "09.11",
-          "rank": 131
-        },
-        {
           "date": "09.14",
-          "rank": 130
-        },
-        {
-          "date": "09.17",
           "rank": 129
-        }
-      ]
-    },
-    {
-      "symbol": "ALL",
-      "name": "Allstate",
-      "current_rank": 185,
-      "rank_change_total": 2,
-      "rank_history": [
-        {
-          "date": "09.11",
-          "rank": 187
-        },
-        {
-          "date": "09.14",
-          "rank": 186
         },
         {
           "date": "09.17",
-          "rank": 185
+          "rank": 128
+        },
+        {
+          "date": "09.20",
+          "rank": 127
         }
       ]
     }
@@ -4998,6 +4878,7 @@
     "09.08",
     "09.11",
     "09.14",
-    "09.17"
+    "09.17",
+    "09.20"
   ]
 }
